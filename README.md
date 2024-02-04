@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-![Logo y slogan del evento](/public/logo_slogan_techton.webp){width='620px'}
+![Logo y slogan del evento](/public/logo_slogan_techton.webp)
 
 # TechTón - Streaming especial
 
