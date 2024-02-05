@@ -1,9 +1,10 @@
 import Image from "next/image";
-import { Button } from '../components/Button/Button.js';
-import { Subtitle } from '../components/Subtitle/Subtitle.js';
-import { Title } from '../components/Title';
+import { Button } from "../components/Button/Button.js";
+import { Subtitle } from "../components/Subtitle/Subtitle.js";
+import { Title } from "../components/Title";
 import { CountdownTimer } from "@/components/CountdownTimer";
 import CounterSubtitle from "@/components/counterSubtitle";
+import TwitchButton from "@/components/TwitchButton.jsx";
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
         <Button id="boton-info" href="#" variant="secondary">
           Saber más
         </Button>
+      </div>
+      <div className="lg:hidden pt-10">
+        <TwitchButton />
       </div>
     </section>
   );
