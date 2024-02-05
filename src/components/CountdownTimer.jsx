@@ -27,41 +27,37 @@ export const CountdownTimer = () => {
     let secondsFlip = true;
 
     if (seconds <= 0 && minutes <= 0 && hours <= 0 && days <= 0) {
-      daysFlip = false;
-      hoursFlip = false;
-      minutesFlip = false;
-      secondsFlip = false;
+      // Reset all flips when the countdown reaches zero
+      daysFlip = hoursFlip = minutesFlip = secondsFlip = false;
     }
 
-    if (seconds == 0) {
-      if (minutes != 0) {
+    if (seconds === 0) {
+      if (minutes > 0) {
         seconds = 59;
+        minutesFlip = true;
       }
-
-      secondsFlip = false;
-      minutesFlip = true;
     }
-    if (minutes == 0) {
-      if (hours != 0) {
+
+    if (minutes === 0) {
+      if (hours > 0) {
         minutes = 59;
+        hoursFlip = true;
       }
-
-      minutesFlip = false;
-      hoursFlip = true;
     }
 
-    if (hours == 0) {
-      hoursFlip = false;
-      if (days != 0) {
+    if (hours === 0) {
+      if (days > 0) {
+        hours = 23;
         daysFlip = true;
       }
     }
 
     if (completed) {
+      // TODO: Remplazar con un layout apropiado al completar al terminar el countdown
       return "Countdown complete";
     } else {
       return (
-        <div className="flex gap-2">
+        <div className="flex gap-3">
           <NumberBox number={formatted.days} text={"días"} flip={daysFlip} />
           <NumberBox number={formatted.hours} text={"horas"} flip={hoursFlip} />
           <NumberBox
@@ -81,9 +77,13 @@ export const CountdownTimer = () => {
   return (
     <>
       {isClient ? (
-        <Countdown date={fecha} renderer={renderer} zeroPadTime={2} />
+        <div className="py-14">
+          <Countdown date={fecha} renderer={renderer} zeroPadTime={2} />
+        </div>
       ) : (
-        ""
+        <div className="transform py-14 h-[240px] sm:h-[272px] md:h-[316px] flex justify-center items-center">
+          <div className="border-t-transparent border-solid animate-spin rounded-full border-primary border-8 h-24 w-24"></div>
+        </div>
       )}
     </>
   );
