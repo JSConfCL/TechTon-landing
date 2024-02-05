@@ -66,7 +66,7 @@ bun dev
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 
-<p align="right">(<a href="#readme-top">ir al inicio</a>)</p> 
+<p align="right">(<a href="#readme-top">ir al inicio</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/JSConfCL/TechTon-landing.svg?style=for-the-badge
 [contributors-url]: https://github.com/JSConfCL/TechTon-landing/graphs/contributors
