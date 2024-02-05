@@ -21,7 +21,7 @@ const Footer = () => {
                             <Image className='ml-2' alt='Hora Chile' src='/footer/chilean-flag.svg' height={20} width={20} />
                         </div>
                         <div className='text-md sm:text-sm flex items-center md:text-[15px]'>
-                            <span className='font-bold mr-1'>Sábado 10</span> desde las 9:00 hrs.
+                            <span className='font-bold mr-1'>Sábado 10</span> desde las 8:30 hrs.
                             <Image className='ml-2' alt='Hora Chile' src='/footer/chilean-flag.svg' height={20} width={20} />
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const Footer = () => {
                                 <span className='font-bold mr-1'>Viernes 09</span> desde las 14:00 hrs.
                             </div>
                             <div className='flex'>
-                                <span className='font-bold mr-1'>Sábado 10</span> desde las 9:00 hrs.
+                                <span className='font-bold mr-1'>Sábado 10</span> desde las 8:30 hrs.
                             </div>
                         </div>
                     </div>
