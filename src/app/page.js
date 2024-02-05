@@ -14,9 +14,6 @@ export default function Home() {
       <CounterSubtitle />
 
       <div className="flex gap-12">
-        <a href="https://google.com" target="_blank">
-          asdasda
-        </a>
         <Button
           id="button-donate"
           href="https://link.mercadopago.cl/jscl"
