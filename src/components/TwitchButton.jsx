@@ -12,4 +12,4 @@ const TwitchButton = () => {
     )
 }
 
-export default TwitchButton
+export { TwitchButton }

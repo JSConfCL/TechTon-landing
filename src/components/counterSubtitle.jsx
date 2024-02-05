@@ -13,4 +13,4 @@ const CounterSubtitle = () => {
     );
 };
 
-export default CounterSubtitle;
+export { CounterSubtitle };
