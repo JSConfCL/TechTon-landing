@@ -44,7 +44,8 @@ Este es un proyecto open source, es por ello que puedes aportar tu granito de ar
 #### Pasos a seguir para enviar tu contribución al código
 
 1. Haz un clon del [repositorio original](https://github.com/JSConfCL/TechTon-landing) en tu entorno local.
-2. Ejecuta el servidor de desarrollo:
+2. Instala las dependencias necesarias con los comandos `npm install`, `yarn install`, `pnpm install` o `bun install` según sea tu caso.
+3. Ejecuta el servidor de desarrollo:
 
 ```bash
 npm run dev
@@ -56,11 +57,13 @@ pnpm dev
 bun dev
 ```
 
-3. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver en tiempo real lo que haz editado.
-4. Una vez terminada tu edición del código sincroniza tu clon (git pull).
-5. Crea una rama aparte con tus cambios.
-6. Haz un push con la rama en la que tienes tus cambios.
-5. Crea un PR de tu rama con cambios a la rama main del proyecto.
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver en tiempo real lo que haz editado.
+5. Una vez terminada tu edición del código sincroniza tu clon (git pull).
+6. Crea una rama aparte con tus cambios.
+7. Haz un push con la rama en la que tienes tus cambios.
+8. Crea un PR de tu rama con cambios a la rama main del proyecto.
+
+Una vez aprobado tu PR este será mergeado a la rama `main` del proyecto y podrás ver tu contribución en [https://techton.jsconf.dev/](https://techton.jsconf.dev/) 😉
 
 > **NOTA:** Estamos trabajando en un [proyecto de la organización JavaScript Chile](https://github.com/orgs/JSConfCL/projects/9), quizás debas solicitar autorización para ver los tickets creados y pendientes que tenemos por hacer.
 
