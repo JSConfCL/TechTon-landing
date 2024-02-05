@@ -2,6 +2,7 @@
 import { Inter, Kufam, MuseoModerno } from "next/font/google";
 
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -34,6 +35,7 @@ export default function RootLayout({ children }) {
         {/* TODO: Put the twitch button on the right of the screen in desktop here! */}
         <main className="px-8 lg:px-64 py-12 lg:py-24">{children}</main>
         {/* TODO: Put the footer here! */}
+        <Footer/>
       </body>
     </html>
   );

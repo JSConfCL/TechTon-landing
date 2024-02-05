@@ -3,7 +3,7 @@ import { Button } from '../components/Button/Button.js';
 import { Subtitle } from '../components/Subtitle/Subtitle.js';
 import { Title } from '../components/Title';
 import { CountdownTimer } from "@/components/CountdownTimer";
-import CounterSubtitle from "@/components/counterSubtitle";
+import CounterSubtitle from "@/components/CounterSubtitle.jsx";
 
 export default function Home() {
   return (
