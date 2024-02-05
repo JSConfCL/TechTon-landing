@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={`${inter.className} min-h-screen`}>
+      <body className={`${inter.className} min-h-screen bg-[#232121] text-white`}>
         {/* TODO: Put the twitch button on the right of the screen in desktop here! */}
         <main className="px-8 lg:px-80 py-12 lg:py-24">{children}</main>
         {/* TODO: Put the footer here! */}
