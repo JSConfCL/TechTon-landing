@@ -1,11 +1,14 @@
+import Image from "next/image";
+import { Button } from '../components/Button/Button.js';
+import { Subtitle } from '../components/Subtitle/Subtitle.js';
 import { CountdownTimer } from "@/components/CountdownTimer";
 import CounterSubtitle from "@/components/counterSubtitle";
-import { Button } from "../components/Button/Button.js";
 
 export default function Home() {
   return (
     <section className="flex flex-col items-center justify-between">
       <h1>TechTon</h1>
+      <Subtitle />
       <CountdownTimer />
       <CounterSubtitle />
 
