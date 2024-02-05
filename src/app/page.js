@@ -1,10 +1,9 @@
-import Image from "next/image";
 import { Button } from "../components/Button/Button.js";
 import { Subtitle } from "../components/Subtitle/Subtitle.js";
 import { Title } from "../components/Title";
 import { CountdownTimer } from "@/components/CountdownTimer";
-import CounterSubtitle from "@/components/counterSubtitle";
-import TwitchButton from "@/components/TwitchButton.jsx";
+import { CounterSubtitle } from "@/components/CounterSubtitle.jsx";
+import { TwitchButton } from "@/components/TwitchButton.jsx";
 
 export default function Home() {
   return (
