@@ -17,6 +17,10 @@ Somos varias comunidades tech unidas, bajo el alero de [JavaScript Chile](https:
 
 Serán días cargados de conocimiento que todos podemos aprovechar. **¡Guarda las fechas en tu agenda!**
 
+### ¿Dónde se hará este evento?
+
+El evento será transmitido en Twitch, a través del canal de [JavaScript Chile](https://www.twitch.tv/javascriptchile).
+
 ## Quiero participar en el evento ¿Cómo puedo ayudar?
 
 Los participantes de esta iniciativa deben tener en cuenta los siguientes puntos:
