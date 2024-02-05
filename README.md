@@ -57,8 +57,10 @@ bun dev
 ```
 
 3. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver en tiempo real lo que haz editado.
-4. Una vez terminada tu edición del código sincroniza tu clon (git pull) y envía un push a la rama "main".
-5. Crea un PR.
+4. Una vez terminada tu edición del código sincroniza tu clon (git pull).
+5. Crea una rama aparte con tus cambios.
+6. Haz un push con la rama en la que tienes tus cambios.
+5. Crea un PR de tu rama con cambios a la rama main del proyecto.
 
 > **NOTA:** Estamos trabajando en un [proyecto de la organización JavaScript Chile](https://github.com/orgs/JSConfCL/projects/9), quizás debas solicitar autorización para ver los tickets creados y pendientes que tenemos por hacer.
 

@@ -25,3 +25,11 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Fonts */
+.font-museo {
+  font-family: var(--font-museo-moderno);
+}
+.font-kufam {
+  font-family: var(--font-kufam);
+}
