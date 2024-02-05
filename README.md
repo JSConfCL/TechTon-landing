@@ -6,7 +6,7 @@
 
 ## ¿De qué se trata?
 
-Somos varias comunidades tech unidas que brindaremos charlas y workshops gratuitos mediante streaming para recaudar fondos que serán entregados a [Bomberos de Chile](https://www.instagram.com/p/C243rhlsLsb/) u así poder ayudar a paliar los efectos causados por los incendios forestales que comenzaron a ocurrir el 02-02-2024 en la V Región de Chile (Valparaíso).
+Somos varias comunidades tech unidas, bajo el alero de [JavaScript Chile](https://jschile.org/), que brindaremos charlas y workshops gratuitos mediante streaming para recaudar fondos que serán entregados a [Bomberos de Chile](https://www.instagram.com/p/C243rhlsLsb/) y así poder ayudar a paliar los efectos causados por los incendios forestales que comenzaron a ocurrir el 02-02-2024 en la V Región de Chile (Valparaíso).
 
 > Las donaciones se harán a una cuenta única y luego haremos una transferencia con el total de fondos recaudados.
 
