@@ -17,7 +17,7 @@ const Footer = () => {
                     </div>
                     <div className='py-5 sm:py-0 space-y-3'>
                         <div className='text-md sm:text-sm flex items-center md:text-[15px]'>
-                            <span className='font-bold mr-1'>Viernes 09</span> desde las 14:00 hrs.
+                            <span className='font-bold mr-1'>Viernes 09</span> desde las 13:00 hrs.
                             <Image className='ml-2' alt='Hora Chile' src='/footer/chilean-flag.svg' height={20} width={20} />
                         </div>
                         <div className='text-md sm:text-sm flex items-center md:text-[15px]'>
@@ -51,7 +51,7 @@ const Footer = () => {
                         <Image alt='' src='/footer/icon-clock.svg' height={50} width={50} />
                         <div className='flex flex-col space-y-4'>
                             <div className='flex'>
-                                <span className='font-bold mr-1'>Viernes 09</span> desde las 14:00 hrs.
+                                <span className='font-bold mr-1'>Viernes 09</span> desde las 13:00 hrs.
                             </div>
                             <div className='flex'>
                                 <span className='font-bold mr-1'>Sábado 10</span> desde las 8:30 hrs.
