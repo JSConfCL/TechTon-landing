@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div>
             {/* Pantallas: Celular, tablet */}
-            <div className='px-10 sm:px-0 lg:hidden sm:bg-secondary md:bg-red-300 lg:bg-blue-300 flex bg-primary text-gray-900 items-center h-25'>
+            <div className='px-10 sm:px-0 lg:hidden flex bg-primary text-gray-900 items-center h-25'>
                 {/* Imagen de manos */}
                 <div className='flex-1 hidden sm:block'>
                     <Image alt='Dibujo de solidaridad' src='/footer/icon-hands.svg' height={25} width={50} style={{height:'10em'}} className='w-full' />
