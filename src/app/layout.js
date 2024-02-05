@@ -1,7 +1,21 @@
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
+import { Inter, Kufam, MuseoModerno } from "next/font/google";
+
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+
+const roboto_mono = Kufam({
+  subsets: ["latin"],
+  variable: "--font-kufam",
+});
+const museo_moderno = MuseoModerno({
+  subsets: ["latin"],
+  variable: "--font-museo-moderno",
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -10,8 +24,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
-      <body className={`${inter.className} min-h-screen bg-[#232121] text-white`}>
+    <html
+      lang="en"
+      className={`${inter.variable} ${roboto_mono.variable} ${museo_moderno.variable}`}
+    >
+      <body
+        className={`${inter.className} min-h-screen bg-[#232121] text-white`}
+      >
         {/* TODO: Put the twitch button on the right of the screen in desktop here! */}
         <main className="px-8 lg:px-80 py-12 lg:py-24">{children}</main>
         {/* TODO: Put the footer here! */}
