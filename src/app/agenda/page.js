@@ -16,7 +16,7 @@ export default function Agenda() {
     (item) => new Date(item.startHour).getDate() === 10
   )
   return (
-    <main>
+    <main className="px-8">
       <Title
         logo={
           <svg
