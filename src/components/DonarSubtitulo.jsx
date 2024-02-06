@@ -11,7 +11,11 @@ const DonarSubtitulo = () => {
                 height={100}
                 width={100}
             />
-            <h2 className='text-center text-3xl md:text-5xl md:text-start font-semibold'>Gracias por sumarte a donar dinero para esta causa</h2>
+            <div className="font-light leading-7 text-center md:text-left text-sm md:text-lg">
+                Todo el dinero será dirigido a Bomberos de Chile. El botón de donar
+                te llevará a Mercado Pago y está disponible para donaciones en
+                países donde esté habilitado.
+            </div>
         </div>
     )
 }
