@@ -26,7 +26,7 @@ export default function Home() {
         >
           Donar
         </Button>
-        <Button id="button-info" href="#" variant="secondary">
+        <Button id="button-info" href="agenda" variant="secondary">
           Agenda
         </Button>
       </div>
