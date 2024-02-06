@@ -12,8 +12,8 @@ Somos varias comunidades tech unidas, bajo el alero de [JavaScript Chile](https:
 
 ### ¿Cuándo se hará este evento?
 
-- **Viernes 09 de febrero:** Desde las 14:00hrs hasta las 22:00hrs.
-- **Sábado 10 de febrero:** Desde las 08:30hrs hasta las 22:00hrs.
+- **Viernes 09 de febrero:** Desde las 13:00hrs (GMT-3).
+- **Sábado 10 de febrero:** Desde las 07:00hrs (GMT-3).
 
 Serán días cargados de conocimiento que todos podemos aprovechar. **¡Guarda las fechas en tu agenda!**
 
