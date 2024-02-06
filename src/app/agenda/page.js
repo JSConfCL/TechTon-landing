@@ -37,14 +37,14 @@ export default function Agenda() {
           variant={`${activeDay === 9 ? 'primary' : 'tertiary'}`}
           onClick={() => setActiveDay(9)}
         >
-          Día 9 de Febrero
+          Viernes 9 de Febrero
         </Button>
         <Button
           id="day10"
           variant={`${activeDay === 10 ? 'primary' : 'tertiary'}`}
           onClick={() => setActiveDay(10)}
         >
-          Día 10 de Febrero
+          Sábado 10 de Febrero
         </Button>
       </div>
 
