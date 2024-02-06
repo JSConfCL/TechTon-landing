@@ -6,13 +6,9 @@ export function Timeline({ data }) {
             <ol className="relative border-s-2 py-10">
 
                 {data.map((item, index) => {
-                    // Convertir las cadenas de hora en objetos Date
-                    const startDate = new Date(item.startHour);
-                    const endDate = new Date(item.endHour);
-
-                    // Formatear a hora y minutos
-                    const startTime = startDate.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-                    const endTime = endDate.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+                    const timeFormatter = new Intl.DateTimeFormat('es-ES', { hour: '2-digit', minute: '2-digit' });
+                    const startTime = timeFormatter.format(new Date(item.startHour));
+                    const endTime = timeFormatter.format(new Date(item.endHour));
 
                     return (
                         <li key={index} className="mb-10 ms-8">
