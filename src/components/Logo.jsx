@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-function Logo({ height}) {
+function Logo({ height }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +14,7 @@ function Logo({ height}) {
       ></path>
       <mask
         id="mask0_10_5386"
-        style={{ maskType: "luminance" }}
+        style={{ maskType: 'luminance' }}
         width="30"
         height="28"
         x="291"
@@ -31,7 +31,7 @@ function Logo({ height}) {
       <g mask="url(#mask0_10_5386)">
         <mask
           id="mask1_10_5386"
-          style={{ maskType: "luminance" }}
+          style={{ maskType: 'luminance' }}
           width="67"
           height="66"
           x="272"
@@ -46,7 +46,7 @@ function Logo({ height}) {
         <g mask="url(#mask1_10_5386)">
           <mask
             id="mask2_10_5386"
-            style={{ maskType: "luminance" }}
+            style={{ maskType: 'luminance' }}
             width="67"
             height="66"
             x="272"
@@ -68,7 +68,7 @@ function Logo({ height}) {
       </g>
       <mask
         id="mask3_10_5386"
-        style={{ maskType: "luminance" }}
+        style={{ maskType: 'luminance' }}
         width="5"
         height="6"
         x="308"
@@ -80,7 +80,7 @@ function Logo({ height}) {
       <g mask="url(#mask3_10_5386)">
         <mask
           id="mask4_10_5386"
-          style={{ maskType: "luminance" }}
+          style={{ maskType: 'luminance' }}
           width="67"
           height="66"
           x="272"
@@ -95,7 +95,7 @@ function Logo({ height}) {
         <g mask="url(#mask4_10_5386)">
           <mask
             id="mask5_10_5386"
-            style={{ maskType: "luminance" }}
+            style={{ maskType: 'luminance' }}
             width="67"
             height="66"
             x="272"
@@ -117,7 +117,7 @@ function Logo({ height}) {
       </g>
       <mask
         id="mask6_10_5386"
-        style={{ maskType: "luminance" }}
+        style={{ maskType: 'luminance' }}
         width="3"
         height="6"
         x="300"
@@ -129,7 +129,7 @@ function Logo({ height}) {
       <g mask="url(#mask6_10_5386)">
         <mask
           id="mask7_10_5386"
-          style={{ maskType: "luminance" }}
+          style={{ maskType: 'luminance' }}
           width="67"
           height="66"
           x="272"
@@ -144,7 +144,7 @@ function Logo({ height}) {
         <g mask="url(#mask7_10_5386)">
           <mask
             id="mask8_10_5386"
-            style={{ maskType: "luminance" }}
+            style={{ maskType: 'luminance' }}
             width="67"
             height="66"
             x="272"
@@ -166,7 +166,7 @@ function Logo({ height}) {
       </g>
       <mask
         id="mask9_10_5386"
-        style={{ maskType: "luminance" }}
+        style={{ maskType: 'luminance' }}
         width="5"
         height="5"
         x="289"
@@ -178,7 +178,7 @@ function Logo({ height}) {
       <g mask="url(#mask9_10_5386)">
         <mask
           id="mask10_10_5386"
-          style={{ maskType: "luminance" }}
+          style={{ maskType: 'luminance' }}
           width="67"
           height="66"
           x="272"
@@ -193,7 +193,7 @@ function Logo({ height}) {
         <g mask="url(#mask10_10_5386)">
           <mask
             id="mask11_10_5386"
-            style={{ maskType: "luminance" }}
+            style={{ maskType: 'luminance' }}
             width="67"
             height="66"
             x="272"
@@ -215,7 +215,7 @@ function Logo({ height}) {
       </g>
       <mask
         id="mask12_10_5386"
-        style={{ maskType: "luminance" }}
+        style={{ maskType: 'luminance' }}
         width="5"
         height="4"
         x="282"
@@ -227,7 +227,7 @@ function Logo({ height}) {
       <g mask="url(#mask12_10_5386)">
         <mask
           id="mask13_10_5386"
-          style={{ maskType: "luminance" }}
+          style={{ maskType: 'luminance' }}
           width="67"
           height="66"
           x="272"
@@ -242,7 +242,7 @@ function Logo({ height}) {
         <g mask="url(#mask13_10_5386)">
           <mask
             id="mask14_10_5386"
-            style={{ maskType: "luminance" }}
+            style={{ maskType: 'luminance' }}
             width="67"
             height="66"
             x="272"
@@ -264,7 +264,7 @@ function Logo({ height}) {
       </g>
       <mask
         id="mask15_10_5386"
-        style={{ maskType: "luminance" }}
+        style={{ maskType: 'luminance' }}
         width="7"
         height="4"
         x="278"
@@ -276,7 +276,7 @@ function Logo({ height}) {
       <g mask="url(#mask15_10_5386)">
         <mask
           id="mask16_10_5386"
-          style={{ maskType: "luminance" }}
+          style={{ maskType: 'luminance' }}
           width="67"
           height="66"
           x="272"
@@ -291,7 +291,7 @@ function Logo({ height}) {
         <g mask="url(#mask16_10_5386)">
           <mask
             id="mask17_10_5386"
-            style={{ maskType: "luminance" }}
+            style={{ maskType: 'luminance' }}
             width="67"
             height="66"
             x="272"
@@ -313,7 +313,7 @@ function Logo({ height}) {
       </g>
       <mask
         id="mask18_10_5386"
-        style={{ maskType: "luminance" }}
+        style={{ maskType: 'luminance' }}
         width="5"
         height="4"
         x="281"
@@ -325,7 +325,7 @@ function Logo({ height}) {
       <g mask="url(#mask18_10_5386)">
         <mask
           id="mask19_10_5386"
-          style={{ maskType: "luminance" }}
+          style={{ maskType: 'luminance' }}
           width="67"
           height="66"
           x="272"
@@ -340,7 +340,7 @@ function Logo({ height}) {
         <g mask="url(#mask19_10_5386)">
           <mask
             id="mask20_10_5386"
-            style={{ maskType: "luminance" }}
+            style={{ maskType: 'luminance' }}
             width="67"
             height="66"
             x="272"
@@ -362,7 +362,7 @@ function Logo({ height}) {
       </g>
       <mask
         id="mask21_10_5386"
-        style={{ maskType: "luminance" }}
+        style={{ maskType: 'luminance' }}
         width="4"
         height="5"
         x="286"
@@ -374,7 +374,7 @@ function Logo({ height}) {
       <g mask="url(#mask21_10_5386)">
         <mask
           id="mask22_10_5386"
-          style={{ maskType: "luminance" }}
+          style={{ maskType: 'luminance' }}
           width="67"
           height="66"
           x="272"
@@ -389,7 +389,7 @@ function Logo({ height}) {
         <g mask="url(#mask22_10_5386)">
           <mask
             id="mask23_10_5386"
-            style={{ maskType: "luminance" }}
+            style={{ maskType: 'luminance' }}
             width="67"
             height="66"
             x="272"
@@ -411,7 +411,7 @@ function Logo({ height}) {
       </g>
       <mask
         id="mask24_10_5386"
-        style={{ maskType: "luminance" }}
+        style={{ maskType: 'luminance' }}
         width="4"
         height="7"
         x="294"
@@ -423,7 +423,7 @@ function Logo({ height}) {
       <g mask="url(#mask24_10_5386)">
         <mask
           id="mask25_10_5386"
-          style={{ maskType: "luminance" }}
+          style={{ maskType: 'luminance' }}
           width="67"
           height="66"
           x="272"
@@ -438,7 +438,7 @@ function Logo({ height}) {
         <g mask="url(#mask25_10_5386)">
           <mask
             id="mask26_10_5386"
-            style={{ maskType: "luminance" }}
+            style={{ maskType: 'luminance' }}
             width="67"
             height="66"
             x="272"
@@ -460,7 +460,7 @@ function Logo({ height}) {
       </g>
       <mask
         id="mask27_10_5386"
-        style={{ maskType: "luminance" }}
+        style={{ maskType: 'luminance' }}
         width="5"
         height="4"
         x="312"
@@ -472,7 +472,7 @@ function Logo({ height}) {
       <g mask="url(#mask27_10_5386)">
         <mask
           id="mask28_10_5386"
-          style={{ maskType: "luminance" }}
+          style={{ maskType: 'luminance' }}
           width="67"
           height="66"
           x="272"
@@ -487,7 +487,7 @@ function Logo({ height}) {
         <g mask="url(#mask28_10_5386)">
           <mask
             id="mask29_10_5386"
-            style={{ maskType: "luminance" }}
+            style={{ maskType: 'luminance' }}
             width="67"
             height="66"
             x="272"
@@ -509,7 +509,7 @@ function Logo({ height}) {
       </g>
       <mask
         id="mask30_10_5386"
-        style={{ maskType: "luminance" }}
+        style={{ maskType: 'luminance' }}
         width="6"
         height="4"
         x="317"
@@ -521,7 +521,7 @@ function Logo({ height}) {
       <g mask="url(#mask30_10_5386)">
         <mask
           id="mask31_10_5386"
-          style={{ maskType: "luminance" }}
+          style={{ maskType: 'luminance' }}
           width="67"
           height="66"
           x="272"
@@ -536,7 +536,7 @@ function Logo({ height}) {
         <g mask="url(#mask31_10_5386)">
           <mask
             id="mask32_10_5386"
-            style={{ maskType: "luminance" }}
+            style={{ maskType: 'luminance' }}
             width="67"
             height="66"
             x="272"
@@ -558,7 +558,7 @@ function Logo({ height}) {
       </g>
       <mask
         id="mask33_10_5386"
-        style={{ maskType: "luminance" }}
+        style={{ maskType: 'luminance' }}
         width="5"
         height="5"
         x="322"
@@ -570,7 +570,7 @@ function Logo({ height}) {
       <g mask="url(#mask33_10_5386)">
         <mask
           id="mask34_10_5386"
-          style={{ maskType: "luminance" }}
+          style={{ maskType: 'luminance' }}
           width="67"
           height="66"
           x="272"
@@ -585,7 +585,7 @@ function Logo({ height}) {
         <g mask="url(#mask34_10_5386)">
           <mask
             id="mask35_10_5386"
-            style={{ maskType: "luminance" }}
+            style={{ maskType: 'luminance' }}
             width="67"
             height="66"
             x="272"
@@ -607,7 +607,7 @@ function Logo({ height}) {
       </g>
       <mask
         id="mask36_10_5386"
-        style={{ maskType: "luminance" }}
+        style={{ maskType: 'luminance' }}
         width="5"
         height="4"
         x="326"
@@ -619,7 +619,7 @@ function Logo({ height}) {
       <g mask="url(#mask36_10_5386)">
         <mask
           id="mask37_10_5386"
-          style={{ maskType: "luminance" }}
+          style={{ maskType: 'luminance' }}
           width="67"
           height="66"
           x="272"
@@ -634,7 +634,7 @@ function Logo({ height}) {
         <g mask="url(#mask37_10_5386)">
           <mask
             id="mask38_10_5386"
-            style={{ maskType: "luminance" }}
+            style={{ maskType: 'luminance' }}
             width="67"
             height="66"
             x="272"
@@ -656,7 +656,7 @@ function Logo({ height}) {
       </g>
       <mask
         id="mask39_10_5386"
-        style={{ maskType: "luminance" }}
+        style={{ maskType: 'luminance' }}
         width="5"
         height="3"
         x="326"
@@ -668,7 +668,7 @@ function Logo({ height}) {
       <g mask="url(#mask39_10_5386)">
         <mask
           id="mask40_10_5386"
-          style={{ maskType: "luminance" }}
+          style={{ maskType: 'luminance' }}
           width="67"
           height="66"
           x="272"
@@ -683,7 +683,7 @@ function Logo({ height}) {
         <g mask="url(#mask40_10_5386)">
           <mask
             id="mask41_10_5386"
-            style={{ maskType: "luminance" }}
+            style={{ maskType: 'luminance' }}
             width="67"
             height="66"
             x="272"
@@ -705,7 +705,7 @@ function Logo({ height}) {
       </g>
       <mask
         id="mask42_10_5386"
-        style={{ maskType: "luminance" }}
+        style={{ maskType: 'luminance' }}
         width="7"
         height="5"
         x="322"
@@ -717,7 +717,7 @@ function Logo({ height}) {
       <g mask="url(#mask42_10_5386)">
         <mask
           id="mask43_10_5386"
-          style={{ maskType: "luminance" }}
+          style={{ maskType: 'luminance' }}
           width="67"
           height="66"
           x="272"
@@ -732,7 +732,7 @@ function Logo({ height}) {
         <g mask="url(#mask43_10_5386)">
           <mask
             id="mask44_10_5386"
-            style={{ maskType: "luminance" }}
+            style={{ maskType: 'luminance' }}
             width="67"
             height="66"
             x="272"
@@ -754,7 +754,7 @@ function Logo({ height}) {
       </g>
       <mask
         id="mask45_10_5386"
-        style={{ maskType: "luminance" }}
+        style={{ maskType: 'luminance' }}
         width="5"
         height="6"
         x="316"
@@ -766,7 +766,7 @@ function Logo({ height}) {
       <g mask="url(#mask45_10_5386)">
         <mask
           id="mask46_10_5386"
-          style={{ maskType: "luminance" }}
+          style={{ maskType: 'luminance' }}
           width="67"
           height="66"
           x="272"
@@ -781,7 +781,7 @@ function Logo({ height}) {
         <g mask="url(#mask46_10_5386)">
           <mask
             id="mask47_10_5386"
-            style={{ maskType: "luminance" }}
+            style={{ maskType: 'luminance' }}
             width="67"
             height="66"
             x="272"
@@ -803,7 +803,7 @@ function Logo({ height}) {
       </g>
       <mask
         id="mask48_10_5386"
-        style={{ maskType: "luminance" }}
+        style={{ maskType: 'luminance' }}
         width="4"
         height="5"
         x="302"
@@ -815,7 +815,7 @@ function Logo({ height}) {
       <g mask="url(#mask48_10_5386)">
         <mask
           id="mask49_10_5386"
-          style={{ maskType: "luminance" }}
+          style={{ maskType: 'luminance' }}
           width="67"
           height="66"
           x="272"
@@ -830,7 +830,7 @@ function Logo({ height}) {
         <g mask="url(#mask49_10_5386)">
           <mask
             id="mask50_10_5386"
-            style={{ maskType: "luminance" }}
+            style={{ maskType: 'luminance' }}
             width="67"
             height="66"
             x="272"
@@ -851,7 +851,7 @@ function Logo({ height}) {
         </g>
       </g>
     </svg>
-  );
+  )
 }
 
-export default Logo;
+export default Logo
