@@ -9,10 +9,10 @@ import { TwitchButton } from "@/components/TwitchButton.jsx";
 export default function Home() {
   return (
     <section className="flex flex-col items-center justify-between mx-auto md:w-4/5 lg:w-3/4 xl:w-2/3">
-      <Title logo={<svg aria-label="TechTon" className="fill-primary h-32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 376 105">
+      <Title logo={<svg aria-label="TechTon" className="fill-primary h-32" xmlns="http://www.w3.org/2000/svg" >
         <title>TechTon</title>
         <desc>Logo de TechTon</desc>
-        <Logo height={'80'} />
+        <Logo  />
       </svg>} />
       <Subtitle />
       <CountdownTimer />
