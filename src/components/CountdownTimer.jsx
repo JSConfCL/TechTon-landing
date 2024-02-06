@@ -77,7 +77,7 @@ export const CountdownTimer = () => {
   return (
     <>
       {isClient ? (
-        <div className="py-14">
+        <div className="pb-10">
           <Countdown date={fecha} renderer={renderer} zeroPadTime={2} />
         </div>
       ) : (
