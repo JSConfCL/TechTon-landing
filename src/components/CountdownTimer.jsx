@@ -77,7 +77,7 @@ export const CountdownTimer = () => {
   return (
     <>
       {isClient ? (
-        <div className="pb-10">
+        <div className="pb-5">
           <Countdown date={fecha} renderer={renderer} zeroPadTime={2} />
         </div>
       ) : (

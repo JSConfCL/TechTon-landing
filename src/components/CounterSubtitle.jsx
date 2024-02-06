@@ -2,11 +2,11 @@ import React from "react";
 
 const CounterSubtitle = () => {
   return (
-    <div className="space-y-5 pb-8">
-      <h3 className="font-museo text-center text-3xl font-bold">
+    <div className="space-y-3 pb-8">
+      <h3 className="font-museo text-center text-2xl font-bold">
         ¡Ayúdanos a levantar Chile!
       </h3>
-      <p className="font-extralight text-center">
+      <p className="font-extralight text-center px-2 text-sm">
         Recaudaremos fondos que serán entregados a{" "}
         <a
           href="https://www.instagram.com/p/C243rhlsLsb/?hl=es"
