@@ -34,11 +34,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${inter.className} min-h-max bg-[#232121] text-white`}
       >
-        <div className="hidden lg:block mt-10 mr-10">
+        <div className="hidden lg:block mt-8 mr-10">
           <TwitchButton />
         </div>
         {/* TODO: Put the twitch button on the right of the screen in desktop here! */}
-        <main className="px-3 lg:px-64 pb-12">{children}</main>
+        <main className="px-3 lg:px-64 pb-12 lg:-mt-16">{children}</main>
         {/* TODO: Put the footer here! */}
         <Footer />
       </body>
