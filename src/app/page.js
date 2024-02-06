@@ -26,7 +26,7 @@ export default function Home() {
       <CountdownTimer />
       <CounterSubtitle />
 
-      <div className="flex gap-12">
+      <div className="flex gap-8">
         <Button id="button-donate" href="/donar" variant="primary">
           Donar
         </Button>

@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
           <TwitchButton />
         </div>
         {/* TODO: Put the twitch button on the right of the screen in desktop here! */}
-        <main className="px-8 lg:px-64 pb-12">{children}</main>
+        <main className="px-3 lg:px-64 pb-12">{children}</main>
         {/* TODO: Put the footer here! */}
         <Footer />
       </body>
