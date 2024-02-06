@@ -1,6 +1,7 @@
 "use client";
 import { useState } from 'react';
 import AgendaLogo from "@/components/AgendaLogo";
+import { Button } from "@/components/Button/Button.js";
 import { Title } from "@/components/Title";
 import { Timeline } from "@/components/Timeline";
 import talksData from "@/talks/talks.json";
@@ -19,18 +20,18 @@ export default function Agenda() {
       </svg>} />
 
       <div className="flex justify-center space-x-4 mb-6">
-        <button 
-          className={`px-4 py-2 rounded-md ${activeDay === 9 ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
+        <Button id="day9"
+          variant={`${activeDay === 9 ? 'primary' : 'tertiary'}`}
           onClick={() => setActiveDay(9)}
         >
           Día 9 de Febrero
-        </button>
-        <button 
-          className={`px-4 py-2 rounded-md ${activeDay === 10 ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
+        </Button>
+        <Button id="day10"
+          variant={`${activeDay === 10 ? 'primary' : 'tertiary'}`}
           onClick={() => setActiveDay(10)}
         >
           Día 10 de Febrero
-        </button>
+        </Button>
       </div>
 
       {activeDay === 9 && <Timeline data={talksDay1} />}
