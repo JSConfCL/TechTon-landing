@@ -2,7 +2,7 @@
     {
         "name": "Miguel Angel Durán (Midudev)",
         "topic": "Presentación TechTon",
-        "image": "images/speakers/miguel-duran.webp",
+        "image": "/images/speakers/miguel-duran.webp",
         "startHour": "2024-02-09T13:00:00",
         "endHour": "2024-02-09T13:30:00",
         "community": "Midudev",
@@ -11,7 +11,7 @@
     {
         "name": "Miguel Angel Durán (Midudev)",
         "topic": "QA + Just chatting",
-        "image": "images/speakers/miguel-duran.webp",
+        "image": "/images/speakers/miguel-duran.webp",
         "startHour": "2024-02-09T13:30:00",
         "endHour": "2024-02-09T14:00:00",
         "community": "Midudev",
@@ -20,7 +20,7 @@
     {
         "name": "Heinz Wuth (Ciencia y Cocina)",
         "topic": "por confirmar",
-        "image": "images/speakers/heinz-wuth.webp",
+        "image": "/images/speakers/heinz-wuth.webp",
         "startHour": "2024-02-09T14:00:00",
         "endHour": "2024-02-09T14:30:00",
         "community": "Ciencia y Cocina",
@@ -29,7 +29,7 @@
     {
         "name": "Katia \"Katt\" Durán",
         "topic": "\"He trabajado en proyectos toda la vida y no sabía\"",
-        "image": "images/speakers/katt-duran.webp",
+        "image": "/images/speakers/katt-duran.webp",
         "startHour": "2024-02-09T14:30:00",
         "endHour": "2024-02-09T15:00:00",
         "community": "Women TechMakers",
@@ -38,7 +38,7 @@
     {
         "name": "Fran Medina",
         "topic": "Desatando la Creatividad con P5.js en el Arte Algorítmico",
-        "image": "images/speakers/fran-medina.webp",
+        "image": "/images/speakers/fran-medina.webp",
         "startHour": "2024-02-09T15:00:00",
         "endHour": "2024-02-09T15:30:00",
         "community": "WWCode Santiago",
@@ -47,7 +47,7 @@
     {
         "name": "Barbarita Lara",
         "topic": "Hack yourself + taller comunicaciones de emergencia & estación base satelita",
-        "image": "images/speakers/barbarita-lara.webp",
+        "image": "/images/speakers/barbarita-lara.webp",
         "startHour": "2024-02-09T15:30:00",
         "endHour": "2024-02-09T16:00:00",
         "community": "ninguna",
@@ -56,7 +56,7 @@
     {
         "name": "Ana Rangel",
         "topic": "Presentaciones increíbles en Figma",
-        "image": "images/speakers/ana-rangel.webp",
+        "image": "/images/speakers/ana-rangel.webp",
         "startHour": "2024-02-09T16:00:00",
         "endHour": "2024-02-09T16:30:00",
         "community": "Javascript Chile + Women TechMakers",
@@ -65,7 +65,7 @@
     {
         "name": "Matías Aburto",
         "topic": "Maestro de tu propio aprendizaje",
-        "image": "images/speakers/matias-aburto.webp",
+        "image": "/images/speakers/matias-aburto.webp",
         "startHour": "2024-02-09T16:30:00",
         "endHour": "2024-02-09T17:00:00",
         "community": "ninguna",
@@ -74,7 +74,7 @@
     {
         "name": "Yoshie Garces",
         "topic": "Entre Dos Mundos: Buscando el Equilibrio entre Desarrollo y Testing",
-        "image": "images/speakers/yoshie-garces.webp",
+        "image": "/images/speakers/yoshie-garces.webp",
         "startHour": "2024-02-09T17:00:00",
         "endHour": "2024-02-09T17:30:00",
         "community": "ninguna",
@@ -83,7 +83,7 @@
     {
         "name": "Camila Acuña",
         "topic": "Ética en la tecnología",
-        "image": "images/speakers/camila-acuna.webp",
+        "image": "/images/speakers/camila-acuna.webp",
         "startHour": "2024-02-09T17:30:00",
         "endHour": "2024-02-09T18:00:00",
         "community": "Revolución STEAM",
@@ -92,7 +92,7 @@
     {
         "name": "Agustin Soto",
         "topic": "Identificación y Contabilización de Copiapoas en Parque Nacional Pan de Azúcar: Proyecto de Inteligencia Artificial",
-        "image": "images/speakers/agustin-soto.webp",
+        "image": "/images/speakers/agustin-soto.webp",
         "startHour": "2024-02-09T18:00:00",
         "endHour": "2024-02-09T18:30:00",
         "community": "ninguna",
@@ -101,7 +101,7 @@
     {
         "name": "Sebastian Flores",
         "topic": "Data Storytelling al rescate: evitemos más muertes por PowerPoint",
-        "image": "images/speakers/sebastian-flores.webp",
+        "image": "/images/speakers/sebastian-flores.webp",
         "startHour": "2024-02-09T18:30:00",
         "endHour": "2024-02-09T19:00:00",
         "community": "ninguna",
@@ -110,7 +110,7 @@
     {
         "name": "Pamela Clunes",
         "topic": "Emprendiendo en Videojuegos",
-        "image": "images/speakers/pamela-clunes.webp",
+        "image": "/images/speakers/pamela-clunes.webp",
         "startHour": "2024-02-09T19:00:00",
         "endHour": "2024-02-09T19:30:00",
         "community": "Women TechMakers",
@@ -119,7 +119,7 @@
     {
         "name": "Valentina Muñoz (Chica Rosadita)",
         "topic": "Políticas públicas para un STEAM más inclusivo",
-        "image": "images/speakers/valentina-munoz.webp",
+        "image": "/images/speakers/valentina-munoz.webp",
         "startHour": "2024-02-09T19:30:00",
         "endHour": "2024-02-09T20:00:00",
         "community": "ninguna",
@@ -128,7 +128,7 @@
     {
         "name": "Ricardo Cuauro",
         "topic": "Mi amigo Gepeto",
-        "image": "images/speakers/ricardo-cuauro.webp",
+        "image": "/images/speakers/ricardo-cuauro.webp",
         "startHour": "2024-02-09T20:00:00",
         "endHour": "2024-02-09T20:30:00",
         "community": "Javascript Chile",
@@ -137,7 +137,7 @@
     {
         "name": "Diego López (ChicoMaker)",
         "topic": "Fabricación digital e impresión 3D para materializar tus ideas",
-        "image": "images/speakers/diego-lopez.webp",
+        "image": "/images/speakers/diego-lopez.webp",
         "startHour": "2024-02-09T20:30:00",
         "endHour": "2024-02-09T21:00:00",
         "community": "ninguna",
@@ -146,7 +146,7 @@
     {
         "name": "Fabian Arismendi",
         "topic": "Cómo evolucionar profesionalmente en tecnología sin perder tu chispa de programar",
-        "image": "images/speakers/fabian-arismendi.webp",
+        "image": "/images/speakers/fabian-arismendi.webp",
         "startHour": "2024-02-09T21:00:00",
         "endHour": "2024-02-09T21:30:00",
         "community": "Javascript Chile",
@@ -155,7 +155,7 @@
     {
         "name": "Daniela Cortez",
         "topic": "Test Driven Development 101",
-        "image": "images/speakers/daniela-cortez.webp",
+        "image": "/images/speakers/daniela-cortez.webp",
         "startHour": "2024-02-09T21:30:00",
         "endHour": "2024-02-09T22:00:00",
         "community": "Women TechMakers",
@@ -164,7 +164,7 @@
     {
         "name": "Gonzalo Pozzo (Goncy)",
         "topic": "QA + Just chatting",
-        "image": "images/speakers/gonzalo-pozzo.webp",
+        "image": "/images/speakers/gonzalo-pozzo.webp",
         "startHour": "2024-02-10T07:00:00",
         "endHour": "2024-02-10T07:30:00",
         "community": "ninguna",
@@ -173,7 +173,7 @@
     {
         "name": "Florencia Luz Duarte",
         "topic": "Cómo tener un perfil de LinkedIn para destacar como Dev",
-        "image": "images/speakers/florencia-luz-duarte.webp",
+        "image": "/images/speakers/florencia-luz-duarte.webp",
         "startHour": "2024-02-10T08:30:00",
         "endHour": "2024-02-10T09:00:00",
         "community": "Mermelada Tech",
@@ -182,7 +182,7 @@
     {
         "name": "Ramón Huidobro",
         "topic": "Cómo contribuir al open source más allá del código",
-        "image": "images/speakers/ramon-huidobro.webp",
+        "image": "/images/speakers/ramon-huidobro.webp",
         "startHour": "2024-02-10T09:00:00",
         "endHour": "2024-02-10T09:30:00",
         "community": "ninguna",
@@ -191,7 +191,7 @@
     {
         "name": "Andrea Mendez",
         "topic": "Lo que nadie te cuenta cuando inicias tu carrera en el mundo de los datos",
-        "image": "images/speakers/andrea-mendez.webp",
+        "image": "/images/speakers/andrea-mendez.webp",
         "startHour": "2024-02-10T09:30:00",
         "endHour": "2024-02-10T10:00:00",
         "community": "ninguna",
@@ -200,7 +200,7 @@
     {
         "name": "David Quezada",
         "topic": "Desvelando la ilusión: Por qué el coverage solo es engañoso",
-        "image": "images/speakers/david-quezada.webp",
+        "image": "/images/speakers/david-quezada.webp",
         "startHour": "2024-02-10T10:00:00",
         "endHour": "2024-02-10T10:30:00",
         "community": "Javascript Chile",
@@ -209,7 +209,7 @@
     {
         "name": "Sergio Ruiz (Serudda)",
         "topic": "QA + Just chatting",
-        "image": "images/speakers/katt-duran.webp",
+        "image": "/images/speakers/katt-duran.webp",
         "startHour": "2024-02-10T10:30:00",
         "endHour": "2024-02-10T11:00:00",
         "community": "Indie Creators",
