@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex-1 hidden sm:block">
           <Image
             alt="Imagen de manos"
-            src="/footer/icon-hands.svg"
+            src="images/footer/icon-hands.svg"
             height={25}
             width={50}
             style={{ height: "10em" }}
@@ -27,7 +27,7 @@ const Footer = () => {
               <Image
                 className="ml-2"
                 alt="Hora Chile"
-                src="/footer/chilean-flag.svg"
+                src="images/footer/chilean-flag.svg"
                 height={20}
                 width={20}
               />
@@ -38,7 +38,7 @@ const Footer = () => {
               <Image
                 className="ml-2"
                 alt="Hora Chile"
-                src="/footer/chilean-flag.svg"
+                src="images/footer/chilean-flag.svg"
                 height={20}
                 width={20}
               />
@@ -48,7 +48,7 @@ const Footer = () => {
         <div className="flex-1 hidden sm:block">
           <Image
             alt="Imagen de reloj"
-            src="/footer/icon-clock.svg"
+            src="images/footer/icon-clock.svg"
             className="h-14 sm:h-20 w-full"
             height={50}
             width={50}
@@ -61,7 +61,7 @@ const Footer = () => {
         <div className="flex">
           <Image
             alt="Imagen de manos"
-            src="/footer/icon-hands.svg"
+            src="images/footer/icon-hands.svg"
             height={36}
             width={50}
             className="w-full h-25"
@@ -71,7 +71,7 @@ const Footer = () => {
           <div className="flex items-center text-xl">
             <Image
               alt="Ímagen de un reloj"
-              src="/footer/icon-calendar.svg"
+              src="images/footer/icon-calendar.svg"
               className="mr-5"
               height={50}
               width={50}
@@ -81,7 +81,7 @@ const Footer = () => {
           <div className="gap-10 flex items-center text-xl">
             <Image
               alt="Imagen de un reloj"
-              src="/footer/icon-clock.svg"
+              src="images/footer/icon-clock.svg"
               height={50}
               width={50}
             />
