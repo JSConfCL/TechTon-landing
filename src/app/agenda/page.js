@@ -1,6 +1,7 @@
 import AgendaLogo from "@/components/AgendaLogo";
 import { Title } from "@/components/Title";
 import { Timeline } from "@/components/Timeline";
+import talksData from "@/talks/talks.json";
 
 export default function Agenda() {
   return (
@@ -11,7 +12,7 @@ export default function Agenda() {
         <AgendaLogo/>
       </svg>} />
 
-      <Timeline/>
+      <Timeline data={ talksData } />
     </main>
   )
 }
