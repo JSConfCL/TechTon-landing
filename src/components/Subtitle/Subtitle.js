@@ -1,6 +1,6 @@
 export function Subtitle() {
     return (
-      <h3 className="flex items-center justify-center font-kufam font-semibold gap-x-3 m-5 flex-wrap">
+      <h3 className="flex items-center justify-center font-kufam font-semibold gap-x-3  flex-wrap">
         <span className="text-4xl xl:text-6xl">+20 </span>
         <span className="text-2xl xl:text-3xl">horas de</span>
         <span className="text-2xl xl:text-3xl text-primary relative">Streaming
