@@ -12,7 +12,7 @@ export default function Home() {
       <Title logo={<svg aria-label="TechTon" className="fill-primary h-32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 376 105">
         <title>TechTon</title>
         <desc>Logo de TechTon</desc>
-      <Logo/>
+        <Logo height={'80'} />
       </svg>} />
       <Subtitle />
       <CountdownTimer />
