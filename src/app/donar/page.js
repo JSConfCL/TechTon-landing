@@ -22,7 +22,7 @@ export default function Donar() {
       <div className="flex">
         <div className="py-10 space-y-5">
           <DonarSubtitulo />
-          <div className="font-light leading-7">
+          <div className="font-light leading-7 text-center md:text-left">
             Todo el dinero será dirigido a Bomberos de Chile. El botón de donar
             te llevará a Mercado Pago y está disponible para donaciones en
             países donde esté habilitado.
