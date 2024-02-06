@@ -1,5 +1,6 @@
 import AgendaLogo from "@/components/AgendaLogo";
 import { Title } from "@/components/Title";
+import { Timeline } from "@/components/Timeline";
 
 export default function Agenda() {
   return (
@@ -9,6 +10,8 @@ export default function Agenda() {
         <desc>Logo de TechTon</desc>
         <AgendaLogo/>
       </svg>} />
+
+      <Timeline/>
     </main>
   )
 }
