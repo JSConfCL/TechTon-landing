@@ -21,8 +21,7 @@ export default function Home() {
       <div className="flex gap-12">
         <Button
           id="button-donate"
-          href="https://link.mercadopago.cl/jscl"
-          target="_blank"
+          href="/donar"
           variant="primary"
         >
           Donar
