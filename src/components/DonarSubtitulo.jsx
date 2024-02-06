@@ -3,7 +3,7 @@ import React from 'react'
 
 const DonarSubtitulo = () => {
     return (
-        <div className='flex items-center gap-5'>
+        <div className='flex flex-col md:flex-row items-center gap-5'>
             <Image
                 className="ml-2"
                 alt="Hora Chile"
@@ -11,7 +11,7 @@ const DonarSubtitulo = () => {
                 height={100}
                 width={100}
             />
-            <h2 className='text-5xl font-semibold'>Gracias por sumarte a donar dinero para esta causa</h2>
+            <h2 className='text-center text-3xl md:text-5xl md:text-start font-semibold'>Gracias por sumarte a donar dinero para esta causa</h2>
         </div>
     )
 }
