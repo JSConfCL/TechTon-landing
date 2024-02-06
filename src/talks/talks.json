@@ -218,7 +218,7 @@
     {
         "name": "Fabian Acuña",
         "topic": "Las claves para liderar tu desarrollo de carrera",
-        "image": "images/speakers/fabian-acuna.webp",
+        "image": "/images/speakers/fabian-acuna.webp",
         "startHour": "2024-02-10T11:00:00",
         "endHour": "2024-02-10T11:30:00",
         "community": "9punto5",
@@ -227,7 +227,7 @@
     {
         "name": "Hanna Back",
         "topic": "Cómo entrenar a tu product owner",
-        "image": "images/speakers/hanna-back.webp",
+        "image": "/images/speakers/hanna-back.webp",
         "startHour": "2024-02-10T11:30:00",
         "endHour": "2024-02-10T12:00:00",
         "community": "ninguna",
@@ -236,7 +236,7 @@
     {
         "name": "Elizabeth Fuentes",
         "topic": "Introducción a generative AI y cómo crear app con una llamada de APi",
-        "image": "images/speakers/elizabeth-fuentes.webp",
+        "image": "/images/speakers/elizabeth-fuentes.webp",
         "startHour": "2024-02-10T12:00:00",
         "endHour": "2024-02-10T12:30:00",
         "community": "AWS User Group Chile",
@@ -245,7 +245,7 @@
     {
         "name": "Daniela Riquelme",
         "topic": "",
-        "image": "images/speakers/daniela-riquelme.webp",
+        "image": "/images/speakers/daniela-riquelme.webp",
         "startHour": "2024-02-10T12:30:00",
         "endHour": "2024-02-10T13:00:00",
         "community": "9punto5",
@@ -254,7 +254,7 @@
     {
         "name": "Heileen Goodson",
         "topic": "Mejorando…and mi liderazgo",
-        "image": "images/speakers/heileen-goodson.webp",
+        "image": "/images/speakers/heileen-goodson.webp",
         "startHour": "2024-02-10T13:00:00",
         "endHour": "2024-02-10T13:30:00",
         "community": "WWCode Santiago",
@@ -263,7 +263,7 @@
     {
         "name": "Felipe Torres",
         "topic": "QA + Just chatting",
-        "image": "images/speakers/felipe-torres.webp",
+        "image": "/images/speakers/felipe-torres.webp",
         "startHour": "2024-02-10T13:30:00",
         "endHour": "2024-02-10T14:00:00",
         "community": "Javascript Chile",
@@ -272,7 +272,7 @@
     {
         "name": "Rocio Mieres (chioinvestiadora)",
         "topic": "Creacion y coordinacion de comunidades, fenomeno web",
-        "image": "images/speakers/rocio-mieres.webp",
+        "image": "/images/speakers/rocio-mieres.webp",
         "startHour": "2024-02-10T15:00:00",
         "endHour": "2024-02-10T15:30:00",
         "community": "ninguna",
@@ -281,7 +281,7 @@
     {
         "name": "Andrea Monsalve",
         "topic": "Q&A UX designers",
-        "image": "images/speakers/andrea-monsalve.webp",
+        "image": "/images/speakers/andrea-monsalve.webp",
         "startHour": "2024-02-10T15:30:00",
         "endHour": "2024-02-10T16:00:00",
         "community": "ninguna",
@@ -290,7 +290,7 @@
     {
         "name": "Alfonsina Lizardo",
         "topic": "Cambio de carrera: De Medicina a Desarrollo Web",
-        "image": "images/speakers/alfonsina-lizardo.webp",
+        "image": "/images/speakers/alfonsina-lizardo.webp",
         "startHour": "2024-02-10T16:00:00",
         "endHour": "2024-02-10T16:30:00",
         "community": "Javascript Chile + Women TechMakers",
@@ -299,7 +299,7 @@
     {
         "name": "Donna Roper",
         "topic": "Estrategias para motivar, desde edades tempranas, el interés por la programación",
-        "image": "images/speakers/donna-roper.webp",
+        "image": "/images/speakers/donna-roper.webp",
         "startHour": "2024-02-10T17:00:00",
         "endHour": "2024-02-10T17:30:00",
         "community": "IEEE Computer Society Region 9",
@@ -308,7 +308,7 @@
     {
         "name": "Paola Viloria",
         "topic": "Dominando el Tiempo: Herramientas Prácticas para el Éxito Personal y Profesional",
-        "image": "images/speakers/paola-viloria.webp",
+        "image": "/images/speakers/paola-viloria.webp",
         "startHour": "2024-02-10T17:30:00",
         "endHour": "2024-02-10T18:00:00",
         "community": "Javascript Chile + Women TechMakers",
@@ -317,7 +317,7 @@
     {
         "name": "Luis Tatis",
         "topic": "IEEE-MOVE International: Disaster Response",
-        "image": "images/speakers/luis-tatis.webp",
+        "image": "/images/speakers/luis-tatis.webp",
         "startHour": "2024-02-10T18:00:00",
         "endHour": "2024-02-10T18:30:00",
         "community": "IEEE MOVE",
@@ -326,7 +326,7 @@
     {
         "name": "Manu Pardo",
         "topic": "Uso de herramientas geoespaciales para localización en zonas de desastre",
-        "image": "images/speakers/manu-pardo.webp",
+        "image": "/images/speakers/manu-pardo.webp",
         "startHour": "2024-02-10T18:30:00",
         "endHour": "2024-02-10T19:00:00",
         "community": "ninguna",
@@ -335,7 +335,7 @@
     {
         "name": "Roberto Moreno",
         "topic": "Cocinando con Kanban",
-        "image": "images/speakers/roberto-moreno.webp",
+        "image": "/images/speakers/roberto-moreno.webp",
         "startHour": "2024-02-10T19:00:00",
         "endHour": "2024-02-10T19:30:00",
         "community": "IEEE Computer Society Region 9",
