@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 
 export function Timeline() {
     return (
@@ -7,7 +6,7 @@ export function Timeline() {
             <ol className="relative border-s-2 py-10">
                 <li className="mb-10 ms-8">
                     <span className="absolute mt-2 flex items-center justify-center w-12 h-12 bg-blue-100 rounded-full -start-6">
-                        <Image className="rounded-full" src="images/speakers/agustin-soto.webp" alt="Bonnie image" />
+                        <Image className="rounded-full" src="/images/speakers/agustin-soto.webp" alt="Bonnie image" layout="fill" />
                     </span>
                     <time className="mb-1 text-sm font-light leading-none">00:00 - 00:00</time>
                     <h3 className="text-lg font-bold">Nombre Charlista</h3>
@@ -16,7 +15,7 @@ export function Timeline() {
                 </li>
                 <li className="mb-10 ms-8">
                     <span className="absolute mt-2 flex items-center justify-center w-12 h-12 bg-blue-100 rounded-full -start-6">
-                        <Image className="rounded-full" src="images/speakers/agustin-soto.webp" alt="Bonnie image" />
+                        <Image className="rounded-full" src="/images/speakers/agustin-soto.webp" alt="Bonnie image" layout="fill" />
                     </span>
                     <time className="mb-1 text-sm font-light leading-none">00:00 - 00:00</time>
                     <h3 className="text-lg font-bold">Nombre Charlista</h3>
@@ -25,7 +24,7 @@ export function Timeline() {
                 </li>
                 <li className="mb-10 ms-8">
                     <span className="absolute mt-2 flex items-center justify-center w-12 h-12 bg-blue-100 rounded-full -start-6">
-                        <Image className="rounded-full" src="images/speakers/agustin-soto.webp" alt="Bonnie image" />
+                        <Image className="rounded-full" src="/images/speakers/agustin-soto.webp" alt="Bonnie image" layout="fill" />
                     </span>
                     <time className="mb-1 text-sm font-light leading-none">00:00 - 00:00</time>
                     <h3 className="text-lg font-bold">Nombre Charlista</h3>
