@@ -28,11 +28,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html
-      lang="en"
+      lang="es"
       className={`${inter.variable} ${roboto_mono.variable} ${museo_moderno.variable}`}
     >
       <body
-        className={`${inter.className} min-h-screen bg-[#232121] text-white`}
+        className={`${inter.className} min-h-max bg-[#232121] text-white`}
       >
         <div className="hidden lg:block mt-10 mr-10">
           <TwitchButton />
