@@ -1,6 +1,7 @@
 export function Timeline() {
     return (
         <>
+            <ol className="relative border-s-2 py-10">
                 <li className="mb-10 ms-8">
                     <span className="absolute flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full -start-5">
                         <img className="rounded-full shadow-lg" src="images/speakers/agustin-soto.webp" alt="Bonnie image" />
