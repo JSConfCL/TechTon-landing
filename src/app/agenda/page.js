@@ -16,7 +16,7 @@ export default function Agenda() {
     (item) => new Date(item.startHour).getDate() === 10
   )
   return (
-    <main className="px-8">
+    <main >
       <Title
         logo={
           <svg
@@ -30,6 +30,7 @@ export default function Agenda() {
           </svg>
         }
       />
+      <section className="px-8">
       <div className="flex justify-center space-x-4 mb-6">
         <Button
           id="day9"
@@ -49,6 +50,8 @@ export default function Agenda() {
 
       {activeDay === 9 && <Timeline data={talksDay1} />}
       {activeDay === 10 && <Timeline data={talksDay2} />}
+      </section>
+     
     </main>
   )
 }
