@@ -1,11 +1,10 @@
 import React from "react";
 
-function Logo() {
+function Logo({ height}) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="376"
-      height="105"
+      height={height}
       fill="none"
       viewBox="0 0 376 105"
     >
