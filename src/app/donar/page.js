@@ -29,7 +29,7 @@ export default function Donar() {
             te llevará a Mercado Pago y está disponible para donaciones en
             países donde esté habilitado.
           </div>
-          <div className="flex flex-col gap-3 pt-4 mx-10 sm:flex-row justify-center md:justify-start md:mx-0 md:gap-10">
+          <div className="flex flex-col gap-5 pt-4 mx-10 sm:flex-row justify-center md:justify-start md:mx-0 md:gap-10">
             <Button
               id="button-donate"
               href="https://link.mercadopago.cl/jscl"
