@@ -23,7 +23,7 @@ export default function Home() {
           Donar
         </Button>
         <Button id="button-info" href="#" variant="secondary">
-          Saber más
+          Agenda
         </Button>
       </div>
       <div className="lg:hidden pt-10">
