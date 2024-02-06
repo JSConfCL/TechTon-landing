@@ -13,7 +13,7 @@ export default function Agenda() {
   const talksDay2 = talksData.filter(item => new Date(item.startHour).getDate() === 10);
   return (
     <main>
-      <Title logo={<svg aria-label="TechTon" className="fill-primary h-32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 376 116">
+      <Title logo={<svg aria-label="TechTon" className="fill-primary h-32" xmlns="http://www.w3.org/2000/svg">
         <title>TechTon | Agenda </title>
         <desc>Logo de TechTon</desc>
         <AgendaLogo />
