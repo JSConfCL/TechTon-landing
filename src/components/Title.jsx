@@ -6,5 +6,5 @@ export function Title({ logo }) {
         Comunidades Tech unidas por una causa
       </h2>
     </section>
-  );
+  )
 }
