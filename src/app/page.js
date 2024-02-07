@@ -1,14 +1,14 @@
-import Logo from '@/components/Logo.jsx'
-import { Button } from '../components/Button/Button.js'
-import { Subtitle } from '../components/Subtitle/Subtitle.js'
-import { Title } from '../components/Title'
-import { CountdownTimer } from '@/components/CountdownTimer'
-import { CounterSubtitle } from '@/components/CounterSubtitle.jsx'
-import { TwitchButton } from '@/components/TwitchButton.jsx'
+import Logo from "@/components/Logo.jsx";
+import { Button } from "../components/Button/Button.js";
+import { Subtitle } from "../components/Subtitle/Subtitle.js";
+import { Title } from "../components/Title";
+import { CountdownTimer } from "@/components/CountdownTimer";
+import { CounterSubtitle } from "@/components/CounterSubtitle.jsx";
+import { TwitchButton } from "@/components/TwitchButton.jsx";
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-between mx-auto md:w-4/5 lg:w-3/4 xl:w-2/3">
+    <section className="flex flex-col items-center justify-between mx-auto md:w-4/5 lg:w-3/4 xl:w-2/3 lg:-mt-8">
       <Title
         logo={
           <svg
@@ -37,5 +37,5 @@ export default function Home() {
         <TwitchButton />
       </div>
     </section>
-  )
+  );
 }
