@@ -31,7 +31,9 @@ export default function RootLayout({ children }) {
       lang="es"
       className={`${inter.variable} ${roboto_mono.variable} ${museo_moderno.variable}`}
     >
-      <body className={`${inter.className} min-h-max bg-[#232121] text-white`}>
+      <body
+        className={`${inter.className} min-h-max bg-[#232121] text-white h-[100vh] flex flex-col`}
+      >
         <Navbar />
         <main className="px-3 lg:px-64 pb-12 lg:-mt-8">{children}</main>
         <Footer />
