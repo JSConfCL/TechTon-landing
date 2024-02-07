@@ -42,7 +42,7 @@ export default function Nosotros() {
               ¿De qué se trata?
             </p>
           </div>
-          <div className="font-light leading-7 text-center md:text-left text-sm md:text-lg">
+          <div className="font-light leading-7 text-left md:text-left text-sm md:text-lg">
             Somos varias comunidades tech unidas bajo el alero de <a
               href="https://jschile.org/"
               target="_blank"
@@ -67,16 +67,18 @@ export default function Nosotros() {
             Las donaciones se harán a una cuenta única y luego haremos una transferencia con el total de fondos recaudados.
           </div>
         </div>
-        <div className="">
+        <div className="flex flex-wrap ">
           {CommunitiesLogo.map((logo, key) => {
-            return (<Image
-              className="ml-2"
-              id={key}
-              alt={logo.alt}
-              src={logo.src}
-              height={100}
-              width={100}
-            />)
+            return (
+              <div>
+                <Image
+                  className="py-4 px-4"
+                  key={key}
+                  alt={logo.alt}
+                  src={logo.src}
+                  height={100}
+                  width={100}
+                /> </div>)
           }
           )}
         </div>
