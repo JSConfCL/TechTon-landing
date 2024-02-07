@@ -26,6 +26,8 @@ module.exports = {
       colors: {
         primary: "#4ac9b4",
         secondary: "#2a5851",
+        "custom-gray": "#232121",
+        twitch: "#9052F4",
       },
     },
   },

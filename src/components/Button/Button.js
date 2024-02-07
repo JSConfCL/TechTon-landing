@@ -10,14 +10,18 @@ export const Button = ({
   onClick,
   children,
   variant = "primary",
+  classnames = "",
+  setDefaultMinWidth = true,
 }) => {
   let variantColors = "bg-primary";
 
-  if (variant === "secondary") variantColors = "bg-white text-primary";
+  if (variant === "secondary") variantColors = "bg-white";
 
-  if (variant === "tertiary") variantColors = "bg-secondary text-primary";
+  if (variant === "tertiary") variantColors = "bg-secondary";
 
-  const className = `min-w-40 md:min-w-56 ${variantColors} rounded-xl text-center px-4 py-2 text-2xl md:text-3xl font-semibold`;
+  const className = `${
+    setDefaultMinWidth ? "min-w-40 md:min-w-56" : ""
+  } ${variantColors} text-sm md:text-base text-custom-gray rounded-md text-center px-4 py-2 text-2xl md:text-3xl font-semibold transition-all ${classnames}`;
   if (href && target) {
     return (
       <a id={id} className={className} href={href} target={target}>
@@ -48,4 +52,6 @@ Button.propTypes = {
   onClick: PropTypes.func,
   children: PropTypes.node,
   variant: PropTypes.string,
+  classnames: PropTypes.string,
+  setDefaultMinWidth: PropTypes.bool,
 };
