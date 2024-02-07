@@ -35,7 +35,7 @@ export default function Nosotros() {
           </svg>
         }
       />
-      <div className="xl:pb-40 xl:pt-20 flex flex-col xl:flex-row items-center space-around px-10 lg:px-0">
+      <div className="xl:pb-40 xl:pt-20 flex-row xl:flex-row items-center space-around px-10 lg:px-0">
         <div className="py-10 md:space-y-10 space-y-5 flex-1">
           <div className="font-bold text-left xl:text-left">
             <p className="text-2xl lg:text-3xl">
