@@ -1,3 +1,4 @@
+import { Button } from "@/components/Button";
 import { DonarSubtitulo } from "@/components/DonarSubtitulo";
 import Logo from "@/components/Logo";
 import { Title } from "@/components/Title";
@@ -30,6 +31,19 @@ export default function Donar() {
             </p>
           </div>
           <DonarSubtitulo />
+          <div className="flex flex-col gap-5 pt-4 mx-10 sm:flex-row justify-center md:justify-start md:mx-0 md:gap-10">
+            <Button
+              id="button-donate"
+              href="https://link.mercadopago.cl/jscl"
+              target="_blank"
+              variant="primary"
+            >
+              Donar
+            </Button>
+            <Button id="button-info" href="agenda" variant="secondary">
+              Agenda
+            </Button>
+          </div>
         </div>
         <div className="space-y-10 flex-2">
           <Image

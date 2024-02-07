@@ -32,7 +32,7 @@
         "image": "/images/speakers/katt-duran.webp",
         "startHour": "2024-02-09T14:30:00",
         "endHour": "2024-02-09T15:00:00",
-        "community": "WTM Chile",
+        "community": "WWCode Santiago + WTM Chile + JavaScriptChile",
         "communityUrl": "https://www.instagram.com/wtmchile/"
     },
     {
@@ -41,7 +41,7 @@
         "image": "/images/speakers/fran-medina.webp",
         "startHour": "2024-02-09T15:00:00",
         "endHour": "2024-02-09T15:30:00",
-        "community": "WWCode Santiago",
+        "community": "WWCode Santiago + WTM Chile + JavaScriptChile",
         "communityUrl": "https://womenwhocode.com/network/santiago"
     },
     {
@@ -50,7 +50,7 @@
         "image": "/images/speakers/barbarita-lara.webp",
         "startHour": "2024-02-09T15:30:00",
         "endHour": "2024-02-09T16:00:00",
-        "community": "WTM Chile",
+        "community": "WTM Chile + Barbarita Lara",
         "communityUrl": "https://www.instagram.com/wtmchile/"
     },
     {
@@ -59,7 +59,7 @@
         "image": "/images/speakers/ana-rangel.webp",
         "startHour": "2024-02-09T16:00:00",
         "endHour": "2024-02-09T16:30:00",
-        "community": "Javascript Chile + WTM Chile",
+        "community": "UX Ana Rangel + WTMChile + JavaScriptChile",
         "communityUrl": "https://jschile.org"
     },
     {
@@ -68,8 +68,8 @@
         "image": "/images/speakers/matias-aburto.webp",
         "startHour": "2024-02-09T16:30:00",
         "endHour": "2024-02-09T17:00:00",
-        "community": "ninguna",
-        "communityUrl": ""
+        "community": "JavaScriptChile",
+        "communityUrl": "https://jschile.org"
     },
     {
         "name": "Yoshie Garcés",
@@ -77,7 +77,7 @@
         "image": "/images/speakers/yoshie-garces.webp",
         "startHour": "2024-02-09T17:00:00",
         "endHour": "2024-02-09T17:30:00",
-        "community": "Javascript Chile + WTM Chile",
+        "community": "WTM Chile + JavaScriptChile + SparkCode",
         "communityUrl": "https://www.instagram.com/wtmchile/"
     },
     {
@@ -104,8 +104,8 @@
         "image": "/images/speakers/sebastian-flores.webp",
         "startHour": "2024-02-09T18:30:00",
         "endHour": "2024-02-09T19:00:00",
-        "community": "ninguna",
-        "communityUrl": ""
+        "community": "Python Chile",
+        "communityUrl": "https://pythonchile.cl/"
     },
     {
         "name": "Pamela Clunes",
@@ -113,17 +113,17 @@
         "image": "/images/speakers/pamela-clunes.webp",
         "startHour": "2024-02-09T19:00:00",
         "endHour": "2024-02-09T19:30:00",
-        "community": "WTM Chile",
+        "community": "WTM Chile + SparkCode",
         "communityUrl": "https://www.instagram.com/wtmchile/"
     },
     {
-        "name": "Valentina Muñoz (Chica Rosadita)",
+        "name": "Valentina Muñoz",
         "topic": "Políticas públicas para un STEAM más inclusivo",
         "image": "/images/speakers/chica-rosadita.webp",
         "startHour": "2024-02-09T19:30:00",
         "endHour": "2024-02-09T20:00:00",
-        "community": "ninguna",
-        "communityUrl": ""
+        "community": "Chica Rosadita + Amuji ",
+        "communityUrl": "https://sites.google.com/view/amuji-chile/"
     },
     {
         "name": "Ricardo Cuauro",
@@ -131,17 +131,17 @@
         "image": "/images/speakers/ricardo-cuauro.webp",
         "startHour": "2024-02-09T20:00:00",
         "endHour": "2024-02-09T20:30:00",
-        "community": "Javascript Chile",
+        "community": "JavaScriptChile + JavaScript Venezuela",
         "communityUrl": "https://jschile.org"
     },
     {
-        "name": "Diego López (ChicoMaker)",
+        "name": "Diego López Merino",
         "topic": "Fabricación digital e impresión 3D para materializar tus ideas",
         "image": "/images/speakers/chico-maker.webp",
         "startHour": "2024-02-09T20:30:00",
         "endHour": "2024-02-09T21:00:00",
-        "community": "ninguna",
-        "communityUrl": ""
+        "community": "Chico Maker",
+        "communityUrl": "https://www.instagram.com/chico_maker/"
     },
     {
         "name": "Fabian Arismendi",
@@ -149,7 +149,7 @@
         "image": "/images/speakers/fabian-arismendi.webp",
         "startHour": "2024-02-09T21:00:00",
         "endHour": "2024-02-09T21:30:00",
-        "community": "Javascript Chile",
+        "community": "JavaScriptChile ",
         "communityUrl": "https://jschile.org"
     },
     {
@@ -158,16 +158,16 @@
         "image": "/images/speakers/daniela-cortez.webp",
         "startHour": "2024-02-09T21:30:00",
         "endHour": "2024-02-09T22:00:00",
-        "community": "WTM Chile",
+        "community": "WTM Chile + JavaScriptChile + SparkCode",
         "communityUrl": "https://www.instagram.com/wtmchile/"
     },
     {
-        "name": "Gonzalo Pozzo (Goncy)",
+        "name": "Gonzalo Pozzo",
         "topic": "QA + Just chatting",
         "image": "/images/speakers/gonzalo-pozzo.webp",
         "startHour": "2024-02-10T07:00:00",
         "endHour": "2024-02-10T08:00:00",
-        "community": "ninguna",
+        "community": "Gonzy",
         "communityUrl": ""
     },    
     {
@@ -185,7 +185,7 @@
         "image": "/images/speakers/flor-luz-duarte.webp",
         "startHour": "2024-02-10T08:30:00",
         "endHour": "2024-02-10T09:00:00",
-        "community": "Mermelada Tech",
+        "community": "Mermelada Tech + Unicornio Dev",
         "communityUrl": "https://www.linkedin.com/company/mermelada-tech/"
     },
     {
@@ -194,8 +194,8 @@
         "image": "/images/speakers/ramon-huidobro.webp",
         "startHour": "2024-02-10T09:00:00",
         "endHour": "2024-02-10T09:30:00",
-        "community": "ninguna",
-        "communityUrl": ""
+        "community": "JavaScriptChile + Bad Website Club",
+        "communityUrl": "https://jschile.org"
     },
     {
         "name": "Andrea Mendez",
@@ -212,7 +212,7 @@
         "image": "/images/speakers/david-quezada.webp",
         "startHour": "2024-02-10T10:00:00",
         "endHour": "2024-02-10T10:30:00",
-        "community": "Javascript Chile",
+        "community": "JavaScriptChile",
         "communityUrl": "https://jschile.org"
     },
     {
@@ -225,12 +225,12 @@
         "communityUrl": "https://github.com/Indie-Creator-Community"
     },
     {
-        "name": "Fabian Acuña",
+        "name": "Fabián Acuña",
         "topic": "Las claves para liderar tu desarrollo de carrera",
         "image": "images/speakers/fabian-acuna.webp",
         "startHour": "2024-02-10T11:00:00",
         "endHour": "2024-02-10T11:30:00",
-        "community": "9punto5",
+        "community": "9punto5 + Community OS",
         "communityUrl": "https://9punto5.cl/"
     },
     {
@@ -275,20 +275,20 @@
         "image": "images/speakers/felipe-torres.webp",
         "startHour": "2024-02-10T13:30:00",
         "endHour": "2024-02-10T14:00:00",
-        "community": "Javascript Chile",
+        "community": "JavaScriptChile",
         "communityUrl": "https://jschile.org"
     },
     {
-        "name": "Daniel Avila",
+        "name": "Daniel Ávila",
         "topic": "Aprovechando el poder de la IA para escribir código",
         "image": "images/speakers/daniel-avila.webp",
         "startHour": "2024-02-10T14:00:00",
         "endHour": "2024-02-10T14:30:00",
-        "community": "ninguna",
-        "communityUrl": ""
+        "community": "Club de la IA",
+        "communityUrl": "https://elclubdelaia.com/"
     },
     {
-        "name": "Nicolás Avila",
+        "name": "Nicolás Ávila",
         "topic": "Una gentil introducción a la infraestructura como código",
         "image": "images/speakers/nico-avila.webp",
         "startHour": "2024-02-10T14:30:00",
@@ -297,13 +297,13 @@
         "communityUrl": "https://devschile.cl/"
     },
     {
-        "name": "Rocio Mieres (chioinvestiadora)",
+        "name": "Rocío Mieres (chioinvestiadora)",
         "topic": "Creación y coordinación de comunidades, fenómeno web",
         "image": "images/speakers/rocio-mieres.webp",
         "startHour": "2024-02-10T15:00:00",
         "endHour": "2024-02-10T15:30:00",
-        "community": "ninguna",
-        "communityUrl": ""
+        "community": "ChioInvestigadora",
+        "communityUrl": "https://www.instagram.com/chioinvestigadora/"
     },
     {
         "name": "Andrea Monsalve",
@@ -311,8 +311,8 @@
         "image": "images/speakers/andrea-monsalve.webp",
         "startHour": "2024-02-10T15:30:00",
         "endHour": "2024-02-10T16:00:00",
-        "community": "ninguna",
-        "communityUrl": ""
+        "community": "UX Friends Podcast",
+        "communityUrl": "https://www.instagram.com/uxfriends_podcast/"
     },
     {
         "name": "Alfonsina Lizardo",
@@ -320,7 +320,7 @@
         "image": "images/speakers/alfonsina-lizardo.webp",
         "startHour": "2024-02-10T16:00:00",
         "endHour": "2024-02-10T16:30:00",
-        "community": "Javascript Chile + WTM Chile",
+        "community": "WTM Chile + JavaScriptChile + SparkCode",
         "communityUrl": "https://jschile.org"
     },    
     {
@@ -347,7 +347,7 @@
         "image": "images/speakers/paola-viloria.webp",
         "startHour": "2024-02-10T17:30:00",
         "endHour": "2024-02-10T18:00:00",
-        "community": "Javascript Chile + WTM Chile",
+        "community": "WTM Chile + JavaScriptChile + SparkCode",
         "communityUrl": "https://jschile.org"
     },
     {
@@ -365,8 +365,8 @@
         "image": "images/speakers/manu-pardo.webp",
         "startHour": "2024-02-10T18:30:00",
         "endHour": "2024-02-10T19:00:00",
-        "community": "ninguna",
-        "communityUrl": ""
+        "community": "JavaScriptChile",
+        "communityUrl": "https://jschile.org"
     },
     {
         "name": "Roberto Moreno",
@@ -378,12 +378,12 @@
         "communityUrl": "https://latinamerica.computer.org"
     },
     {
-        "name": "Carlos Flores (Charly Labs)",
+        "name": "Carlos Flores",
         "topic": "Participación de Chile en el CERN",
         "image": "images/speakers/charly-labs.webp",
         "startHour": "2024-02-10T19:30:00",
         "endHour": "2024-02-10T20:00:00",
-        "community": "ninguna",
-        "communityUrl": ""
+        "community": "CharlyLabs",
+        "communityUrl": "https://www.instagram.com/charlylabs/"
     }
 ]
