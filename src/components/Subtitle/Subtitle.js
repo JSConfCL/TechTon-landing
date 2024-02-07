@@ -15,7 +15,7 @@ export function Subtitle() {
         </svg>
       </span>
       <span>
-        <span className="text-4xl xl:text-6xl">+30 </span>
+        <span className="text-4xl xl:text-6xl">+40 </span>
         <span className="text-2xl xl:text-3xl">charlistas</span>
       </span>
     </h3>
