@@ -83,9 +83,9 @@ export function Navbar() {
               Agenda
             </Link>
             <Link
-              href="/"
+              href="/nosotros"
               className={`block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 transition-all px-3 py-2 rounded ${
-                pathname == "/" && "bg-secondary text-primary"
+                pathname == "/nosotros" && "bg-secondary text-primary"
               }`}
             >
               Quienes somos + comunidades
