@@ -1,68 +1,106 @@
 [
     {
-        "alt":"Hora Chile",
+        "alt": "Hora Chile",
         "src": "images/communities/9punto5.webp"
     },
     {
-        "alt":"Hora Chile",
+        "alt": "Hora Chile",
+        "src": "images/communities/ana_ux_logo.webp"
+    },
+    {
+        "alt": "Hora Chile",
+        "src": "images/communities/astronomia_padre_hurtado_logo.webp"
+    },
+    {
+        "alt": "Hora Chile",
+        "src": "images/communities/bad_website_logo.webp"
+    },
+    {
+        "alt": "Hora Chile",
+        "src": "images/communities/barbarita_lara_logo.webp"
+    },
+    {
+        "alt": "Hora Chile",
         "src": "images/communities/CommunityOS.webp"
     },
     {
-        "alt":"Hora Chile",
+        "alt": "Hora Chile",
         "src": "images/communities/devschile2018.webp"
     },
     {
-        "alt":"Hora Chile",
+        "alt": "Hora Chile",
         "src": "images/communities/El-Club-de-la-IA.webp"
     },
     {
-        "alt":"Hora Chile",
+        "alt": "Hora Chile",
+        "src": "images/communities/elixir_logo.webp"
+    },
+    {
+        "alt": "Hora Chile",
         "src": "images/communities/gdg-valpo-1.webp"
     },
     {
-        "alt":"Hora Chile",
+        "alt": "Hora Chile",
         "src": "images/communities/ieee-move-int-stacked-white-rgb.webp"
     },
     {
-        "alt":"Hora Chile",
+        "alt": "Hora Chile",
         "src": "images/communities/indie-creators-2.webp"
     },
     {
-        "alt":"Hora Chile",
+        "alt": "Hora Chile",
+        "src": "images/communities/js_ve_logo.webp"
+    },
+    {
+        "alt": "Hora Chile",
+        "src": "images/communities/Laboratoria_logo_white.webp"
+    },
+    {
+        "alt": "Hora Chile",
+        "src": "images/communities/spark_code_logo.webp"
+    },
+    {
+        "alt": "Hora Chile",
+        "src": "images/communities/unicornio_dev_logo.webp"
+    },
+    {
+        "alt": "Hora Chile",
         "src": "images/communities/logo-js.webp"
     },
     {
-        "alt":"Hora Chile",
+        "alt": "Hora Chile",
         "src": "images/communities/logo-mermelada-tech.webp"
     },
     {
-        "alt":"Hora Chile",
+        "alt": "Hora Chile",
+        "src": "images/communities/pythonchile_logo.webp"
+    },
+    {
+        "alt": "Hora Chile",
         "src": "images/communities/logo_usergroup_chile_aws.webp"
     },
     {
-        "alt":"Hora Chile",
+        "alt": "Hora Chile",
         "src": "images/communities/logo_uxf.webp"
     },
     {
-        "alt":"Hora Chile",
+        "alt": "Hora Chile",
         "src": "images/communities/RevSteam.webp"
     },
     {
-        "alt":"Hora Chile",
+        "alt": "Hora Chile",
         "src": "images/communities/TecFem.webp"
     },
     {
-        "alt":"Hora Chile",
+        "alt": "Hora Chile",
         "src": "images/communities/top-streamers-blanco.webp"
     },
     {
-        "alt":"Hora Chile",
+        "alt": "Hora Chile",
         "src": "images/communities/wtm-cuadrado-blanco.webp"
     },
     {
-        "alt":"Hora Chile",
+        "alt": "Hora Chile",
         "src": "images/communities/wwcode-stgo-white.webp"
     }
-
-    
 ]
