@@ -11,10 +11,11 @@ export function Navbar() {
   const pathname = usePathname();
 
   const handleHamburguer = () => setIsNavbarOpen(!isNavbarOpen);
+  const closNavBar = () => setIsNavbarOpen(false);
 
   return (
     <nav className="flex items-center justify-between flex-wrap bg-[#232121] p-6">
-      <div className="lg:flex justify-between w-full ">
+      <div className="relative lg:flex justify-between w-full ">
         <div className="flex justify-between flex-wrap items-center lg:basis-96">
           <div className="flex gap-1 flex-grow pb-3">
             <button
@@ -22,7 +23,7 @@ export function Navbar() {
               onClick={handleHamburguer}
             >
               <svg
-                className="fill-current h-3 w-3"
+                className="fill-current h-5 w-5"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -62,11 +63,12 @@ export function Navbar() {
         <div
           className={`${
             isNavbarOpen ? "block" : "hidden"
-          } w-full flex-grow lg:flex lg:items-center`}
+          } absolute bg-[#232121] z-10 w-full flex-grow lg:flex lg:items-center`}
         >
           <div className="text-sm lg:flex-grow lg:flex lg:justify-center">
             <Link
               href="/"
+              onClick={closNavBar}
               className={`block mt-4 lg:inline-block lg:mt-0 text-primary hover:text-white mr-4 
               transition-all px-3 py-2 rounded ${
                 pathname == "/" && "bg-secondary text-primary"
@@ -76,6 +78,7 @@ export function Navbar() {
             </Link>
             <Link
               href="/agenda"
+              onClick={closNavBar}
               className={`block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 transition-all px-3 py-2 rounded ${
                 pathname == "/agenda" && "bg-secondary text-primary"
               }`}
@@ -84,6 +87,7 @@ export function Navbar() {
             </Link>
             <Link
               href="/nosotros"
+              onClick={closNavBar}
               className={`block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 transition-all px-3 py-2 rounded ${
                 pathname == "/nosotros" && "bg-secondary text-primary"
               }`}
