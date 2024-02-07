@@ -8,7 +8,7 @@ import { TwitchButton } from '@/components/TwitchButton.jsx'
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-between mx-auto md:w-4/5 lg:w-3/4 xl:w-2/3">
+    <section className="flex flex-col items-center justify-between mx-auto md:w-4/5 lg:w-3/5 xl:w-2/3">
       <Title
         logo={
           <svg
