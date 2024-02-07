@@ -2,7 +2,7 @@ import React from "react";
 
 const CounterSubtitle = () => {
   return (
-    <div className="space-y-3 pb-8">
+    <div className="space-y-3 pb-8 xl:px-20 2xl:w-4/6 2xl:px-0">
       <h3 className="font-museo text-center text-2xl font-bold">
         ¡Ayúdanos a levantar Chile!
       </h3>
