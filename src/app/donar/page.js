@@ -21,14 +21,16 @@ export default function Donar() {
           </svg>
         }
       />
-      <div className="flex">
-        <div className="py-10 md:space-y-10 space-y-5 px-10">
-          <DonarSubtitulo />
-          <div className="font-light leading-7 text-center md:text-left text-sm md:text-lg">
-            Todo el dinero será dirigido a Bomberos de Chile. El botón de donar
-            te llevará a Mercado Pago y está disponible para donaciones en
-            países donde esté habilitado.
+      <div className="xl:pb-40 xl:pt-20 flex flex-col xl:flex-row items-center space-around px-10 lg:px-0">
+        <div className="py-10 md:space-y-10 space-y-5 flex-1">
+          <div className="font-bold text-center xl:text-left">
+            <h2 className="text-6xl">Gracias</h2>
+            <p className="text-2xl lg:text-3xl">
+              por <span className="text-primary">sumarte a donar</span> dinero
+              para esta causa.
+            </p>
           </div>
+          <DonarSubtitulo />
           <div className="flex flex-col gap-5 pt-4 mx-10 sm:flex-row justify-center md:justify-start md:mx-0 md:gap-10">
             <Button
               id="button-donate"
@@ -42,6 +44,18 @@ export default function Donar() {
               Agenda
             </Button>
           </div>
+        </div>
+        <div className="space-y-10 flex-2">
+          <Image
+            className="m-auto"
+            alt="Codigo QR para donar"
+            src="images/qr_placeholder.svg"
+            height={200}
+            width={200}
+          />
+          <p className="font-bold text-primary text-xl text-center">
+            Escanea el QR para saber <span className="block">cuánto llevamos recaudado</span>
+          </p>
         </div>
       </div>
     </section>

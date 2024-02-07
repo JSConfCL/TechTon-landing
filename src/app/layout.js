@@ -2,8 +2,8 @@
 import { Inter, Kufam, MuseoModerno } from "next/font/google";
 
 import "./globals.css";
-import { TwitchButton } from "@/components/TwitchButton";
 import { Footer } from "@/components/Footer";
+import { Navbar } from "@/components/NavBar";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -32,14 +32,10 @@ export default function RootLayout({ children }) {
       className={`${inter.variable} ${roboto_mono.variable} ${museo_moderno.variable}`}
     >
       <body
-        className={`${inter.className} min-h-max bg-[#232121] text-white`}
+        className={`${inter.className} min-h-max bg-[#232121] text-white h-[100vh] flex flex-col`}
       >
-        <div className="hidden lg:block mt-8 mr-10">
-          <TwitchButton />
-        </div>
-        {/* TODO: Put the twitch button on the right of the screen in desktop here! */}
-        <main className="px-3 lg:px-64 pb-12 lg:-mt-16">{children}</main>
-        {/* TODO: Put the footer here! */}
+        <Navbar />
+        <main className="px-3 lg:px-64 pb-12 lg:-mt-8">{children}</main>
         <Footer />
       </body>
     </html>

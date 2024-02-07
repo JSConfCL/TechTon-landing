@@ -1,17 +1,17 @@
 [
     {
-        "name": "Miguel Angel Durán (Midudev)",
+        "name": "Miguel Ángel Durán (Midudev)",
         "topic": "Presentación TechTon",
-        "image": "/images/speakers/miguel-duran.webp",
+        "image": "/images/speakers/midudev.webp",
         "startHour": "2024-02-09T13:00:00",
         "endHour": "2024-02-09T13:30:00",
         "community": "Midudev",
         "communityUrl": "https://midu.dev/"
     },
     {
-        "name": "Miguel Angel Durán (Midudev)",
+        "name": "Miguel Ángel Durán (Midudev)",
         "topic": "QA + Just chatting",
-        "image": "/images/speakers/miguel-duran.webp",
+        "image": "/images/speakers/midudev.webp",
         "startHour": "2024-02-09T13:30:00",
         "endHour": "2024-02-09T14:00:00",
         "community": "Midudev",
@@ -19,7 +19,7 @@
     },
     {
         "name": "Heinz Wuth (Ciencia y Cocina)",
-        "topic": "por confirmar",
+        "topic": "Esto es.. ¡Ciencia y Cocina!",
         "image": "/images/speakers/heinz-wuth.webp",
         "startHour": "2024-02-09T14:00:00",
         "endHour": "2024-02-09T14:30:00",
@@ -32,11 +32,11 @@
         "image": "/images/speakers/katt-duran.webp",
         "startHour": "2024-02-09T14:30:00",
         "endHour": "2024-02-09T15:00:00",
-        "community": "Women TechMakers",
+        "community": "WTM Chile",
         "communityUrl": "https://www.instagram.com/wtmchile/"
     },
     {
-        "name": "Fran Medina",
+        "name": "Francisca Beatriz Medina Concha",
         "topic": "Desatando la Creatividad con P5.js en el Arte Algorítmico",
         "image": "/images/speakers/fran-medina.webp",
         "startHour": "2024-02-09T15:00:00",
@@ -46,12 +46,12 @@
     },
     {
         "name": "Barbarita Lara",
-        "topic": "Hack yourself + taller comunicaciones de emergencia & estación base satelita",
+        "topic": "Hack yourself + taller comunicaciones de emergencia & estación base satelital",
         "image": "/images/speakers/barbarita-lara.webp",
         "startHour": "2024-02-09T15:30:00",
         "endHour": "2024-02-09T16:00:00",
-        "community": "ninguna",
-        "communityUrl": ""
+        "community": "WTM Chile",
+        "communityUrl": "https://www.instagram.com/wtmchile/"
     },
     {
         "name": "Ana Rangel",
@@ -59,7 +59,7 @@
         "image": "/images/speakers/ana-rangel.webp",
         "startHour": "2024-02-09T16:00:00",
         "endHour": "2024-02-09T16:30:00",
-        "community": "Javascript Chile + Women TechMakers",
+        "community": "Javascript Chile + WTM Chile",
         "communityUrl": "https://jschile.org"
     },
     {
@@ -72,13 +72,13 @@
         "communityUrl": ""
     },
     {
-        "name": "Yoshie Garces",
+        "name": "Yoshie Garcés",
         "topic": "Entre Dos Mundos: Buscando el Equilibrio entre Desarrollo y Testing",
         "image": "/images/speakers/yoshie-garces.webp",
         "startHour": "2024-02-09T17:00:00",
         "endHour": "2024-02-09T17:30:00",
-        "community": "ninguna",
-        "communityUrl": ""
+        "community": "Javascript Chile + WTM Chile",
+        "communityUrl": "https://www.instagram.com/wtmchile/"
     },
     {
         "name": "Camila Acuña",
@@ -90,7 +90,7 @@
         "communityUrl": "https://www.instagram.com/revolucion.steam/"
     },
     {
-        "name": "Agustin Soto",
+        "name": "Agustín Soto",
         "topic": "Identificación y Contabilización de Copiapoas en Parque Nacional Pan de Azúcar: Proyecto de Inteligencia Artificial",
         "image": "/images/speakers/agustin-soto.webp",
         "startHour": "2024-02-09T18:00:00",
@@ -113,13 +113,13 @@
         "image": "/images/speakers/pamela-clunes.webp",
         "startHour": "2024-02-09T19:00:00",
         "endHour": "2024-02-09T19:30:00",
-        "community": "Women TechMakers",
+        "community": "WTM Chile",
         "communityUrl": "https://www.instagram.com/wtmchile/"
     },
     {
         "name": "Valentina Muñoz (Chica Rosadita)",
         "topic": "Políticas públicas para un STEAM más inclusivo",
-        "image": "/images/speakers/valentina-munoz.webp",
+        "image": "/images/speakers/chica-rosadita.webp",
         "startHour": "2024-02-09T19:30:00",
         "endHour": "2024-02-09T20:00:00",
         "community": "ninguna",
@@ -137,7 +137,7 @@
     {
         "name": "Diego López (ChicoMaker)",
         "topic": "Fabricación digital e impresión 3D para materializar tus ideas",
-        "image": "/images/speakers/diego-lopez.webp",
+        "image": "/images/speakers/chico-maker.webp",
         "startHour": "2024-02-09T20:30:00",
         "endHour": "2024-02-09T21:00:00",
         "community": "ninguna",
@@ -158,7 +158,7 @@
         "image": "/images/speakers/daniela-cortez.webp",
         "startHour": "2024-02-09T21:30:00",
         "endHour": "2024-02-09T22:00:00",
-        "community": "Women TechMakers",
+        "community": "WTM Chile",
         "communityUrl": "https://www.instagram.com/wtmchile/"
     },
     {
@@ -166,14 +166,23 @@
         "topic": "QA + Just chatting",
         "image": "/images/speakers/gonzalo-pozzo.webp",
         "startHour": "2024-02-10T07:00:00",
-        "endHour": "2024-02-10T07:30:00",
+        "endHour": "2024-02-10T08:00:00",
+        "community": "ninguna",
+        "communityUrl": ""
+    },    
+    {
+        "name": "Miguel Vargas",
+        "topic": "Desayunito con Migue",
+        "image": "/images/speakers/miguel-vargas.webp",
+        "startHour": "2024-02-10T08:00:00",
+        "endHour": "2024-02-10T08:30:00",
         "community": "ninguna",
         "communityUrl": ""
     },
     {
         "name": "Florencia Luz Duarte",
         "topic": "Cómo tener un perfil de LinkedIn para destacar como Dev",
-        "image": "/images/speakers/florencia-luz-duarte.webp",
+        "image": "/images/speakers/flor-luz-duarte.webp",
         "startHour": "2024-02-10T08:30:00",
         "endHour": "2024-02-10T09:00:00",
         "community": "Mermelada Tech",
@@ -194,8 +203,8 @@
         "image": "/images/speakers/andrea-mendez.webp",
         "startHour": "2024-02-10T09:30:00",
         "endHour": "2024-02-10T10:00:00",
-        "community": "ninguna",
-        "communityUrl": ""
+        "community": "GDG Valparaíso + WTM Chile",
+        "communityUrl": "https://www.instagram.com/wtmchile/"
     },
     {
         "name": "David Quezada",
@@ -243,8 +252,8 @@
         "communityUrl": "https://www.instagram.com/awsusergroupcl/"
     },
     {
-        "name": "Daniela Riquelme",
-        "topic": "",
+        "name": "Daniela Riquelme Yáñez",
+        "topic": "Agilidad cotidiana",
         "image": "images/speakers/daniela-riquelme.webp",
         "startHour": "2024-02-10T12:30:00",
         "endHour": "2024-02-10T13:00:00",
@@ -253,7 +262,7 @@
     },
     {
         "name": "Heileen Goodson",
-        "topic": "Mejorando…and mi liderazgo",
+        "topic": "Mejorando…ando mi liderazgo",
         "image": "images/speakers/heileen-goodson.webp",
         "startHour": "2024-02-10T13:00:00",
         "endHour": "2024-02-10T13:30:00",
@@ -270,8 +279,26 @@
         "communityUrl": "https://jschile.org"
     },
     {
+        "name": "Daniel Avila",
+        "topic": "Aprovechando el poder de la IA para escribir código",
+        "image": "images/speakers/daniel-avila.webp",
+        "startHour": "2024-02-10T14:00:00",
+        "endHour": "2024-02-10T14:30:00",
+        "community": "ninguna",
+        "communityUrl": ""
+    },
+    {
+        "name": "Nicolás Avila",
+        "topic": "Una gentil introducción a la infraestructura como código",
+        "image": "images/speakers/nico-avila.webp",
+        "startHour": "2024-02-10T14:30:00",
+        "endHour": "2024-02-10T15:00:00",
+        "community": "DevsChile",
+        "communityUrl": "https://devschile.cl/"
+    },
+    {
         "name": "Rocio Mieres (chioinvestiadora)",
-        "topic": "Creacion y coordinacion de comunidades, fenomeno web",
+        "topic": "Creación y coordinación de comunidades, fenómeno web",
         "image": "images/speakers/rocio-mieres.webp",
         "startHour": "2024-02-10T15:00:00",
         "endHour": "2024-02-10T15:30:00",
@@ -293,8 +320,17 @@
         "image": "images/speakers/alfonsina-lizardo.webp",
         "startHour": "2024-02-10T16:00:00",
         "endHour": "2024-02-10T16:30:00",
-        "community": "Javascript Chile + Women TechMakers",
+        "community": "Javascript Chile + WTM Chile",
         "communityUrl": "https://jschile.org"
+    },    
+    {
+        "name": "Catalina Urrejola",
+        "topic": "Galaxias 🌌",
+        "image": "images/speakers/cata-urrejola.webp",
+        "startHour": "2024-02-10T16:30:00",
+        "endHour": "2024-02-10T17:00:00",
+        "community": "Astronomía Padre Hurtado",
+        "communityUrl": "https://www.instagram.com/astronomia_padre_hurtado/"
     },
     {
         "name": "Donna Roper",
@@ -311,7 +347,7 @@
         "image": "images/speakers/paola-viloria.webp",
         "startHour": "2024-02-10T17:30:00",
         "endHour": "2024-02-10T18:00:00",
-        "community": "Javascript Chile + Women TechMakers",
+        "community": "Javascript Chile + WTM Chile",
         "communityUrl": "https://jschile.org"
     },
     {
@@ -340,5 +376,14 @@
         "endHour": "2024-02-10T19:30:00",
         "community": "IEEE Computer Society Region 9",
         "communityUrl": "https://latinamerica.computer.org"
+    },
+    {
+        "name": "Carlos Flores (Charly Labs)",
+        "topic": "Participación de Chile en el CERN",
+        "image": "images/speakers/charly-labs.webp",
+        "startHour": "2024-02-10T19:30:00",
+        "endHour": "2024-02-10T20:00:00",
+        "community": "ninguna",
+        "communityUrl": ""
     }
 ]
