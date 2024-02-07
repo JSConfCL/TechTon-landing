@@ -92,7 +92,7 @@ export function Navbar() {
                 pathname == "/nosotros" && "bg-secondary text-primary"
               }`}
             >
-              Quienés somos + comunidades
+              Quiénes somos + comunidades
             </Link>
           </div>
           <div className="flex gap-3">
