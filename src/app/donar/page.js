@@ -21,7 +21,7 @@ export default function Donar() {
           </svg>
         }
       />
-      <div className="xl:pb-40 xl:pt-20 flex flex-col xl:flex-row items-center space-around px-10 lg:px-0">
+      <div className="xl:w-5/6 2xl:w-4/6 xl:gap-10 xl:m-auto xl:pb-40 xl:pt-20 flex flex-col xl:flex-row items-center space-around px-10 lg:px-0">
         <div className="py-10 md:space-y-10 space-y-5 flex-1">
           <div className="font-bold text-center xl:text-left">
             <h2 className="text-6xl">Gracias</h2>
@@ -31,7 +31,7 @@ export default function Donar() {
             </p>
           </div>
           <DonarSubtitulo />
-          <div className="flex flex-col gap-5 pt-4 mx-10 sm:flex-row justify-center md:justify-start md:mx-0 md:gap-10">
+          <div className="flex flex-col gap-5 pt-4 mx-10 sm:flex-row justify-center xl:justify-start md:mx-0 md:gap-10">
             <Button
               id="button-donate"
               href="https://link.mercadopago.cl/jscl"
