@@ -81,7 +81,7 @@ export const CountdownTimer = () => {
           <Countdown date={fecha} renderer={renderer} zeroPadTime={2} />
         </div>
       ) : (
-        <div className="transform py-14 h-[240px] sm:h-[272px] md:h-[316px] flex justify-center items-center">
+        <div className="transform py-14 h-[148px] sm:h-[180px] md:h-[224px] flex justify-center items-center">
           <div className="border-t-transparent border-solid animate-spin rounded-full border-primary border-8 h-24 w-24"></div>
         </div>
       )}
