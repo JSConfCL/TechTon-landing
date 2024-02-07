@@ -63,7 +63,7 @@ export function Navbar() {
         <div
           className={`${
             isNavbarOpen ? "block" : "hidden"
-          } absolute bg-[#232121] z-10 w-full flex-grow lg:flex lg:items-center`}
+          } absolute lg:relative bg-[#232121] z-10 w-full flex-grow lg:flex lg:items-center`}
         >
           <div className="text-sm lg:flex-grow lg:flex lg:justify-center">
             <Link
