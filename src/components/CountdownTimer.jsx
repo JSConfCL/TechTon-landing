@@ -2,6 +2,8 @@
 import { useEffect, useState } from "react";
 import Countdown from "react-countdown";
 import { NumberBox } from "./NumberBox";
+import { Button } from "./Button";
+import Image from "next/image";
 
 export const CountdownTimer = () => {
   // To fix error: Text content does not match server-rendered HTML
@@ -10,7 +12,7 @@ export const CountdownTimer = () => {
     setIsClient(true);
   }, []);
 
-  const fechaString = "2024-02-09T14:00:00-03:00";
+  const fechaString = "2024-02-09T13:00:00-03:00";
   const fecha = new Date(fechaString);
 
   const renderer = ({
@@ -53,8 +55,24 @@ export const CountdownTimer = () => {
     }
 
     if (completed) {
-      // TODO: Remplazar con un layout apropiado al completar al terminar el countdown
-      return "Countdown complete";
+      return (
+        <Button
+          href="https://www.twitch.tv/javascriptchile"
+          target="_blank"
+          variant="primary"
+          classnames="bg-twitch text-white flex items-center gap-3 hover:bg-[#a675f4] hover:scale-105 duration-300 mt-10 mb-3 !text-3xl !px-10"
+          id="twitch-mb-btn"
+          setDefaultMinWidth={false}
+        >
+          <Image
+            src="./twitch_logo.svg"
+            alt="TechTon Logo"
+            width={50}
+            height={50}
+          />
+          Ver stream
+        </Button>
+      );
     } else {
       return (
         <div className="flex gap-3">
