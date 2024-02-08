@@ -13,7 +13,7 @@ const DonateButton = ({
   system,
 }) => {
   return (
-    <div className="mx-auto flex flex-col items-center justify-center gap-6 p-6 text-center lg:first-of-type:pl-0">
+    <div className="mx-auto w-full md:w-auto flex flex-col items-center justify-center gap-6 p-6 text-center lg:first-of-type:pl-0">
       <div className="mx-auto flex items-center gap-2 lg:px-4">
         {flag === "CL" ? (
           <Image alt="" src="/images/flags/chile.svg" height={35} width={35} />
@@ -23,7 +23,13 @@ const DonateButton = ({
         ) : null}
         <span className="font-bold ">{title}</span>
       </div>
-      <Button id={id} href={buttonURL} target="_blank" variant={buttonVariant}>
+      <Button
+        id={id}
+        href={buttonURL}
+        target="_blank"
+        variant={buttonVariant}
+        classnames="w-full md:w-auto"
+      >
         {buttonTitle}
       </Button>
       <div className="mx-auto text-center">
