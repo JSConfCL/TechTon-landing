@@ -5,11 +5,14 @@ import { Title } from "@/components/Title";
 
 import { getMetaData, getViewports } from "@/lib/metadata";
 
-export const generateMetadata = () => getMetaData({
-  title: 'Gracias por Donar a Bomberos de Chile',
-  description: "TechTon - Comunidades Tech Unidas. Gracias por Donar. Puedes usar MecardoPago y Stripe. Todo el dinero recaudado será donado a Bomberos de Chile." })
+export const generateMetadata = () =>
+  getMetaData({
+    title: "Gracias por Donar a Bomberos de Chile",
+    description:
+      "TechTon - Comunidades Tech Unidas. Gracias por Donar. Puedes usar MecardoPago y Stripe. Todo el dinero recaudado será donado a Bomberos de Chile.",
+  });
 
-export const generateViewport = () => getViewports()
+export const generateViewport = () => getViewports();
 
 export default function Donar() {
   return (
@@ -28,7 +31,7 @@ export default function Donar() {
           </svg>
         }
       />
-      <div className="space-around flex items-center px-4 sm:px-10 lg:px-0 xl:m-auto xl:w-5/6 xl:flex-row xl:gap-10 xl:pb-40 xl:pt-20 2xl:w-4/6">
+      <div className="space-around flex items-center px-4 sm:px-10 lg:px-0 xl:m-auto xl:w-5/6 xl:flex-row xl:gap-10 2xl:w-4/6">
         <div className="flex-1 space-y-5 py-10 md:space-y-10">
           <div className="text-center font-bold xl:text-left">
             <h2 className="text-6xl">Gracias</h2>
