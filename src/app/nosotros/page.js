@@ -34,35 +34,28 @@ export default function Nosotros() {
             <p className="text-2xl lg:text-3xl">¿De qué se trata?</p>
           </div>
           <div className="space-y-4 font-light leading-7 text-left md:text-left text-sm md:text-lg">
-            Somos varias comunidades tecnológicas que se han unido bajo el alero
-            de{" "}
+            Somos varias comunidades tech unidas, bajo el alero de {" "}
             <a
               href="https://jschile.org/"
               target="_blank"
               rel="noopener noreferrer"
               className="cursor-pointer hover:text-primary duration-300 font-semibold underline"
             >
-              JavaScript Chile
-            </a>{" "}
-            con el objetivo de contribuir a mitigar los efectos de los incendios
-            que comenzaron el 02-02-2024 en la V Región de Chile.{" "}
-            <span className="block">
-              Estamos organizando charlas y talleres gratuitos que se
-              transmitirán en línea para recaudar fondos que serán destinados a
-              los
-            </span>
+              JavaScript Chile,
+            </a>{" "} brindaremos charlas y sesiones de QA gratuitas mediante streaming para recaudar fondos que serán entregados a {" "}
             <a
               href="https://www.instagram.com/p/C243rhlsLsb/?hl=es"
               target="_blank"
               rel="noopener noreferrer"
               className="cursor-pointer hover:text-primary duration-300 font-semibold underline"
             >
-              Bomberos de Chile.
-            </a>{" "}
+              Bomberos de Chile,
+            </a>{" "}y asi poder ayudar a mitigar los efectos causados por los incendios forestales que comenzaron a ocurrir el 2 de febrero recién pasado, en la Región de Valparaíso, Chile.
+          </div><div className="space-y-4 font-light leading-7 text-left md:text-left text-sm md:text-lg">
+            Reconocemos el valor del trabajo voluntario de los bomberos y queremos contribuir a esta causa noble.
           </div>
           <div className="font-light text-primary leading-7 text-center md:text-left text-sm md:text-lg">
-            Se realizarán las donaciones en una cuenta única y posteriormente se
-            hará una transferencia con el total de los fondos recaudados.
+            Las donaciones se harán a una cuenta única, y luego haremos una transferencia con el total de fondos recaudados.
           </div>
         </div>
         <div className="flex flex-wrap lg:basis-3/6">
