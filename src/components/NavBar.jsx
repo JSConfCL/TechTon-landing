@@ -109,7 +109,7 @@ export function Navbar() {
               href="https://www.twitch.tv/javascriptchile"
               target="_blank"
               variant="tertiary"
-              classnames="bg-twitch text-white hidden gap-3 lg:flex hover:bg-[#a675f4] hover:scale-105 duration-300 py-2 sm:text-sm lg:text-[1em] sm:py-2"
+              classnames="bg-twitch text-white hidden gap-3 lg:flex hover:bg-[#a675f4] hover:scale-105 duration-300 py-2 sm:text-sm lg:text-[1em] sm:py-2 items-center"
               id="twitch-dk-btn"
               setDefaultMinWidth={false}
             >
