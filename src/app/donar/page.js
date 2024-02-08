@@ -3,6 +3,14 @@ import { DonateInfo } from "@/components/DonateInfo";
 import Logo from "@/components/Logo";
 import { Title } from "@/components/Title";
 
+import { getMetaData, getViewports } from "@/lib/metadata";
+
+export const generateMetadata = () => getMetaData({
+  title: 'Gracias por Donar a Bomberos de Chile',
+  description: "TechTon - Comunidades Tech Unidas. Gracias por Donar. Puedes usar MecardoPago y Stripe. Todo el dinero recaudado será donado a Bomberos de Chile." })
+
+export const generateViewport = () => getViewports()
+
 export default function Donar() {
   return (
     <section>

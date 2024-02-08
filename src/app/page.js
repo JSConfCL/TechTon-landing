@@ -6,6 +6,13 @@ import { CountdownTimer } from "@/components/CountdownTimer";
 import { CounterSubtitle } from "@/components/CounterSubtitle.jsx";
 import { TwitchButton } from "@/components/TwitchButton.jsx";
 
+import { getMetaData, getViewports } from "@/lib/metadata";
+
+export const generateMetadata = () => getMetaData({})
+
+export const generateViewport = () => getViewports()
+
+
 export default function Home() {
   return (
     <section className="flex flex-col items-center justify-between mx-auto md:w-4/5 lg:w-3/5 xl:w-2/3">
