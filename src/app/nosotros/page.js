@@ -59,7 +59,7 @@ export default function Nosotros() {
           </div>
         </div>
         <div className="flex flex-wrap lg:basis-3/6">
-          {CommunitiesLogo.map((logo, key) => {
+          {[...CommunitiesLogo.entries()].sort(() => Math.random() - 0.5).map(([key, logo]) => {
             return (
               <div key={`logo.src ${key}`}>
                 <Image
