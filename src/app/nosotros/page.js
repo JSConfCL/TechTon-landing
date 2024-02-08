@@ -3,6 +3,15 @@ import { Title } from "@/components/Title";
 import Image from "next/image";
 import CommunitiesLogo from "@/communities/communities.json";
 
+import { getMetaData, getViewports } from "@/lib/metadata";
+
+export const generateMetadata = () => getMetaData({
+  title: 'Comunidades Tech de Chile',
+  description: "TechTon — Comunidades Tech unidas por una causa. Organizado por JSChile, pero con mucho cariño y apoyo de todas las comunidades. Lee más de todos acá."
+})
+
+export const generateViewport = () => getViewports()
+
 export default function Nosotros() {
   return (
     <section className="flex flex-col items-center justify-between mx-auto md:px-10">
