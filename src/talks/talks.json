@@ -153,15 +153,6 @@
         "communityUrl": "https://jschile.org"
     },
     {
-        "name": "Daniela Cortez",
-        "topic": "Test Driven Development 101",
-        "image": "/images/speakers/daniela-cortez.webp",
-        "startHour": "2024-02-09T21:30:00",
-        "endHour": "2024-02-09T22:00:00",
-        "community": "WTM Chile + JavaScriptChile + SparkCode",
-        "communityUrl": "https://www.instagram.com/wtmchile/"
-    },
-    {
         "name": "Gonzalo Pozzo",
         "topic": "QA + Just chatting",
         "image": "/images/speakers/gonzalo-pozzo.webp",
