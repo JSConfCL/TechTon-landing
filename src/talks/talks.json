@@ -385,5 +385,14 @@
         "endHour": "2024-02-10T20:00:00",
         "community": "CharlyLabs",
         "communityUrl": "https://www.instagram.com/charlylabs/"
+    },
+    {
+        "name": "Sara Montagud (Afor)",
+        "topic": "Cierre Charlas + Just chatting",
+        "image": "images/speakers/sara-montagud.webp",
+        "startHour": "2024-02-10T20:00:00",
+        "endHour": "2024-02-10T20:30:00",
+        "community": "Afordin",
+        "communityUrl": "https://www.instagram.com/afor_digital"
     }
 ]
