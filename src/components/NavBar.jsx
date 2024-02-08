@@ -103,7 +103,7 @@ export function Navbar() {
               id="donar-btn"
               setDefaultMinWidth={false}
             >
-              Donar
+              Ir a donar
             </Button>
             <Button
               href="https://www.twitch.tv/javascriptchile"
