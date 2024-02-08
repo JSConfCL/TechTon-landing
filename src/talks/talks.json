@@ -1,398 +1,398 @@
 [
-    {
-        "name": "Miguel Ángel Durán (Midudev)",
-        "topic": "Presentación TechTon",
-        "image": "/images/speakers/midudev.webp",
-        "startHour": "2024-02-09T13:00:00",
-        "endHour": "2024-02-09T13:30:00",
-        "community": "Midudev",
-        "communityUrl": "https://midu.dev/"
-    },
-    {
-        "name": "Miguel Ángel Durán (Midudev)",
-        "topic": "QA + Just chatting",
-        "image": "/images/speakers/midudev.webp",
-        "startHour": "2024-02-09T13:30:00",
-        "endHour": "2024-02-09T14:00:00",
-        "community": "Midudev",
-        "communityUrl": "https://midu.dev/"
-    },
-    {
-        "name": "Heinz Wuth (Ciencia y Cocina)",
-        "topic": "Esto es.. ¡Ciencia y Cocina!",
-        "image": "/images/speakers/heinz-wuth.webp",
-        "startHour": "2024-02-09T14:00:00",
-        "endHour": "2024-02-09T14:30:00",
-        "community": "Ciencia y Cocina",
-        "communityUrl": "https://www.instagram.com/soycienciaycocina/"
-    },
-    {
-        "name": "Katia \"Katt\" Durán",
-        "topic": "\"He trabajado en proyectos toda la vida y no sabía\"",
-        "image": "/images/speakers/katt-duran.webp",
-        "startHour": "2024-02-09T14:30:00",
-        "endHour": "2024-02-09T15:00:00",
-        "community": "WWCode Santiago + WTM Chile + JavaScriptChile",
-        "communityUrl": "https://www.instagram.com/wtmchile/"
-    },
-    {
-        "name": "Francisca Beatriz Medina Concha",
-        "topic": "Desatando la Creatividad con P5.js en el Arte Algorítmico",
-        "image": "/images/speakers/fran-medina.webp",
-        "startHour": "2024-02-09T15:00:00",
-        "endHour": "2024-02-09T15:30:00",
-        "community": "WWCode Santiago + WTM Chile + JavaScriptChile",
-        "communityUrl": "https://womenwhocode.com/network/santiago"
-    },
-    {
-        "name": "Barbarita Lara",
-        "topic": "Hack yourself + taller comunicaciones de emergencia & estación base satelital",
-        "image": "/images/speakers/barbarita-lara.webp",
-        "startHour": "2024-02-09T15:30:00",
-        "endHour": "2024-02-09T16:00:00",
-        "community": "WTM Chile + Barbarita Lara",
-        "communityUrl": "https://www.instagram.com/wtmchile/"
-    },
-    {
-        "name": "Ana Rangel",
-        "topic": "Presentaciones increíbles en Figma",
-        "image": "/images/speakers/ana-rangel.webp",
-        "startHour": "2024-02-09T16:00:00",
-        "endHour": "2024-02-09T16:30:00",
-        "community": "UX Ana Rangel + WTMChile + JavaScriptChile",
-        "communityUrl": "https://jschile.org"
-    },
-    {
-        "name": "Matías Aburto",
-        "topic": "Maestro de tu propio aprendizaje",
-        "image": "/images/speakers/matias-aburto.webp",
-        "startHour": "2024-02-09T16:30:00",
-        "endHour": "2024-02-09T17:00:00",
-        "community": "JavaScriptChile",
-        "communityUrl": "https://jschile.org"
-    },
-    {
-        "name": "Yoshie Garcés",
-        "topic": "Entre Dos Mundos: Buscando el Equilibrio entre Desarrollo y Testing",
-        "image": "/images/speakers/yoshie-garces.webp",
-        "startHour": "2024-02-09T17:00:00",
-        "endHour": "2024-02-09T17:30:00",
-        "community": "WTM Chile + JavaScriptChile + SparkCode",
-        "communityUrl": "https://www.instagram.com/wtmchile/"
-    },
-    {
-        "name": "Camila Acuña",
-        "topic": "Invisible ante el progreso",
-        "image": "/images/speakers/camila-acuna.webp",
-        "startHour": "2024-02-09T17:30:00",
-        "endHour": "2024-02-09T18:00:00",
-        "community": "Revolución STEAM",
-        "communityUrl": "https://www.instagram.com/revolucion.steam/"
-    },
-    {
-        "name": "Sebastián Rojas",
-        "topic": "Q&A: Extraterrestres desde la ciencia",
-        "image": "/images/speakers/sebastian-rojas.webp",
-        "startHour": "2024-02-09T18:00:00",
-        "endHour": "2024-02-09T18:30:00",
-        "community": "WikiSeba",
-        "communityUrl": "https://www.tiktok.com/@wikiseba"
-    },
-    {
-        "name": "Sebastian Flores",
-        "topic": "Data Storytelling al rescate: evitemos más muertes por PowerPoint",
-        "image": "/images/speakers/sebastian-flores.webp",
-        "startHour": "2024-02-09T18:30:00",
-        "endHour": "2024-02-09T19:00:00",
-        "community": "Python Chile",
-        "communityUrl": "https://pythonchile.cl/"
-    },
-    {
-        "name": "Pamela Clunes",
-        "topic": "Emprendiendo en Videojuegos",
-        "image": "/images/speakers/pamela-clunes.webp",
-        "startHour": "2024-02-09T19:00:00",
-        "endHour": "2024-02-09T19:30:00",
-        "community": "WTM Chile + SparkCode",
-        "communityUrl": "https://www.instagram.com/wtmchile/"
-    },
-    {
-        "name": "Valentina Muñoz",
-        "topic": "Políticas públicas para un STEAM más inclusivo",
-        "image": "/images/speakers/chica-rosadita.webp",
-        "startHour": "2024-02-09T19:30:00",
-        "endHour": "2024-02-09T20:00:00",
-        "community": "Chica Rosadita + Amuji ",
-        "communityUrl": "https://sites.google.com/view/amuji-chile/"
-    },
-    {
-        "name": "Ricardo Cuauro",
-        "topic": "Mi amigo Gepeto",
-        "image": "/images/speakers/ricardo-cuauro.webp",
-        "startHour": "2024-02-09T20:00:00",
-        "endHour": "2024-02-09T20:30:00",
-        "community": "JavaScriptChile + JavaScript Venezuela",
-        "communityUrl": "https://jschile.org"
-    },
-    {
-        "name": "Diego López Merino",
-        "topic": "Fabricación digital e impresión 3D para materializar tus ideas",
-        "image": "/images/speakers/chico-maker.webp",
-        "startHour": "2024-02-09T20:30:00",
-        "endHour": "2024-02-09T21:00:00",
-        "community": "Chico Maker",
-        "communityUrl": "https://www.instagram.com/chico_maker/"
-    },
-    {
-        "name": "Fabian Arismendi",
-        "topic": "Cómo evolucionar profesionalmente en tecnología sin perder tu chispa de programar",
-        "image": "/images/speakers/fabian-arismendi.webp",
-        "startHour": "2024-02-09T21:00:00",
-        "endHour": "2024-02-09T21:30:00",
-        "community": "JavaScriptChile ",
-        "communityUrl": "https://jschile.org"
-    },
-    {
-        "name": "Gonzalo Pozzo",
-        "topic": "QA + Just chatting",
-        "image": "/images/speakers/gonzalo-pozzo.webp",
-        "startHour": "2024-02-10T07:00:00",
-        "endHour": "2024-02-10T08:00:00",
-        "community": "Gonzy",
-        "communityUrl": ""
-    },    
-    {
-        "name": "Miguel Vargas",
-        "topic": "Desayunito con Migue",
-        "image": "/images/speakers/miguel-vargas.webp",
-        "startHour": "2024-02-10T08:00:00",
-        "endHour": "2024-02-10T08:30:00",
-        "community": "ninguna",
-        "communityUrl": ""
-    },
-    {
-        "name": "Florencia Luz Duarte",
-        "topic": "Cómo tener un perfil de LinkedIn para destacar como Dev",
-        "image": "/images/speakers/flor-luz-duarte.webp",
-        "startHour": "2024-02-10T08:30:00",
-        "endHour": "2024-02-10T09:00:00",
-        "community": "Mermelada Tech + Unicornio Dev",
-        "communityUrl": "https://www.linkedin.com/company/mermelada-tech/"
-    },
-    {
-        "name": "Ramón Huidobro",
-        "topic": "Cómo contribuir al open source más allá del código",
-        "image": "/images/speakers/ramon-huidobro.webp",
-        "startHour": "2024-02-10T09:00:00",
-        "endHour": "2024-02-10T09:30:00",
-        "community": "JavaScriptChile + Bad Website Club",
-        "communityUrl": "https://jschile.org"
-    },
-    {
-        "name": "Andrea Mendez",
-        "topic": "Lo que nadie te cuenta cuando inicias tu carrera en el mundo de los datos",
-        "image": "/images/speakers/andrea-mendez.webp",
-        "startHour": "2024-02-10T09:30:00",
-        "endHour": "2024-02-10T10:00:00",
-        "community": "GDG Valparaíso + WTM Chile",
-        "communityUrl": "https://www.instagram.com/wtmchile/"
-    },
-    {
-        "name": "David Quezada",
-        "topic": "Desvelando la ilusión: Por qué el coverage solo es engañoso",
-        "image": "/images/speakers/david-quezada.webp",
-        "startHour": "2024-02-10T10:00:00",
-        "endHour": "2024-02-10T10:30:00",
-        "community": "JavaScriptChile",
-        "communityUrl": "https://jschile.org"
-    },
-    {
-        "name": "Sergio Ruiz (Serudda)",
-        "topic": "QA + Just chatting",
-        "image": "/images/speakers/sergio-ruiz.webp",
-        "startHour": "2024-02-10T10:30:00",
-        "endHour": "2024-02-10T11:00:00",
-        "community": "Indie Creators",
-        "communityUrl": "https://github.com/Indie-Creator-Community"
-    },
-    {
-        "name": "Fabián Acuña",
-        "topic": "Las claves para liderar tu desarrollo de carrera",
-        "image": "images/speakers/fabian-acuna.webp",
-        "startHour": "2024-02-10T11:00:00",
-        "endHour": "2024-02-10T11:30:00",
-        "community": "9punto5 + Community OS",
-        "communityUrl": "https://9punto5.cl/"
-    },
-    {
-        "name": "Hanna Back",
-        "topic": "Cómo entrenar a tu product owner",
-        "image": "images/speakers/hanna-back.webp",
-        "startHour": "2024-02-10T11:30:00",
-        "endHour": "2024-02-10T12:00:00",
-        "community": "ninguna",
-        "communityUrl": ""
-    },
-    {
-        "name": "Elizabeth Fuentes",
-        "topic": "Introducción a generative AI y cómo crear app con una llamada de APi",
-        "image": "images/speakers/elizabeth-fuentes.webp",
-        "startHour": "2024-02-10T12:00:00",
-        "endHour": "2024-02-10T12:30:00",
-        "community": "AWS User Group Chile",
-        "communityUrl": "https://www.instagram.com/awsusergroupcl/"
-    },
-    {
-        "name": "Daniela Riquelme Yáñez",
-        "topic": "Agilidad cotidiana",
-        "image": "images/speakers/daniela-riquelme.webp",
-        "startHour": "2024-02-10T12:30:00",
-        "endHour": "2024-02-10T13:00:00",
-        "community": "9punto5",
-        "communityUrl": "https://9punto5.cl/"
-    },
-    {
-        "name": "Heileen Goodson",
-        "topic": "Mejorando…ando mi liderazgo",
-        "image": "images/speakers/heileen-goodson.webp",
-        "startHour": "2024-02-10T13:00:00",
-        "endHour": "2024-02-10T13:30:00",
-        "community": "WWCode Santiago",
-        "communityUrl": "https://womenwhocode.com/network/santiago"
-    },
-    {
-        "name": "Felipe Torres",
-        "topic": "QA + Just chatting",
-        "image": "images/speakers/felipe-torres.webp",
-        "startHour": "2024-02-10T13:30:00",
-        "endHour": "2024-02-10T14:00:00",
-        "community": "JavaScriptChile",
-        "communityUrl": "https://jschile.org"
-    },
-    {
-        "name": "Daniel Ávila",
-        "topic": "Aprovechando el poder de la IA para escribir código",
-        "image": "images/speakers/daniel-avila.webp",
-        "startHour": "2024-02-10T14:00:00",
-        "endHour": "2024-02-10T14:30:00",
-        "community": "Club de la IA",
-        "communityUrl": "https://elclubdelaia.com/"
-    },
-    {
-        "name": "Nicolás Ávila",
-        "topic": "Una gentil introducción a la infraestructura como código",
-        "image": "images/speakers/nico-avila.webp",
-        "startHour": "2024-02-10T14:30:00",
-        "endHour": "2024-02-10T15:00:00",
-        "community": "DevsChile",
-        "communityUrl": "https://devschile.cl/"
-    },
-    {
-        "name": "Rocío Mieres (chioinvestiadora)",
-        "topic": "Creación y coordinación de comunidades, fenómeno web",
-        "image": "images/speakers/rocio-mieres.webp",
-        "startHour": "2024-02-10T15:00:00",
-        "endHour": "2024-02-10T15:30:00",
-        "community": "ChioInvestigadora",
-        "communityUrl": "https://www.instagram.com/chioinvestigadora/"
-    },
-    {
-        "name": "Andrea Monsalve",
-        "topic": "Q&A UX designers",
-        "image": "images/speakers/andrea-monsalve.webp",
-        "startHour": "2024-02-10T15:30:00",
-        "endHour": "2024-02-10T16:00:00",
-        "community": "UX Friends Podcast",
-        "communityUrl": "https://www.instagram.com/uxfriends_podcast/"
-    },
-    {
-        "name": "Alfonsina Lizardo",
-        "topic": "Cambio de carrera: De Medicina a Desarrollo Web",
-        "image": "images/speakers/alfonsina-lizardo.webp",
-        "startHour": "2024-02-10T16:00:00",
-        "endHour": "2024-02-10T16:30:00",
-        "community": "WTM Chile + JavaScriptChile + SparkCode",
-        "communityUrl": "https://jschile.org"
-    },    
-    {
-        "name": "Catalina Urrejola",
-        "topic": "Galaxias 🌌",
-        "image": "images/speakers/cata-urrejola.webp",
-        "startHour": "2024-02-10T16:30:00",
-        "endHour": "2024-02-10T17:00:00",
-        "community": "Astronomía Padre Hurtado",
-        "communityUrl": "https://www.instagram.com/astronomia_padre_hurtado/"
-    },
-    {
-        "name": "Donna Roper",
-        "topic": "Estrategias para motivar, desde edades tempranas, el interés por la programación",
-        "image": "images/speakers/donna-roper.webp",
-        "startHour": "2024-02-10T17:00:00",
-        "endHour": "2024-02-10T17:30:00",
-        "community": "IEEE Computer Society Region 9",
-        "communityUrl": "https://latinamerica.computer.org"
-    },
-    {
-        "name": "Paola Viloria",
-        "topic": "Dominando el Tiempo: Herramientas Prácticas para el Éxito Personal y Profesional",
-        "image": "images/speakers/paola-viloria.webp",
-        "startHour": "2024-02-10T17:30:00",
-        "endHour": "2024-02-10T18:00:00",
-        "community": "WTM Chile + JavaScriptChile + SparkCode",
-        "communityUrl": "https://jschile.org"
-    },
-    {
-        "name": "Luis Tatis",
-        "topic": "IEEE-MOVE International: Disaster Response",
-        "image": "images/speakers/luis-tatis.webp",
-        "startHour": "2024-02-10T18:00:00",
-        "endHour": "2024-02-10T18:30:00",
-        "community": "IEEE MOVE",
-        "communityUrl": "https://move.ieee.org"
-    },
-    {
-        "name": "Manu Pardo",
-        "topic": "Uso de herramientas geoespaciales para localización en zonas de desastre",
-        "image": "images/speakers/manu-pardo.webp",
-        "startHour": "2024-02-10T18:30:00",
-        "endHour": "2024-02-10T19:00:00",
-        "community": "JavaScriptChile",
-        "communityUrl": "https://jschile.org"
-    },
-    {
-        "name": "Roberto Moreno",
-        "topic": "Cocinando con Kanban",
-        "image": "images/speakers/roberto-moreno.webp",
-        "startHour": "2024-02-10T19:00:00",
-        "endHour": "2024-02-10T19:30:00",
-        "community": "IEEE Computer Society Region 9",
-        "communityUrl": "https://latinamerica.computer.org"
-    },
-    {
-        "name": "Carlos Flores",
-        "topic": "Participación de Chile en el CERN",
-        "image": "images/speakers/charly-labs.webp",
-        "startHour": "2024-02-10T19:30:00",
-        "endHour": "2024-02-10T20:00:00",
-        "community": "CharlyLabs",
-        "communityUrl": "https://www.instagram.com/charlylabs/"
-    },
-    {
-        "name": "Sara Montagud (Afor)",
-        "topic": "Cierre Charlas + Just chatting",
-        "image": "images/speakers/sara-montagud.webp",
-        "startHour": "2024-02-10T20:00:00",
-        "endHour": "2024-02-10T20:30:00",
-        "community": "Afordin",
-        "communityUrl": "https://www.instagram.com/afor_digital"
-    },
-    {
-        "name": "Alejandro Almonacid",
-        "topic": "Streaming Gamer - Fornite 🎮",
-        "image": "images/speakers/alejandro-almonacid.webp",
-        "startHour": "2024-02-10T20:30:00",
-        "endHour": "2024-02-10T22:00:00",
-        "community": "Alejo TSL + TOP STREAMERS",
-        "communityUrl": "https://www.instagram.com/alejotsl/"
-    }
+  {
+    "name": "Miguel Ángel Durán (Midudev)",
+    "topic": "Presentación TechTon",
+    "image": "/images/speakers/midudev.webp",
+    "startHour": "2024-02-09T13:00:00",
+    "endHour": "2024-02-09T13:30:00",
+    "community": "Midudev",
+    "communityUrl": "https://midu.dev/"
+  },
+  {
+    "name": "Miguel Ángel Durán (Midudev)",
+    "topic": "QA + Just chatting",
+    "image": "/images/speakers/midudev.webp",
+    "startHour": "2024-02-09T13:30:00",
+    "endHour": "2024-02-09T14:00:00",
+    "community": "Midudev",
+    "communityUrl": "https://midu.dev/"
+  },
+  {
+    "name": "Heinz Wuth (Ciencia y Cocina)",
+    "topic": "Esto es.. ¡Ciencia y Cocina!",
+    "image": "/images/speakers/heinz-wuth.webp",
+    "startHour": "2024-02-09T14:00:00",
+    "endHour": "2024-02-09T14:30:00",
+    "community": "Ciencia y Cocina",
+    "communityUrl": "https://www.instagram.com/soycienciaycocina/"
+  },
+  {
+    "name": "Katia \"Katt\" Durán",
+    "topic": "\"He trabajado en proyectos toda la vida y no sabía\"",
+    "image": "/images/speakers/katt-duran.webp",
+    "startHour": "2024-02-09T14:30:00",
+    "endHour": "2024-02-09T15:00:00",
+    "community": "WWCode Santiago + WTM Chile + JavaScriptChile",
+    "communityUrl": "https://www.instagram.com/wtmchile/"
+  },
+  {
+    "name": "Francisca Beatriz Medina Concha",
+    "topic": "Desatando la Creatividad con P5.js en el Arte Algorítmico",
+    "image": "/images/speakers/fran-medina.webp",
+    "startHour": "2024-02-09T15:00:00",
+    "endHour": "2024-02-09T15:30:00",
+    "community": "WWCode Santiago + WTM Chile + JavaScriptChile",
+    "communityUrl": "https://womenwhocode.com/network/santiago"
+  },
+  {
+    "name": "Barbarita Lara",
+    "topic": "Hack yourself + taller comunicaciones de emergencia & estación base satelital",
+    "image": "/images/speakers/barbarita-lara.webp",
+    "startHour": "2024-02-09T15:30:00",
+    "endHour": "2024-02-09T16:00:00",
+    "community": "WTM Chile + Barbarita Lara",
+    "communityUrl": "https://www.instagram.com/wtmchile/"
+  },
+  {
+    "name": "Ana Rangel",
+    "topic": "Presentaciones increíbles en Figma",
+    "image": "/images/speakers/ana-rangel.webp",
+    "startHour": "2024-02-09T16:00:00",
+    "endHour": "2024-02-09T16:30:00",
+    "community": "UX Ana Rangel + WTMChile + JavaScriptChile",
+    "communityUrl": "https://jschile.org"
+  },
+  {
+    "name": "Matías Aburto",
+    "topic": "Maestro de tu propio aprendizaje",
+    "image": "/images/speakers/matias-aburto.webp",
+    "startHour": "2024-02-09T16:30:00",
+    "endHour": "2024-02-09T17:00:00",
+    "community": "JavaScriptChile",
+    "communityUrl": "https://jschile.org"
+  },
+  {
+    "name": "Yoshie Garcés",
+    "topic": "Entre Dos Mundos: Buscando el Equilibrio entre Desarrollo y Testing",
+    "image": "/images/speakers/yoshie-garces.webp",
+    "startHour": "2024-02-09T17:00:00",
+    "endHour": "2024-02-09T17:30:00",
+    "community": "WTM Chile + JavaScriptChile + SparkCode",
+    "communityUrl": "https://www.instagram.com/wtmchile/"
+  },
+  {
+    "name": "Camila Acuña",
+    "topic": "Invisible ante el progreso",
+    "image": "/images/speakers/camila-acuna.webp",
+    "startHour": "2024-02-09T17:30:00",
+    "endHour": "2024-02-09T18:00:00",
+    "community": "Revolución STEAM",
+    "communityUrl": "https://www.instagram.com/revolucion.steam/"
+  },
+  {
+    "name": "Sebastián Rojas",
+    "topic": "Q&A: Extraterrestres desde la ciencia",
+    "image": "/images/speakers/sebastian-rojas.webp",
+    "startHour": "2024-02-09T18:00:00",
+    "endHour": "2024-02-09T18:30:00",
+    "community": "WikiSeba",
+    "communityUrl": "https://www.tiktok.com/@wikiseba"
+  },
+  {
+    "name": "Sebastian Flores",
+    "topic": "Data Storytelling al rescate: evitemos más muertes por PowerPoint",
+    "image": "/images/speakers/sebastian-flores.webp",
+    "startHour": "2024-02-09T18:30:00",
+    "endHour": "2024-02-09T19:00:00",
+    "community": "Python Chile",
+    "communityUrl": "https://pythonchile.cl/"
+  },
+  {
+    "name": "Pamela Clunes",
+    "topic": "Emprendiendo en Videojuegos",
+    "image": "/images/speakers/pamela-clunes.webp",
+    "startHour": "2024-02-09T19:00:00",
+    "endHour": "2024-02-09T19:30:00",
+    "community": "WTM Chile + SparkCode",
+    "communityUrl": "https://www.instagram.com/wtmchile/"
+  },
+  {
+    "name": "Valentina Muñoz",
+    "topic": "Políticas públicas para un STEAM más inclusivo",
+    "image": "/images/speakers/chica-rosadita.webp",
+    "startHour": "2024-02-09T19:30:00",
+    "endHour": "2024-02-09T20:00:00",
+    "community": "Chica Rosadita + Amuji ",
+    "communityUrl": "https://sites.google.com/view/amuji-chile/"
+  },
+  {
+    "name": "Ricardo Cuauro",
+    "topic": "Mi amigo Gepeto",
+    "image": "/images/speakers/ricardo-cuauro.webp",
+    "startHour": "2024-02-09T20:00:00",
+    "endHour": "2024-02-09T20:30:00",
+    "community": "JavaScriptChile + JavaScript Venezuela",
+    "communityUrl": "https://jschile.org"
+  },
+  {
+    "name": "Diego López Merino",
+    "topic": "Fabricación digital e impresión 3D para materializar tus ideas",
+    "image": "/images/speakers/chico-maker.webp",
+    "startHour": "2024-02-09T20:30:00",
+    "endHour": "2024-02-09T21:00:00",
+    "community": "Chico Maker",
+    "communityUrl": "https://www.instagram.com/chico_maker/"
+  },
+  {
+    "name": "Fabian Arismendi",
+    "topic": "Cómo evolucionar profesionalmente en tecnología sin perder tu chispa de programar",
+    "image": "/images/speakers/fabian-arismendi.webp",
+    "startHour": "2024-02-09T21:00:00",
+    "endHour": "2024-02-09T21:30:00",
+    "community": "JavaScriptChile ",
+    "communityUrl": "https://jschile.org"
+  },
+  {
+    "name": "Gonzalo Pozzo",
+    "topic": "QA + Just chatting",
+    "image": "/images/speakers/gonzalo-pozzo.webp",
+    "startHour": "2024-02-10T07:00:00",
+    "endHour": "2024-02-10T08:00:00",
+    "community": "Gonzy",
+    "communityUrl": ""
+  },
+  {
+    "name": "Miguel Vargas",
+    "topic": "Desayunito con Migue",
+    "image": "/images/speakers/miguel-vargas.webp",
+    "startHour": "2024-02-10T08:00:00",
+    "endHour": "2024-02-10T08:30:00",
+    "community": "ninguna",
+    "communityUrl": ""
+  },
+  {
+    "name": "Florencia Luz Duarte",
+    "topic": "Cómo tener un perfil de LinkedIn para destacar como Dev",
+    "image": "/images/speakers/flor-luz-duarte.webp",
+    "startHour": "2024-02-10T08:30:00",
+    "endHour": "2024-02-10T09:00:00",
+    "community": "Mermelada Tech + Unicornio Dev",
+    "communityUrl": "https://www.linkedin.com/company/mermelada-tech/"
+  },
+  {
+    "name": "Ramón Huidobro",
+    "topic": "Cómo contribuir al open source más allá del código",
+    "image": "/images/speakers/ramon-huidobro.webp",
+    "startHour": "2024-02-10T09:00:00",
+    "endHour": "2024-02-10T09:30:00",
+    "community": "JavaScriptChile + Bad Website Club",
+    "communityUrl": "https://jschile.org"
+  },
+  {
+    "name": "Andrea Mendez",
+    "topic": "Lo que nadie te cuenta cuando inicias tu carrera en el mundo de los datos",
+    "image": "/images/speakers/andrea-mendez.webp",
+    "startHour": "2024-02-10T09:30:00",
+    "endHour": "2024-02-10T10:00:00",
+    "community": "GDG Valparaíso + WTM Chile",
+    "communityUrl": "https://www.instagram.com/wtmchile/"
+  },
+  {
+    "name": "David Quezada",
+    "topic": "Desvelando la ilusión: Por qué el coverage solo es engañoso",
+    "image": "/images/speakers/david-quezada.webp",
+    "startHour": "2024-02-10T10:00:00",
+    "endHour": "2024-02-10T10:30:00",
+    "community": "JavaScriptChile",
+    "communityUrl": "https://jschile.org"
+  },
+  {
+    "name": "Sergio Ruiz (Serudda)",
+    "topic": "QA + Just chatting",
+    "image": "/images/speakers/sergio-ruiz.webp",
+    "startHour": "2024-02-10T10:30:00",
+    "endHour": "2024-02-10T11:00:00",
+    "community": "Indie Creators",
+    "communityUrl": "https://github.com/Indie-Creator-Community"
+  },
+  {
+    "name": "Fabián Acuña",
+    "topic": "Las claves para liderar tu desarrollo de carrera",
+    "image": "images/speakers/fabian-acuna.webp",
+    "startHour": "2024-02-10T11:00:00",
+    "endHour": "2024-02-10T11:30:00",
+    "community": "9punto5 + Community OS",
+    "communityUrl": "https://9punto5.cl/"
+  },
+  {
+    "name": "Hanna Back",
+    "topic": "Cómo entrenar a tu product owner",
+    "image": "images/speakers/hanna-back.webp",
+    "startHour": "2024-02-10T11:30:00",
+    "endHour": "2024-02-10T12:00:00",
+    "community": "ninguna",
+    "communityUrl": ""
+  },
+  {
+    "name": "Elizabeth Fuentes",
+    "topic": "Introducción a generative AI y cómo crear app con una llamada de APi",
+    "image": "images/speakers/elizabeth-fuentes.webp",
+    "startHour": "2024-02-10T12:00:00",
+    "endHour": "2024-02-10T12:30:00",
+    "community": "AWS User Group Chile",
+    "communityUrl": "https://www.instagram.com/awsusergroupcl/"
+  },
+  {
+    "name": "Daniela Riquelme Yáñez",
+    "topic": "Agilidad cotidiana",
+    "image": "images/speakers/daniela-riquelme.webp",
+    "startHour": "2024-02-10T12:30:00",
+    "endHour": "2024-02-10T13:00:00",
+    "community": "9punto5",
+    "communityUrl": "https://9punto5.cl/"
+  },
+  {
+    "name": "Heileen Goodson",
+    "topic": "Mejorando…ando mi liderazgo",
+    "image": "images/speakers/heileen-goodson.webp",
+    "startHour": "2024-02-10T13:00:00",
+    "endHour": "2024-02-10T13:30:00",
+    "community": "WWCode Santiago",
+    "communityUrl": "https://womenwhocode.com/network/santiago"
+  },
+  {
+    "name": "Felipe Torres",
+    "topic": "QA + Just chatting",
+    "image": "images/speakers/felipe-torres.webp",
+    "startHour": "2024-02-10T13:30:00",
+    "endHour": "2024-02-10T14:00:00",
+    "community": "JavaScriptChile",
+    "communityUrl": "https://jschile.org"
+  },
+  {
+    "name": "Daniel Ávila",
+    "topic": "Aprovechando el poder de la IA para escribir código",
+    "image": "images/speakers/daniel-avila.webp",
+    "startHour": "2024-02-10T14:00:00",
+    "endHour": "2024-02-10T14:30:00",
+    "community": "Club de la IA",
+    "communityUrl": "https://elclubdelaia.com/"
+  },
+  {
+    "name": "Nicolás Ávila",
+    "topic": "Una gentil introducción a la infraestructura como código",
+    "image": "images/speakers/nico-avila.webp",
+    "startHour": "2024-02-10T14:30:00",
+    "endHour": "2024-02-10T15:00:00",
+    "community": "DevsChile",
+    "communityUrl": "https://devschile.cl/"
+  },
+  {
+    "name": "Rocío Mieres (chioinvestigadora)",
+    "topic": "Creación y coordinación de comunidades, fenómeno web",
+    "image": "images/speakers/rocio-mieres.webp",
+    "startHour": "2024-02-10T15:00:00",
+    "endHour": "2024-02-10T15:30:00",
+    "community": "ChioInvestigadora",
+    "communityUrl": "https://www.instagram.com/chioinvestigadora/"
+  },
+  {
+    "name": "Andrea Monsalve",
+    "topic": "Q&A UX designers",
+    "image": "images/speakers/andrea-monsalve.webp",
+    "startHour": "2024-02-10T15:30:00",
+    "endHour": "2024-02-10T16:00:00",
+    "community": "UX Friends Podcast",
+    "communityUrl": "https://www.instagram.com/uxfriends_podcast/"
+  },
+  {
+    "name": "Alfonsina Lizardo",
+    "topic": "Cambio de carrera: De Medicina a Desarrollo Web",
+    "image": "images/speakers/alfonsina-lizardo.webp",
+    "startHour": "2024-02-10T16:00:00",
+    "endHour": "2024-02-10T16:30:00",
+    "community": "WTM Chile + JavaScriptChile + SparkCode",
+    "communityUrl": "https://jschile.org"
+  },
+  {
+    "name": "Catalina Urrejola",
+    "topic": "Galaxias 🌌",
+    "image": "images/speakers/cata-urrejola.webp",
+    "startHour": "2024-02-10T16:30:00",
+    "endHour": "2024-02-10T17:00:00",
+    "community": "Astronomía Padre Hurtado",
+    "communityUrl": "https://www.instagram.com/astronomia_padre_hurtado/"
+  },
+  {
+    "name": "Donna Roper",
+    "topic": "Estrategias para motivar, desde edades tempranas, el interés por la programación",
+    "image": "images/speakers/donna-roper.webp",
+    "startHour": "2024-02-10T17:00:00",
+    "endHour": "2024-02-10T17:30:00",
+    "community": "IEEE Computer Society Region 9",
+    "communityUrl": "https://latinamerica.computer.org"
+  },
+  {
+    "name": "Paola Viloria",
+    "topic": "Dominando el Tiempo: Herramientas Prácticas para el Éxito Personal y Profesional",
+    "image": "images/speakers/paola-viloria.webp",
+    "startHour": "2024-02-10T17:30:00",
+    "endHour": "2024-02-10T18:00:00",
+    "community": "WTM Chile + JavaScriptChile + SparkCode",
+    "communityUrl": "https://jschile.org"
+  },
+  {
+    "name": "Luis Tatis",
+    "topic": "IEEE-MOVE International: Disaster Response",
+    "image": "images/speakers/luis-tatis.webp",
+    "startHour": "2024-02-10T18:00:00",
+    "endHour": "2024-02-10T18:30:00",
+    "community": "IEEE MOVE",
+    "communityUrl": "https://move.ieee.org"
+  },
+  {
+    "name": "Manu Pardo",
+    "topic": "Uso de herramientas geoespaciales para localización en zonas de desastre",
+    "image": "images/speakers/manu-pardo.webp",
+    "startHour": "2024-02-10T18:30:00",
+    "endHour": "2024-02-10T19:00:00",
+    "community": "JavaScriptChile",
+    "communityUrl": "https://jschile.org"
+  },
+  {
+    "name": "Roberto Moreno",
+    "topic": "Cocinando con Kanban",
+    "image": "images/speakers/roberto-moreno.webp",
+    "startHour": "2024-02-10T19:00:00",
+    "endHour": "2024-02-10T19:30:00",
+    "community": "IEEE Computer Society Region 9",
+    "communityUrl": "https://latinamerica.computer.org"
+  },
+  {
+    "name": "Carlos Flores",
+    "topic": "Participación de Chile en el CERN",
+    "image": "images/speakers/charly-labs.webp",
+    "startHour": "2024-02-10T19:30:00",
+    "endHour": "2024-02-10T20:00:00",
+    "community": "CharlyLabs",
+    "communityUrl": "https://www.instagram.com/charlylabs/"
+  },
+  {
+    "name": "Sara Montagud (Afor)",
+    "topic": "Cierre Charlas + Just chatting",
+    "image": "images/speakers/sara-montagud.webp",
+    "startHour": "2024-02-10T20:00:00",
+    "endHour": "2024-02-10T20:30:00",
+    "community": "Afordin",
+    "communityUrl": "https://www.instagram.com/afor_digital"
+  },
+  {
+    "name": "Alejandro Almonacid",
+    "topic": "Streaming Gamer - Fornite 🎮",
+    "image": "images/speakers/alejandro-almonacid.webp",
+    "startHour": "2024-02-10T20:30:00",
+    "endHour": "2024-02-10T22:00:00",
+    "community": "Alejo TSL + TOP STREAMERS",
+    "communityUrl": "https://www.instagram.com/alejotsl/"
+  }
 ]
