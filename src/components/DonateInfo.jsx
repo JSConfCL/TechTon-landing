@@ -79,7 +79,7 @@ export function DonateInfo() {
           height={200}
           width={200}
         />
-        <p className="text-primary text-center text-xl font-bold md:text-lg lg:text-base xl:text-xl">
+        <p className="text-primary text-center text-xl font-bold md:text-lg lg:text-base xl:text-xl mt-4">
           Escanea el QR para saber{" "}
           <span className="block">cuánto llevamos recaudado</span>
         </p>
