@@ -28,7 +28,7 @@ export default function Nosotros() {
           </svg>
         }
       />
-      <div className="xl:pb-40 xl:pt-20 flex flex-wrap items-center space-around px-10 lg:px-0">
+      <div className="xl:pb-40 xl:pt-20 flex flex-wrap items-center space-around px-4 sm:px-10 lg:px-0">
         <div className="py-10 md:space-y-10 space-y-5 lg:basis-3/6">
           <div className="font-bold text-left xl:text-left">
             <p className="text-2xl lg:text-3xl">¿De qué se trata?</p>
