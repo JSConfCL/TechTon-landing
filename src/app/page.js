@@ -34,7 +34,7 @@ export default function Home() {
       <CounterSubtitle />
       <div className="flex gap-8">
         <Button id="button-donate" href="/donar" variant="primary">
-          Donar
+          Ir a donar
         </Button>
         <Button id="button-info" href="agenda" variant="secondary">
           Agenda
