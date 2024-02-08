@@ -25,6 +25,7 @@ module.exports = {
       },
       colors: {
         primary: "#4ac9b4",
+        primaryLight: "#33B6A1",
         secondary: "#2a5851",
         "custom-gray": "#232121",
         twitch: "#9052F4",

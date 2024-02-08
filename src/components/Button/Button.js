@@ -13,15 +13,16 @@ export const Button = ({
   classnames = "",
   setDefaultMinWidth = true,
 }) => {
-  let variantColors = "bg-primary";
+  let variantColors = "bg-primary hover:bg-primaryLight";
 
-  if (variant === "secondary") variantColors = "bg-white";
+  if (variant === "secondary") variantColors = "bg-white hover:opacity-80";
 
   if (variant === "tertiary") variantColors = "bg-secondary";
 
   const className = `${
     setDefaultMinWidth ? "min-w-40 md:min-w-56" : ""
-  } ${variantColors} text-sm md:text-base text-custom-gray rounded-md text-center px-4 py-2 text-2xl md:text-3xl font-semibold transition-all ${classnames}`;
+  } ${variantColors} duration-200 text-md md:text-base text-custom-gray rounded-md text-center px-4 py-2 md:text-[1.4em] font-semibold transition-all py-4 hover:scale-[1.03] ${classnames}`;
+  // } ${variantColors} duration-200 text-sm md:text-base text-custom-gray rounded-md text-center px-4 py-2 text-2xl md:text-3xl font-semibold transition-all py-3 hover:scale-[1.03] ${classnames}`;
   if (href && target) {
     return (
       <a id={id} className={className} href={href} target={target}>
