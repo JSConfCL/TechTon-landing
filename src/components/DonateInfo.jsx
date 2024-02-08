@@ -50,8 +50,8 @@ const DonateButton = ({
 
 export function DonateInfo() {
   return (
-    <div className="flex flex-1 flex-col items-center gap-5 md:flex-row">
-      <div className="align-center divider-y xl:divider-y-0 xl:divider-x flex flex-col items-center justify-center justify-items-center divide-y pt-4 sm:flex-row md:mx-0 md:justify-start lg:divide-x lg:divide-y-0">
+    <div className="flex flex-1 flex-col items-center gap-5 lg:flex-row">
+      <div className="align-center flex flex-col items-center justify-center justify-items-center divide-y pt-4 md:flex-row md:mx-0 md:justify-start md:divide-x md:divide-y-0">
         <DonateButton
           id="local-donation"
           flag="CL"
