@@ -31,7 +31,7 @@ export default function Home() {
       <Subtitle />
       <CountdownTimer />
       <CounterSubtitle />
-      <div className="flex w-full gap-3 px-5 3xs:w-auto  3xs:gap-8 flex-col 3xs:flex-row">
+      <div className="flex w-full gap-3 px-5 3xs:w-auto 3xs:gap-8 flex-col 3xs:flex-row">
         <Button
           id="button-donate"
           href="/donar"

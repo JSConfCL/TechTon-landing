@@ -10,13 +10,13 @@ export default function Agenda() {
   const [activeDay, setActiveDay] = useState(9);
 
   const talksDay1 = talksData.filter(
-    (item) => new Date(item.startHour).getDate() === 9
+    (item) => new Date(item.startHour).getDate() === 9,
   );
   const talksDay2 = talksData.filter(
-    (item) => new Date(item.startHour).getDate() === 10
+    (item) => new Date(item.startHour).getDate() === 10,
   );
   return (
-    <section className="lg:px-64">
+    <section className="lg:px-64 pt-10">
       <Title
         logo={
           <svg

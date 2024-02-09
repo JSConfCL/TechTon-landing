@@ -102,7 +102,7 @@ export const CountdownTimer = () => {
             exit={{ opacity: 0 }}
             initial={{ opacity: 0, y: 4, scale: 0.98 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
-            transition={{ duration: 1.4, delay: 1.2 }}
+            transition={{ duration: 1.2, delay: 1.1 }}
           >
             <Countdown date={fecha} renderer={renderer} zeroPadTime={2} />
           </motion.div>

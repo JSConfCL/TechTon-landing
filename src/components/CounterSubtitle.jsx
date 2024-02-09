@@ -1,8 +1,20 @@
+"use client";
 import React from "react";
+import { useCssTransitionOnView } from "@/components/hooks/useCssTransitionOnView";
+import classNames from "classnames";
 
 const CounterSubtitle = () => {
+  const ref = React.useRef(null);
+  const transitions = useCssTransitionOnView(ref, "delay-[1300ms]");
+
   return (
-    <div className="space-y-3 pb-8 xl:px-20 2xl:w-4/6 2xl:px-0">
+    <div
+      ref={ref}
+      className={classNames(
+        "space-y-3 pb-8 xl:px-20 2xl:w-4/6 2xl:px-0",
+        transitions,
+      )}
+    >
       <h3 className="font-museo text-center text-2xl font-bold">
         ¡Ayúdanos a levantar Chile!
       </h3>
