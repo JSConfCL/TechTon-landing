@@ -14,7 +14,7 @@ export function Navbar() {
   const closNavBar = () => setIsNavbarOpen(false);
 
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-[#232121] p-6 border-b border-b-slate-700">
+    <nav className="flex items-center justify-between flex-wrap bg-[#232121] p-6 border-b border-b-slate-700 shadow-md">
       <div className="relative lg:flex justify-between w-full ">
         <div className="flex justify-between flex-wrap items-center lg:basis-96">
           <div className="flex gap-1 flex-grow pb-3">
@@ -69,7 +69,7 @@ export function Navbar() {
             <Link
               href="/"
               onClick={closNavBar}
-              className={`block mt-4 lg:inline-block lg:mt-0 text-primary hover:text-white mr-4 
+              className={`block mt-4 lg:inline-block lg:mt-0 text-primary hover:text-white mr-4
               transition-all px-3 py-2 rounded ${
                 pathname == "/" && "bg-secondary text-primary"
               }`}
