@@ -46,7 +46,7 @@ export function Navbar() {
             href="https://www.twitch.tv/javascriptchile"
             target="_blank"
             variant="tertiary"
-            classnames="bg-twitch text-white flex gap-3 lg:hidden hover:bg-[#a675f4] hover:scale-105 duration-300 sm:text-[1em]"
+            classnames="bg-twitch text-white flex gap-3 lg:hidden hover:bg-[#a675f4] hover:scale-105 duration-300 !text-sm"
             id="twitch-mb-btn"
             setDefaultMinWidth={false}
           >
@@ -95,7 +95,7 @@ export function Navbar() {
             <Button
               href="/donar"
               variant="primary"
-              classnames="inline-block mt-4 lg:mt-0 min-w-0 lg:min-w-32 md:text-[.99em] md:py-2 lg:text-[1em]"
+              classnames="inline-block mt-4 lg:mt-0 min-w-0 lg:min-w-32 md:py-2 !text-sm"
               id="donar-btn"
               setDefaultMinWidth={false}
             >
@@ -105,7 +105,7 @@ export function Navbar() {
               href="https://www.twitch.tv/javascriptchile"
               target="_blank"
               variant="tertiary"
-              classnames="bg-twitch text-white hidden gap-3 lg:flex hover:bg-[#a675f4] hover:scale-105 duration-300 py-2 sm:text-sm lg:text-[1em] sm:py-2 items-center"
+              classnames="bg-twitch text-white hidden gap-3 lg:flex hover:bg-[#a675f4] hover:scale-105 duration-300 py-2 sm:py-2 !text-sm items-center"
               id="twitch-dk-btn"
               setDefaultMinWidth={false}
             >
