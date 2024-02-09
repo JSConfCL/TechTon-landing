@@ -8,14 +8,13 @@ import { TwitchButton } from "@/components/TwitchButton.jsx";
 
 import { getMetaData, getViewports } from "@/lib/metadata";
 
-export const generateMetadata = () => getMetaData({})
+export const generateMetadata = () => getMetaData({});
 
-export const generateViewport = () => getViewports()
-
+export const generateViewport = () => getViewports();
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-between mx-auto md:w-4/5 lg:w-3/5 xl:w-2/3">
+    <section className="flex flex-col items-center gap-3 justify-between mx-auto md:w-4/5 lg:w-3/5 xl:w-2/3">
       <Title
         logo={
           <svg
@@ -33,10 +32,20 @@ export default function Home() {
       <CountdownTimer />
       <CounterSubtitle />
       <div className="flex w-full gap-3 px-5 3xs:w-auto  3xs:gap-8 flex-col 3xs:flex-row">
-        <Button id="button-donate" href="/donar" variant="primary" classnames="py-3 md:py-3.5">
+        <Button
+          id="button-donate"
+          href="/donar"
+          variant="primary"
+          classnames="py-3 md:py-3.5"
+        >
           Ir a donar
         </Button>
-        <Button id="button-info" href="agenda" variant="secondary" classnames="py-3 md:py-3.5">
+        <Button
+          id="button-info"
+          href="agenda"
+          variant="secondary"
+          classnames="py-3 md:py-3.5"
+        >
           Agenda
         </Button>
       </div>
