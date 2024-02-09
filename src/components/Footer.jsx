@@ -21,27 +21,27 @@ const Footer = () => {
             <span className="font-black">09 y 10</span> de Febrero de 2024
           </div>
           <div className="py-5 sm:py-0 space-y-3">
-            <div className="text-md sm:text-sm flex items-center md:text-[15px]">
+            <div className="text-md sm:text-sm flex gap-3 items-center md:text-[15px]">
               <span className="font-bold mr-1">Viernes 09</span> desde las 13:00
               hrs.
               <Image
-                className="ml-2"
                 alt="Hora Chile"
                 src="images/footer/chilean-flag.svg"
                 height={20}
                 width={20}
               />
+              GMT-3
             </div>
-            <div className="text-md sm:text-sm flex items-center md:text-[15px]">
+            <div className="text-md sm:text-sm flex gap-3 items-center md:text-[15px]">
               <span className="font-bold mr-1">Sábado 10</span> desde las 7:00
               hrs.
               <Image
-                className="ml-2"
                 alt="Hora Chile"
                 src="images/footer/chilean-flag.svg"
                 height={20}
                 width={20}
               />
+              GMT-3
             </div>
           </div>
         </div>
@@ -86,13 +86,27 @@ const Footer = () => {
               width={50}
             />
             <div className="flex flex-col space-y-4">
-              <div className="flex">
+              <div className="flex gap-3 lg:text-lg xl:text-xl">
                 <span className="font-bold mr-1">Viernes 09</span> desde las
                 13:00 hrs.
+                <Image
+                  alt="Hora Chile"
+                  src="images/footer/chilean-flag.svg"
+                  height={20}
+                  width={20}
+                />
+                GMT-3
               </div>
-              <div className="flex">
+              <div className="flex gap-3 lg:text-lg xl:text-xl">
                 <span className="font-bold mr-1">Sábado 10</span> desde las 7:00
                 hrs.
+                <Image
+                  alt="Hora Chile"
+                  src="images/footer/chilean-flag.svg"
+                  height={20}
+                  width={20}
+                />
+                GMT-3
               </div>
             </div>
           </div>
