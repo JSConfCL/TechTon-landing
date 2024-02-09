@@ -7,7 +7,7 @@ export const CommunityLogos = () => (
   <AnimatePresence mode="popLayout">
     {[...CommunitiesLogo.entries()]
       .map(([key, logo], i) => {
-        const delay = 0.05 * i;
+        const delay = 0.05 * i + 0.9;
         return (
           <motion.div
             className="flex justify-center h-[100px] aspect-square relative"

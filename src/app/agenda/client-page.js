@@ -16,41 +16,43 @@ export default function Agenda() {
     (item) => new Date(item.startHour).getDate() === 10,
   );
   return (
-    <section className="lg:px-64 pt-10">
-      <Title
-        logo={
-          <svg
-            aria-label="TechTon"
-            className="fill-primary h-32"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title>TechTon | Agenda </title>
-            <desc>Logo de TechTon</desc>
-            <AgendaLogo />
-          </svg>
-        }
-      />
-      <section className="px-8">
-        <div className="flex justify-center space-x-4 mb-6">
-          <Button
-            id="day9"
-            variant={`${activeDay === 9 ? "primary" : "tertiary"}`}
-            onClick={() => setActiveDay(9)}
-          >
-            Viernes 9 de Febrero
-          </Button>
-          <Button
-            id="day10"
-            variant={`${activeDay === 10 ? "primary" : "tertiary"}`}
-            onClick={() => setActiveDay(10)}
-          >
-            Sábado 10 de Febrero
-          </Button>
-        </div>
+    <div className="flex w-full relative justify-center items-center">
+      <section className="lg:px-64 pt-10">
+        <Title
+          logo={
+            <svg
+              aria-label="TechTon"
+              className="fill-primary h-32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>TechTon | Agenda </title>
+              <desc>Logo de TechTon</desc>
+              <AgendaLogo />
+            </svg>
+          }
+        />
+        <section className="px-8">
+          <div className="flex justify-center space-x-4 mb-6">
+            <Button
+              id="day9"
+              variant={`${activeDay === 9 ? "primary" : "tertiary"}`}
+              onClick={() => setActiveDay(9)}
+            >
+              Viernes 9 de Febrero
+            </Button>
+            <Button
+              id="day10"
+              variant={`${activeDay === 10 ? "primary" : "tertiary"}`}
+              onClick={() => setActiveDay(10)}
+            >
+              Sábado 10 de Febrero
+            </Button>
+          </div>
 
-        {activeDay === 9 && <Timeline data={talksDay1} />}
-        {activeDay === 10 && <Timeline data={talksDay2} />}
+          {activeDay === 9 && <Timeline data={talksDay1} />}
+          {activeDay === 10 && <Timeline data={talksDay2} />}
+        </section>
       </section>
-    </section>
+    </div>
   );
 }
