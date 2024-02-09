@@ -4,6 +4,7 @@ import Countdown from "react-countdown";
 import { NumberBox } from "./NumberBox";
 import { Button } from "./Button";
 import Image from "next/image";
+import { AnimatePresence, motion } from "framer-motion";
 
 export const CountdownTimer = () => {
   // To fix error: Text content does not match server-rendered HTML
@@ -75,7 +76,7 @@ export const CountdownTimer = () => {
       );
     } else {
       return (
-        <div className="flex gap-3">
+        <div className="flex gap-6">
           <NumberBox number={formatted.days} text={"días"} flip={daysFlip} />
           <NumberBox number={formatted.hours} text={"horas"} flip={hoursFlip} />
           <NumberBox
@@ -93,16 +94,20 @@ export const CountdownTimer = () => {
     }
   };
   return (
-    <>
-      {isClient ? (
-        <div className="pb-5">
-          <Countdown date={fecha} renderer={renderer} zeroPadTime={2} />
-        </div>
-      ) : (
-        <div className="transform py-14 h-[148px] sm:h-[180px] md:h-[224px] flex justify-center items-center">
-          <div className="border-t-transparent border-solid animate-spin rounded-full border-primary border-8 h-24 w-24"></div>
-        </div>
-      )}
-    </>
+    <div className="h-[148px] sm:h-[180px] md:h-[224px] flex justify-center items-center">
+      <AnimatePresence mode="popLayout">
+        {isClient && (
+          <motion.div
+            key="countdown"
+            exit={{ opacity: 0 }}
+            initial={{ opacity: 0, y: 4, scale: 0.98 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{ duration: 1.2, delay: 1.1 }}
+          >
+            <Countdown date={fecha} renderer={renderer} zeroPadTime={2} />
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
   );
 };

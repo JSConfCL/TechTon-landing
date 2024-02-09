@@ -1,6 +1,20 @@
+"use client";
+import { cn } from "@/lib/utils";
+import { useRef } from "react";
+import { useCssTransitionOnView } from "@/components/hooks/useCssTransitionOnView";
+
 export function Subtitle() {
+  const ref = useRef(null);
+  const transitions = useCssTransitionOnView(ref, "delay-700");
+
   return (
-    <h3 className="flex items-center justify-center font-kufam font-semibold gap-x-3  flex-wrap">
+    <h3
+      ref={ref}
+      className={cn(
+        "flex items-center justify-center font-kufam font-semibold gap-x-3 flex-wrap",
+        transitions,
+      )}
+    >
       <span className="text-4xl xl:text-6xl">+20 </span>
       <span className="text-2xl xl:text-3xl">horas de</span>
       <span className="text-2xl xl:text-3xl text-primary relative">

@@ -57,14 +57,14 @@ const Footer = () => {
       </div>
 
       {/* Pantallas: Desktop hacia arriba */}
-      <div className="hidden px-10 lg:flex bg-primary text-gray-900 items-center h-25">
+      <div className="hidden px-10 lg:flex bg-primary text-gray-900 items-center h-[125px] shadow-inner">
         <div className="flex">
           <Image
             alt="Imagen de manos"
             src="images/footer/icon-hands.svg"
             height={36}
             width={50}
-            className="w-full h-25"
+            className="w-full h-full"
           />
         </div>
         <div className="flex-1 flex justify-around">

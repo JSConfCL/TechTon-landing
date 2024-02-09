@@ -1,8 +1,18 @@
-import Link from "next/link"
+"use client";
+import Link from "next/link";
+import { useRef } from "react";
+import { cn } from "@/lib/utils";
+import { useCssTransitionOnView } from "@/components/hooks/useCssTransitionOnView";
 
 export function Title({ logo }) {
+  const ref = useRef(null);
+  const transitions = useCssTransitionOnView(ref, "delay-500");
+
   return (
-    <section className="flex flex-col items-center">
+    <section
+      className={cn("flex flex-col items-center ", transitions)}
+      ref={ref}
+    >
       <h1>
         <Link href="/">{logo}</Link>
       </h1>
@@ -10,5 +20,5 @@ export function Title({ logo }) {
         Comunidades Tech unidas por una causa
       </h2>
     </section>
-  )
+  );
 }

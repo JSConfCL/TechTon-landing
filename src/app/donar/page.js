@@ -1,7 +1,7 @@
 import { DonarSubtitulo } from "@/components/DonarSubtitulo";
 import { DonateInfo } from "@/components/DonateInfo";
-import Logo from "@/components/Logo";
-import { Title } from "@/components/Title";
+import { FadeInBackgroundImages } from "@/components/FadeInBackgroundImages";
+import bomberos from "../../../public/images/bomberos-bg-2.webp";
 
 import { getMetaData, getViewports } from "@/lib/metadata";
 
@@ -16,36 +16,30 @@ export const generateViewport = () => getViewports();
 
 export default function Donar() {
   return (
-    <section className="mt-6">
-      <Title
-        logo={
-          <svg
-            aria-label="TechTon"
-            className="fill-primary h-32"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 376 116"
-          >
-            <title>TechTon | Agenda </title>
-            <desc>Logo de TechTon</desc>
-            <Logo height={"80"} />
-          </svg>
-        }
+    <div className="flex flex-1 overflow-hidden relative">
+      <FadeInBackgroundImages
+        className="bg-no-repeat bg-cover bg-left absolute w-[50%] aspect-square right-0 top-0 shadow-inner -z-10 lg:block"
+        image={bomberos}
       />
-      <div className="space-around flex items-center px-4 sm:px-10 lg:px-0 xl:m-auto xl:w-5/6 xl:flex-row xl:gap-10 2xl:w-4/6">
-        <div className="flex-1 space-y-5 py-10 md:space-y-10">
-          <div className="text-center font-bold xl:text-left">
-            <h2 className="text-6xl">Gracias</h2>
-            <p className="text-2xl lg:text-3xl">
-              por <span className="text-primary">sumarte a donar</span> dinero
-              para esta causa.
-            </p>
+      <div className="flex h-full w-full flex-col relative justify-center items-center max-w-full md:px-32 xl:max-w-[1920px] xl:px-5 m-auto xl:justify-center">
+        <div className="flex flex-col xl:flex-row gap-4 w-full flex-1 px-8 xl:pl-40 pt-20">
+          <div className="flex flex-col flex-1 gap-8 justify-end ">
+            <div className="text-center font-bold xl:text-left flex flex-col gap-4">
+              <h2 className="text-5xl xl:text-8xl">Gracias</h2>
+              <p className="text-3xl xl:text-[48px] xl:leading-[64px] pr-4">
+                por <span className="text-primary">sumarte a donar</span><br/>
+                dinero para esta causa.
+              </p>
+            </div>
+            <DonarSubtitulo />
           </div>
-          <DonarSubtitulo />
-          <div className="flex w-full flex-1">
-            <DonateInfo />
-          </div>
+          <div className="hidden xl:flex flex-1" />
+        </div>
+        <div className="flex flex-col xl:flex-row gap-4 w-full flex-1 px-8 xl:pl-40  pt-10">
+          <DonateInfo />
+          <div className="hidden xl:flex flex-1" />
         </div>
       </div>
-    </section>
+    </div>
   );
 }
