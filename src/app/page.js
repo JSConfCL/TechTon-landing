@@ -33,10 +33,10 @@ export default function Home() {
       <CountdownTimer />
       <CounterSubtitle />
       <div className="flex gap-8">
-        <Button id="button-donate" href="/donar" variant="primary">
+        <Button id="button-donate" href="/donar" variant="primary" classnames="md:py-3.5">
           Ir a donar
         </Button>
-        <Button id="button-info" href="agenda" variant="secondary">
+        <Button id="button-info" href="agenda" variant="secondary" classnames="md:py-3.5">
           Agenda
         </Button>
       </div>
