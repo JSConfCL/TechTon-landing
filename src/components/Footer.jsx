@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="mt-auto">
+    <footer className="">
       {/* Pantallas: Celular, tablet */}
       <div className="sm:px-10 lg:hidden flex bg-primary text-gray-900 items-center h-25">
         <div className="flex-1 hidden sm:block">
@@ -98,7 +98,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

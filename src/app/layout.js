@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
       className={`${inter.variable} ${roboto_mono.variable} ${museo_moderno.variable}`}
     >
       <body
-        className={`${inter.className} min-h-max bg-[#232121] text-white h-[100vh] flex flex-col`}
+        className={`${inter.className} min-h-max bg-[#232121] text-white h-[100vh] flex flex-col justify-between`}
       >
         <Navbar />
         <main className="px-3 pb-12 container mx-auto">{children}</main>
