@@ -95,7 +95,7 @@ export function Navbar() {
               Quiénes somos + comunidades
             </Link>
           </div>
-          <div className="flex gap-3">
+          <div className="flex gap-3 pb-3 pl-3 border-b border-b-slate-700 lg:border-none">
             <Button
               href="/donar"
               variant="primary"
