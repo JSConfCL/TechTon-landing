@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
         className={`${inter.className} bg-[#232121] text-white h-[100svh] flex flex-col justify-between`}
       >
         <Navbar />
-        <main className="flex flex-1">{children}</main>
+        <main className="flex flex-1 relative">{children}</main>
         <Footer />
       </body>
     </html>
