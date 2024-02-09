@@ -14,7 +14,7 @@ export function Navbar() {
   const closNavBar = () => setIsNavbarOpen(false);
 
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-[#232121] p-6">
+    <nav className="flex items-center justify-between flex-wrap bg-[#232121] p-6 border-b border-b-slate-700">
       <div className="relative lg:flex justify-between w-full ">
         <div className="flex justify-between flex-wrap items-center lg:basis-96">
           <div className="flex gap-1 flex-grow pb-3">
@@ -61,32 +61,36 @@ export function Navbar() {
         </div>
 
         <div
-          className={`${isNavbarOpen ? "block" : "hidden"
-            } absolute lg:relative bg-[#232121] z-10 w-full flex-grow lg:flex lg:items-center`}
+          className={`${
+            isNavbarOpen ? "block" : "hidden"
+          } absolute lg:relative bg-[#232121] z-10 w-full flex-grow lg:flex lg:items-center`}
         >
           <div className="text-sm lg:flex-grow lg:flex lg:justify-center">
             <Link
               href="/"
               onClick={closNavBar}
               className={`block mt-4 lg:inline-block lg:mt-0 text-primary hover:text-white mr-4 
-              transition-all px-3 py-2 rounded ${pathname == "/" && "bg-secondary text-primary"
-                }`}
+              transition-all px-3 py-2 rounded ${
+                pathname == "/" && "bg-secondary text-primary"
+              }`}
             >
               Inicio
             </Link>
             <Link
               href="/agenda"
               onClick={closNavBar}
-              className={`block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 transition-all px-3 py-2 rounded ${pathname == "/agenda" && "bg-secondary text-primary"
-                }`}
+              className={`block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 transition-all px-3 py-2 rounded ${
+                pathname == "/agenda" && "bg-secondary text-primary"
+              }`}
             >
               Agenda
             </Link>
             <Link
               href="/nosotros"
               onClick={closNavBar}
-              className={`block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 transition-all px-3 py-2 rounded ${pathname == "/nosotros" && "bg-secondary text-primary"
-                }`}
+              className={`block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 transition-all px-3 py-2 rounded ${
+                pathname == "/nosotros" && "bg-secondary text-primary"
+              }`}
             >
               Quiénes somos + comunidades
             </Link>
