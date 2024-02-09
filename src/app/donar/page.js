@@ -31,7 +31,7 @@ export default function Donar() {
           </svg>
         }
       />
-      <div className="space-around flex items-center px-4 sm:px-10 lg:px-0 xl:m-auto xl:w-5/6 xl:flex-row xl:gap-10 2xl:w-4/6">
+      <div className="space-around flex items-center px-4 sm:px-10 lg:px-0 xl:m-auto xl:w-11/12 xl:flex-row xl:gap-10 2xl:w-5/6">
         <div className="flex-1 space-y-5 py-10 md:space-y-10">
           <div className="text-center font-bold xl:text-left">
             <h2 className="text-6xl">Gracias</h2>

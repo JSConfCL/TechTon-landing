@@ -56,7 +56,7 @@ const DonateButton = ({
 
 export function DonateInfo() {
   return (
-    <div className="flex flex-1 flex-col items-center gap-5 lg:flex-row">
+    <div className="flex flex-1 flex-col items-center gap-5 lg:flex-row justify-between">
       <div className="align-center flex flex-col items-center justify-center justify-items-center divide-y pt-4 md:flex-row md:mx-0 md:justify-start md:divide-x md:divide-y-0">
         <DonateButton
           id="local-donation"
@@ -77,18 +77,30 @@ export function DonateInfo() {
           system="stripe"
         />
       </div>
-      <div>
+      <div className="flex gap-3 border border-primary primary p-6 rounded-2xl items-center flex-wrap justify-center">
         <Image
-          className="m-auto"
+          className="m-auto basis-32 max-w-32"
           alt="Codigo QR para donar"
           src="images/qr_placeholder.svg"
           height={200}
           width={200}
         />
-        <p className="text-primary text-center text-xl font-bold md:text-lg lg:text-base xl:text-xl mt-4">
-          Escanea el QR para saber{" "}
-          <span className="block">cuánto llevamos recaudado</span>
-        </p>
+        <div className="flex flex-col items-center gap-2">
+          <p className="text-primary text-center text-xl font-bold md:text-lg lg:text-base xl:text-xl">
+            ¡Mira cuanto llevamos!
+          </p>
+          <p className="text-white text-center text-lg md:text-md lg:text-sm xl:text-lg">
+            Escanea el QR o pincha el botón
+          </p>
+          <Button
+            href=""
+            target="_blank"
+            variant="primary"
+            classnames="!px-4 !py-2 !text-sm !w-auto !min-w-0"
+          >
+            Ver recaudación
+          </Button>
+        </div>
       </div>
     </div>
   );
