@@ -94,7 +94,7 @@ export const CountdownTimer = () => {
     }
   };
   return (
-    <div className="h-[148px] sm:h-[180px] md:h-[224px] flex justify-center">
+    <div className="h-[148px] sm:h-[180px] md:h-[224px] flex justify-center items-center">
       <AnimatePresence mode="popLayout">
         {isClient && (
           <motion.div

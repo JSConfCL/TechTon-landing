@@ -1,5 +1,5 @@
 "use client";
-import classNames from "classnames";
+import { cn } from "@/lib/utils";
 import { useRef } from "react";
 import { useCssTransitionOnView } from "@/components/hooks/useCssTransitionOnView";
 
@@ -10,7 +10,7 @@ export function Subtitle() {
   return (
     <h3
       ref={ref}
-      className={classNames(
+      className={cn(
         "flex items-center justify-center font-kufam font-semibold gap-x-3 flex-wrap",
         transitions,
       )}

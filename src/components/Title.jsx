@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useRef } from "react";
-import classNames from "classnames";
+import { cn } from "@/lib/utils";
 import { useCssTransitionOnView } from "@/components/hooks/useCssTransitionOnView";
 
 export function Title({ logo }) {
@@ -10,7 +10,7 @@ export function Title({ logo }) {
 
   return (
     <section
-      className={classNames("flex flex-col items-center ", transitions)}
+      className={cn("flex flex-col items-center ", transitions)}
       ref={ref}
     >
       <h1>
