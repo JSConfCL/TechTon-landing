@@ -28,7 +28,7 @@ const DonateButton = ({
         href={buttonURL}
         target="_blank"
         variant={buttonVariant}
-        classnames="w-full md:w-auto"
+        classnames="w-full md:w-auto py-3.5"
       >
         {buttonTitle}
       </Button>
