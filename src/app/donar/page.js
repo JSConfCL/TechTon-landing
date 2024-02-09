@@ -16,7 +16,7 @@ export const generateViewport = () => getViewports();
 
 export default function Donar() {
   return (
-    <section>
+    <section className="mt-6">
       <Title
         logo={
           <svg
