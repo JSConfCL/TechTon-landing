@@ -6,6 +6,7 @@ import { CountdownTimer } from "@/components/CountdownTimer";
 import { CounterSubtitle } from "@/components/CounterSubtitle.jsx";
 import { TwitchButton } from "@/components/TwitchButton.jsx";
 import bomberos from "../../public/images/bomberos-bg.webp";
+import { FadeInBackgroundImages } from "@/components/FadeInBackgroundImages";
 
 import { getMetaData, getViewports } from "@/lib/metadata";
 
@@ -16,12 +17,9 @@ export const generateViewport = () => getViewports();
 export default function Home() {
   return (
     <div className="flex w-full relative justify-center items-center">
-      <div
-        className="bg-cover bg-blend-overlay bg-no-repeat absolute inset-0 blur-[5px] filter brightness-50 opacity-35 shadow-inner"
-        style={{
-          backgroundImage: `url(${bomberos.src})`,
-          backgroundPosition: "center",
-        }}
+      <FadeInBackgroundImages
+        className="bg-cover bg-center bg-blend-overlay bg-no-repeat absolute inset-0 blur-[5px] filter brightness-50 opacity-35 shadow-inner -z-10"
+        image={bomberos}
       />
       <section className="px-3 pb-12 container mx-auto">
         <div className="flex flex-col items-center gap-3 justify-between mx-auto md:w-4/5 lg:w-3/5 xl:w-2/3">

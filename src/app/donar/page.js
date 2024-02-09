@@ -1,6 +1,6 @@
 import { DonarSubtitulo } from "@/components/DonarSubtitulo";
 import { DonateInfo } from "@/components/DonateInfo";
-import Logo from "@/components/Logo";
+import { FadeInBackgroundImages } from "@/components/FadeInBackgroundImages";
 import bomberos from "../../../public/images/bomberos-bg-2.webp";
 
 import { getMetaData, getViewports } from "@/lib/metadata";
@@ -17,14 +17,9 @@ export const generateViewport = () => getViewports();
 export default function Donar() {
   return (
     <>
-      <div
-        className="bg-no-repeat absolute w-[50%] aspect-square right-0 top-0 opacity-35 shadow-inner -z-10 hidden lg:block"
-        style={{
-          backgroundImage: `url(${bomberos.src})`,
-          backgroundPosition: "left",
-          bacgroundRepeat: "no-repeat",
-          backgroundSize: "fill",
-        }}
+      <FadeInBackgroundImages
+        className="bg-no-repeat bg-cover bg-left absolute w-[50%] aspect-square right-0 top-0 shadow-inner -z-10 lg:block"
+        image={bomberos}
       />
       <div className="flex h-full w-full flex-col relative justify-center items-center max-w-full md:px-32 xl:max-w-[1920px] xl:px-5 m-auto xl:justify-center">
         <div className="flex flex-col xl:flex-row gap-4 w-full flex-1 xl:px-24 px-8 pt-20">
