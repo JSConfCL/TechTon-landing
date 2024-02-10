@@ -45,7 +45,7 @@ const DonateButton = ({
   };
 
   return (
-    <div className="mx-auto w-full md:w-auto flex flex-col items-center justify-center gap-4 p-4 text-center bg-[#333] rounded-lg drop-shadow-lg">
+    <div className="mx-auto w-full md:w-auto flex flex-col items-center justify-center gap-4 p-4 text-center bg-[#333] rounded-lg drop-shadow-lg md:min-w-96 lg:min-w-fit">
       <div className="mx-auto flex items-center gap-2 lg:px-4">
         {system === "mercadopago" ? (
           <Image alt="" src="/images/flags/chile.svg" height={35} width={35} />
@@ -104,9 +104,9 @@ const DonateButton = ({
           &nbsp;
         </div>
       ) : (
-        <div className="font-bold text-lg">
-          Total Recolectado<br/>
-          <span className="text-5xl text-primary">{formatMoney(totalDonation, system)}</span>
+        <div className="font-bold text-lg grid justify-center items-center gap-4">
+          Total Recolectado
+          <span className="text-[clamp(1.2rem,10vw,3rem)] text-primary">{formatMoney(totalDonation, system)}</span>
         </div>
       )}
     </div>
