@@ -5,6 +5,7 @@ import { Button } from "./Button";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { cn } from "@/lib/utils";
 
 export function Navbar() {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
@@ -13,13 +14,30 @@ export function Navbar() {
   const handleHamburguer = () => setIsNavbarOpen(!isNavbarOpen);
   const closNavBar = () => setIsNavbarOpen(false);
 
+  const classes = {
+    navMenu: cn(
+
+    'absolute z-10 w-full flex items-stretch gap-4 flex-col lg:flex-row',
+
+    'bg-[#232121] max-lg:border max-lg:border-gray-500 max-lg:p-4 max-lg:divide-y-2 max-lg:divide-gray-700',
+
+    'max-lg:rounded-md max-lg:shadow-md',
+
+    'lg:relative lg:items-center lg:justify-end',
+    'max-lg:top-14 max-lg:opacity-0 max-lg:transition-all',
+    'max-lg:max-w-md max-3xs:top-32 z-20',
+      {
+      "max-lg:visible max-lg:opacity-100": isNavbarOpen,
+      "max-lg:invisible max-lg:-z-10": !isNavbarOpen,
+      })
+  }
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-[#232121] p-6 border-b border-b-slate-700 shadow-md">
+    <nav className="flex items-center justify-between flex-wrap bg-[#232121] p-6 border-b border-b-slate-700 shadow-md z-20">
       <div className="relative lg:flex justify-between w-full ">
-        <div className="flex justify-between flex-wrap items-center lg:basis-96">
-          <div className="flex gap-1 flex-grow pb-3">
+        <div className="flex max-3xs:justify-center justify-between flex-wrap items-center gap-8">
+          <div className="flex items-center gap-4">
             <button
-              className="flex items-center px-3 py-2 rounded text-white transition-all hover:text-primary lg:hidden"
+              className="flex items-center rounded text-white transition-all hover:text-primary lg:hidden pt-2"
               onClick={handleHamburguer}
             >
               <svg
@@ -31,7 +49,7 @@ export function Navbar() {
                 <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
               </svg>
             </button>
-            <div className="flex items-center flex-shrink-0 text-white mr-6">
+            <div className="flex items-center text-white">
               <Link href="/">
                 <Image
                   src="/images/logos/techton_logo.svg"
@@ -61,16 +79,13 @@ export function Navbar() {
         </div>
 
         <div
-          className={`${
-            isNavbarOpen ? "block" : "hidden"
-          } absolute lg:relative bg-[#232121] z-10 w-full flex-grow lg:flex lg:items-center`}
+          className={classes.navMenu}
         >
-          <div className="text-sm lg:flex-grow lg:flex lg:justify-center">
+          <div className="text-sm flex flex-col lg:flex-row lg:justify-center gap-8">
             <Link
               href="/"
               onClick={closNavBar}
-              className={`block mt-4 lg:inline-block lg:mt-0 text-primary hover:text-white mr-4
-              transition-all px-3 py-2 rounded ${
+              className={`block lg:inline-block lg:mt-0 text-primary hover:text-white px-3 py-2 transition-all rounded ${
                 pathname == "/" && "bg-secondary text-primary"
               }`}
             >
@@ -79,7 +94,7 @@ export function Navbar() {
             <Link
               href="/agenda"
               onClick={closNavBar}
-              className={`block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 transition-all px-3 py-2 rounded ${
+              className={`block lg:inline-block lg:mt-0 text-white hover:text-primary transition-all px-3 py-2 rounded ${
                 pathname == "/agenda" && "bg-secondary text-primary"
               }`}
             >
@@ -88,14 +103,14 @@ export function Navbar() {
             <Link
               href="/nosotros"
               onClick={closNavBar}
-              className={`block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 transition-all px-3 py-2 rounded ${
+              className={`block lg:inline-block lg:mt-0 text-white hover:text-primary transition-all px-3 py-2 rounded ${
                 pathname == "/nosotros" && "bg-secondary text-primary"
               }`}
             >
               Quiénes somos + comunidades
             </Link>
           </div>
-          <div className="flex gap-3 pl-3 border-b border-b-slate-700 lg:border-none">
+          <div className="flex gap-3 border-b border-b-slate-700 lg:border-none">
             <Button
               href="/donar"
               variant="primary"
