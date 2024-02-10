@@ -60,7 +60,7 @@ export const CountdownTimer = () => {
         <Button
           href="https://www.twitch.tv/javascriptchile"
           target="_blank"
-          variant="primary"
+          variant="tertiary"
           classnames="bg-twitch text-white flex items-center gap-3 hover:bg-[#a675f4] hover:scale-105 duration-300 mt-10 mb-3 !text-3xl !px-10"
           id="twitch-mb-btn"
           setDefaultMinWidth={false}
