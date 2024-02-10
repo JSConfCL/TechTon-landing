@@ -32,8 +32,8 @@ export default function Agenda() {
           }
         />
       </section>
-      <div className="sticky top-0 pt-6 pb-10 w-full h-fit z-20">
-        <div className="relative z-10 flex justify-center gap-4">
+      <div className="sticky top-0 pt-6 pb-10 w-full h-fit z-10">
+        <div className="relative z-10 flex justify-center gap-4 flex-wrap">
           <Button
             id="day9"
             variant={`${activeDay === 9 ? "primary" : "tertiary"}`}
