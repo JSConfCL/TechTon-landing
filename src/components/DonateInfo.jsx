@@ -10,9 +10,10 @@ import {
 
 import { Button } from "@/components/Button";
 
-import { getTransactions } from "@/helpers/api";
+import { getSpecialDonations, getTransactions } from "@/helpers/api";
 
 const SECONDS = 1000;
+const DOLLAR_TO_CLP = 969;
 
 const formatMoney = (amount, system) =>
   ({
@@ -45,7 +46,7 @@ const DonateButton = ({
   };
 
   return (
-    <div className="mx-auto w-full md:w-auto flex flex-col items-center justify-center gap-4 p-4 text-center bg-[#333] rounded-lg drop-shadow-lg md:min-w-96 lg:min-w-fit">
+    <div className="mx-auto w-full h-full md:w-auto flex flex-col items-center justify-center gap-4 p-4 text-center bg-[#333] rounded-lg drop-shadow-lg md:min-w-96 lg:min-w-fit grow">
       <div className="mx-auto flex items-center gap-2 lg:px-4">
         {system === "mercadopago" ? (
           <Image alt="" src="/images/flags/chile.svg" height={35} width={35} />
@@ -119,7 +120,11 @@ function InternalDonateInfo() {
     queryFn: getTransactions,
     refetchInterval: 10 * SECONDS
   });
-
+  const { isLoading: isLoadingSpecial, data: specialDonations } = useQuery({
+    queryKey: ['specialDonations'],
+    queryFn: getSpecialDonations,
+    refetchInterval: 10 * SECONDS
+  })
   const localTransactions =
     data?.searchPaymentLogs.filter((log) => log.currencyId === "CLP") ?? [];
   const localConsolidatedTransactions =
@@ -129,31 +134,75 @@ function InternalDonateInfo() {
     data?.searchPaymentLogs.filter((log) => log.currencyId === "usd") ?? [];
   const foreignConsolidatedTransactions =
     data?.searchConsolidatedPaymentLogs.find((log) => log.currencyId === "usd")
-      ?.totalTransactionAmount ?? 0;
+    ?.totalTransactionAmount ?? 0;
+
+  const specialConsolidated = specialDonations?.reduce((acc, row) => (acc + row.donation), 0) ?? 0
+
+  const totalConsolidated =
+    localConsolidatedTransactions +
+      specialConsolidated +
+      (foreignConsolidatedTransactions * DOLLAR_TO_CLP / 100)
 
   return (
-    <div className="align-center grid grid-cols-1 lg:grid-cols-2 items-center justify-center justify-items-center pt-4 gap-4 mb-8">
-      <DonateButton
-        id="local-donation"
-        title="Donaciones Nacionales"
-        buttonTitle="Donar"
-        buttonURL="https://link.mercadopago.cl/jscl"
-        system="mercadopago"
-        totalDonation={localConsolidatedTransactions}
-        latestDonations={localTransactions}
-        isLoading={isLoading}
-      />
-      <DonateButton
-        id="foreign-donation"
-        title="Donaciones Internacionales"
-        buttonTitle="Donar"
-        buttonURL="https://buy.stripe.com/dR64jQcNI2Up0OkdR0"
-        system="stripe"
-        totalDonation={foreignConsolidatedTransactions}
-        latestDonations={foreignTransactions}
-        isLoading={isLoading}
-      />
-    </div>
+    <>
+      <div className="w-full flex flex-col mb-8 gap-4">
+        <div class="w-full flex flex-col lg:flex-row justify-between gap-4">
+          <DonateButton
+            id="local-donation"
+            title="Donaciones Nacionales"
+            buttonTitle="Donar"
+            buttonURL="https://link.mercadopago.cl/jscl"
+            system="mercadopago"
+            totalDonation={localConsolidatedTransactions}
+            latestDonations={localTransactions}
+            isLoading={isLoading}
+          />
+          <DonateButton
+            id="foreign-donation"
+            title="Donaciones Internacionales"
+            buttonTitle="Donar"
+            buttonURL="https://buy.stripe.com/dR64jQcNI2Up0OkdR0"
+            system="stripe"
+            totalDonation={foreignConsolidatedTransactions}
+            latestDonations={foreignTransactions}
+            isLoading={isLoading}
+          />
+        </div>
+        <div>
+          {specialConsolidated ? (
+            <div className="mx-auto w-full md:w-auto flex flex-col items-center justify-center gap-4 p-4 text-center bg-[#333] rounded-lg drop-shadow-lg md:min-w-96 lg:min-w-fit mb-4">
+              {isLoadingSpecial ? (
+                <div className="animate-pulse font-bold text-4xl bg-primary w-1/2 rounded-md">
+                  &nbsp;
+                </div>
+              ) : (
+                <div className="font-bold text-lg grid justify-center items-center gap-4 text-white">
+                  <div className="font-bold text-lg grid justify-center items-center gap-4">
+                    Donaciones Adicionales
+                    <span className="text-[clamp(1.2rem,10vw,3rem)] text-primary">{formatMoney(specialConsolidated, 'mercadopago')}</span>
+                  </div>
+                </div>
+              )}
+              <div className="text-[#eee]">Donadores que nos contactaron aparte.</div>
+            </div>
+          ) : null}
+          <div className="mx-auto flex flex-col items-center justify-center gap-4 p-4 text-center bg-primary rounded-lg drop-shadow-lg md:min-w-96 lg:min-w-fit">
+            {isLoading ? (
+              <div className="animate-pulse font-bold text-4xl w-1/2 rounded-md bg-[#333]">
+                &nbsp;
+              </div>
+            ) : (
+            <div className="font-bold text-lg grid justify-center items-center gap-4 text-[#333]">
+              Total Recolectado
+              <span className="text-[clamp(1.2rem,10vw,3rem)] text-[#222] ">{formatMoney(totalConsolidated, 'mercadopago')}</span>
+            </div>
+            )}
+
+            <div className="text-[#333]">Esto es un aproximado. Tomando en cuenta el cambio del día. Valor USD: {DOLLAR_TO_CLP} Pesos Chilenos. Pueden haber fees en las conversiones.</div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 
