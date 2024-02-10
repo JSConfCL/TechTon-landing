@@ -104,9 +104,9 @@ const DonateButton = ({
           &nbsp;
         </div>
       ) : (
-        <div className="font-bold text-lg">
-          Total Recolectado<br/>
-          <span className="text-5xl text-primary">{formatMoney(totalDonation, system)}</span>
+        <div className="font-bold text-lg grid justify-center items-center gap-4">
+          Total Recolectado
+          <span className="text-[clamp(1.2rem,10vw,3rem)] text-primary">{formatMoney(totalDonation, system)}</span>
         </div>
       )}
     </div>
