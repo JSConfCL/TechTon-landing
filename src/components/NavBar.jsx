@@ -16,21 +16,18 @@ export function Navbar() {
 
   const classes = {
     navMenu: cn(
-
-    'absolute z-10 w-full flex items-stretch gap-4 flex-col lg:flex-row',
-
-    'bg-[#232121] max-lg:border max-lg:border-gray-500 max-lg:p-4 max-lg:divide-y-2 max-lg:divide-gray-700',
-
-    'max-lg:rounded-md max-lg:shadow-md',
-
-    'lg:relative lg:items-center lg:justify-end',
-    'max-lg:top-14 max-lg:opacity-0 max-lg:transition-all',
-    'max-lg:max-w-md max-3xs:top-32 z-20',
+      "absolute z-10 w-full flex items-stretch gap-4 flex-col lg:flex-row",
+      "bg-[#232121] max-lg:border max-lg:border-gray-500 max-lg:p-4 max-lg:divide-y-2 max-lg:divide-gray-700",
+      "max-lg:rounded-md max-lg:shadow-md",
+      "lg:relative lg:items-center lg:justify-end",
+      "max-lg:top-14 max-lg:opacity-0 max-lg:transition-all",
+      "max-lg:max-w-md max-3xs:top-32 z-20",
       {
-      "max-lg:visible max-lg:opacity-100": isNavbarOpen,
-      "max-lg:invisible max-lg:-z-10": !isNavbarOpen,
-      })
-  }
+        "max-lg:visible max-lg:opacity-100": isNavbarOpen,
+        "max-lg:invisible max-lg:-z-10": !isNavbarOpen,
+      },
+    ),
+  };
   return (
     <nav className="flex items-center justify-between flex-wrap bg-[#232121] p-6 border-b border-b-slate-700 shadow-md z-20">
       <div className="relative lg:flex justify-between w-full ">
@@ -78,9 +75,7 @@ export function Navbar() {
           </Button>
         </div>
 
-        <div
-          className={classes.navMenu}
-        >
+        <div className={classes.navMenu}>
           <div className="text-sm flex flex-col lg:flex-row lg:justify-center gap-8">
             <Link
               href="/"
