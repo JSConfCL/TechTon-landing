@@ -1,114 +1,142 @@
 [
     {
         "alt": "Logo Comunidad 9punto5",
-        "src": "images/communities/9punto5.webp"
+        "src": "images/communities/9punto5.webp",
+        "url": "https://9punto5.cl/"
     },
     {
         "alt": "Logo Comunidad Ana UX",
-        "src": "images/communities/ana_ux_logo.webp"
+        "src": "images/communities/ana_ux_logo.webp",
+        "url": "https://beu.is/ux.ana.rangel"
     },
     {
         "alt": "Logo Comunidad Astronomía Padre Hurtado",
-        "src": "images/communities/astronomia_padre_hurtado_logo.webp"
+        "src": "images/communities/astronomia_padre_hurtado_logo.webp",
+        "url": "https://www.instagram.com/astronomia_padre_hurtado/?next=%2Fbaddiadi_%2F&hl=am-et"
     },
     {
         "alt": "Logo Comunidad Bad Website Club",
-        "src": "images/communities/bad_website_logo.webp"
+        "src": "images/communities/bad_website_logo.webp", 
+        "url": "https://badwebsite.club/"
     },
     {
         "alt": "Logo Comunidad Barbarita Lara",
-        "src": "images/communities/barbarita_lara_logo.webp"
+        "src": "images/communities/barbarita_lara_logo.webp", 
+        "url": "https://barbaritalara.com/"
     },
     {
         "alt": "Logo Comunidad CommunityOS",
-        "src": "images/communities/CommunityOS.webp"
+        "src": "images/communities/CommunityOS.webp", 
+        "url": "https://www.instagram.com/communityos.io/"
     },
     {
         "alt": "Logo Comunidad DevsChile 2018",
-        "src": "images/communities/devschile2018.webp"
+        "src": "images/communities/devschile2018.webp", 
+        "url": "https://devschile.cl/"
     },
     {
         "alt": "Logo Comunidad El Club de la IA",
-        "src": "images/communities/El-Club-de-la-IA.webp"
+        "src": "images/communities/El-Club-de-la-IA.webp", 
+        "url": "https://elclubdelaia.com/"
     },
     {
         "alt": "Logo Comunidad Elixir",
-        "src": "images/communities/elixir_logo.webp"
+        "src": "images/communities/elixir_logo.webp", 
+        "url": "https://elixircl.github.io/"
     },
     {
         "alt": "Logo Comunidad GDG Valparaíso",
-        "src": "images/communities/gdg-valpo-1.webp"
+        "src": "images/communities/gdg-valpo-1.webp", 
+        "url": "https://linktr.ee/gdgvalparaiso"
     },
     {
         "alt": "Logo Comunidad IEEE Move International",
-        "src": "images/communities/ieee-move-int-stacked-white-rgb.webp"
+        "src": "images/communities/ieee-move-int-stacked-white-rgb.webp", 
+        "url": "https://move.ieee.org/"
     },
     {
         "alt": "Logo Comunidad Indie Creators",
-        "src": "images/communities/indie-creators-2.webp"
+        "src": "images/communities/indie-creators-2.webp", 
+        "url": "https://indie-creators-hq.com/"
     },
     {
         "alt": "Logo Comunidad JS Venezuela",
-        "src": "images/communities/js_ve_logo.webp"
+        "src": "images/communities/js_ve_logo.webp", 
+        "url": "https://www.instagram.com/javascript_vzla/"
     },
     {
         "alt": "Logo Comunidad Laboratoria",
-        "src": "images/communities/laboratoria_logo_white.webp"
+        "src": "images/communities/laboratoria_logo_white.webp", 
+        "url": "https://www.laboratoria.la/"
     },
     {
         "alt": "Logo Comunidad Spark Code",
-        "src": "images/communities/spark_code_logo.webp"
+        "src": "images/communities/spark_code_logo.webp", 
+        "url": "https://www.instagram.com/spark.codecl/"
     },
     {
         "alt": "Logo Comunidad Unicornio Dev",
-        "src": "images/communities/unicornio_dev_logo.webp"
+        "src": "images/communities/unicornio_dev_logo.webp", 
+        "url": "https://unicornio.dev/"
     },
     {
         "alt": "Logo Comunidad Javascript Chile",
-        "src": "images/communities/logo-js.webp"
+        "src": "images/communities/logo-js.webp", 
+        "url": "https://jschile.org/"
     },
     {
         "alt": "Logo Comunidad Mermelada Tech",
-        "src": "images/communities/logo-mermelada-tech.webp"
+        "src": "images/communities/logo-mermelada-tech.webp", 
+        "url": "https://linktr.ee/mermeladatech"
     },
     {
         "alt": "Logo Comunidad Python Chile",
-        "src": "images/communities/pythonchile_logo.webp"
+        "src": "images/communities/pythonchile_logo.webp", 
+        "url": "https://pythonchile.cl/"
     },
     {
         "alt": "Logo Comunidad AWS User Group Chile",
-        "src": "images/communities/logo_usergroup_chile_aws.webp"
+        "src": "images/communities/logo_usergroup_chile_aws.webp", 
+        "url": "https://awsusersgroup.cl/"
     },
     {
         "alt": "Logo Comunidad UX Friends Podcast",
-        "src": "images/communities/logo_uxf.webp"
+        "src": "images/communities/logo_uxf.webp", 
+        "url": "https://beu.is/uxfriends"
     },
     {
         "alt": "Logo Comunidad RevSteam",
-        "src": "images/communities/RevSteam.webp"
+        "src": "images/communities/RevSteam.webp", 
+        "url": "https://twitter.com/revolucionsteam"
     },
     {
         "alt": "Logo Comunidad TecFem",
-        "src": "images/communities/TecFem.webp"
+        "src": "images/communities/TecFem.webp", 
+        "url": "https://tecfem.cl/"
     },
     {
         "alt": "Logo Comunidad Top Streamers",
-        "src": "images/communities/top-streamers-blanco.webp"
+        "src": "images/communities/top-streamers-blanco.webp", 
+        "url": "https://www.instagram.com/topstreamerslatam/"
     },
     {
         "alt": "Logo Comunidad WTM Chile",
-        "src": "images/communities/wtm-cuadrado-blanco.webp"
+        "src": "images/communities/wtm-cuadrado-blanco.webp", 
+        "url": "https://linktr.ee/wtmchile"
     },
     {
         "alt": "Logo Comunidad WWCode Santiago",
-        "src": "images/communities/wwcode-stgo-white.webp"
+        "src": "images/communities/wwcode-stgo-white.webp", 
+        "url": "https://linktr.ee/wwcodesantiago"
     },
     {
         "alt": "Logo Comunidad WikiSeba",
-        "src": "images/communities/wikiseba-logo.webp"
+        "src": "images/communities/wikiseba-logo.webp", 
+        "url": "https://linktr.ee/wikiseba"
     },
     {
         "alt": "Logo Comunidad MiduDev",
-        "src": "images/communities/midudev-logo.webp"
+        "src": "images/communities/midudev-logo.webp", 
+        "url": "https://midu.dev/"
     }
 ]
