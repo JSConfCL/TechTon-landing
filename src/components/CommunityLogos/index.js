@@ -2,6 +2,8 @@
 import CommunitiesLogo from "@/communities/communities.json";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
+
 
 export const CommunityLogos = () => (
   <AnimatePresence mode="popLayout">
@@ -17,14 +19,16 @@ export const CommunityLogos = () => (
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.25, delay }}
           >
-            <Image
-              className="p-4"
-              key={key}
-              alt={logo.alt}
-              src={logo.src}
-              fill
-              objectFit="contain"
-            />
+            <Link href={logo.url} target="_blank">
+              <Image
+                className="p-4 cursor-pointer transition transform hover:scale-150"
+                key={key}
+                alt={logo.alt}
+                src={logo.src}
+                fill
+                objectFit="contain"
+              />
+            </Link>
           </motion.div>
         );
       })
