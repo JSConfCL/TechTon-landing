@@ -46,7 +46,7 @@ export default function Home() {
               variant="primary"
               classnames="py-3 md:py-3.5"
             >
-              Ir a donar
+             Revisar donaciones
             </Button>
             <Button
               id="button-info"

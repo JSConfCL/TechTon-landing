@@ -12,9 +12,8 @@ const DonarSubtitulo = () => {
         width={100}
       />
       <div className="font-light leading-7 text-center md:text-left text-md md:text-lg">
-        Todo el dinero será dirigido a Bomberos de Chile. El botón de donar te
-        llevará a Mercado Pago y está disponible para donaciones en países donde
-        esté habilitado.
+        Todo el dinero será dirigido a Bomberos de Chile. Estamos gestionando la transferencia. 
+        Regresa pronto para revisar el comprobante de esta misma. ¡Gracias por participar!
       </div>
     </div>
   );
