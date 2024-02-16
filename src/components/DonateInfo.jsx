@@ -56,25 +56,6 @@ const DonateButton = ({
         ) : null}
         <span className="font-bold ">{title}</span>
       </div>
-      <Button
-        id={id}
-        href={buttonURL}
-        target="_blank"
-        variant="primary"
-        classnames="w-full py-2"
-      >
-        {buttonTitle}
-      </Button>
-      <Button
-        variant="secondary"
-        classnames="w-full py-2"
-        onClick={(e) => {
-          e.preventDefault();
-          handleShare();
-        }}
-      >
-        Compartir
-      </Button>
       {isLoading ? (
         <>
           <div className="flex w-full gap-2">
@@ -87,17 +68,17 @@ const DonateButton = ({
       ) : (
         <>
           <div className="flex w-full">
-            <div className="flex w-full items-center gap-4">
+            <div className="flex w-full items-center gap-4 justify-center">
               <div className="rounded-full bg-primary h-8 w-8 shrink-0 flex items-center justify-center">
                 <Image alt="" src="/images/icons/handshake.svg" height={24} width={24} />
               </div>
-              <div className="text-left">
+              <div className="text-center">
                 {latestDonations.length}{" "}
                 {latestDonations.length == 1 ? "Donación" : "Donaciones"}{" "}
               </div>
             </div>
           </div>
-          <hr/>
+          <hr />
         </>
       )}
       {isLoading ? (
@@ -134,14 +115,14 @@ function InternalDonateInfo() {
     data?.searchPaymentLogs.filter((log) => log.currencyId === "usd") ?? [];
   const foreignConsolidatedTransactions =
     data?.searchConsolidatedPaymentLogs.find((log) => log.currencyId === "usd")
-    ?.totalTransactionAmount ?? 0;
+      ?.totalTransactionAmount ?? 0;
 
   const specialConsolidated = specialDonations?.reduce((acc, row) => (acc + row.donation), 0) ?? 0
 
   const totalConsolidated =
     localConsolidatedTransactions +
-      specialConsolidated +
-      (foreignConsolidatedTransactions * DOLLAR_TO_CLP / 100)
+    specialConsolidated +
+    (foreignConsolidatedTransactions * DOLLAR_TO_CLP / 100)
 
   return (
     <>
@@ -192,10 +173,10 @@ function InternalDonateInfo() {
                 &nbsp;
               </div>
             ) : (
-            <div className="font-bold text-lg grid justify-center items-center gap-4 text-[#333]">
-              Total Recolectado
-              <span className="text-[clamp(1.2rem,10vw,3rem)] text-[#222] ">{formatMoney(totalConsolidated, 'mercadopago')}</span>
-            </div>
+              <div className="font-bold text-lg grid justify-center items-center gap-4 text-[#333]">
+                Total Recolectado
+                <span className="text-[clamp(1.2rem,10vw,3rem)] text-[#222] ">{formatMoney(totalConsolidated, 'mercadopago')}</span>
+              </div>
             )}
 
             <div className="text-[#333]">Esto es un aproximado. Tomando en cuenta el cambio del día. Valor USD: {DOLLAR_TO_CLP} Pesos Chilenos. Pueden haber fees en las conversiones.</div>

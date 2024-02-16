@@ -13,7 +13,7 @@ const CounterSubtitle = () => {
       className={cn("space-y-3 pb-8 xl:px-20 2xl:w-4/6 2xl:px-0", transitions)}
     >
       <h3 className="font-museo text-center text-2xl font-bold">
-        ¡Ayúdanos a levantar Chile!
+        ¡Gracias por ayudarnos a levantar Chile!
       </h3>
       <p className="font-extralight text-center px-2 text-sm">
         Recaudaremos fondos que serán entregados a{" "}
